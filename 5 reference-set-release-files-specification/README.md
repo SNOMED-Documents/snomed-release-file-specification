@@ -1,0 +1,16 @@
+# 5 Reference Set Release Files Specification
+
+This section of the SNOMED CT Release Files Specification provides details of the structure and content of [reference set](https://confluence.ihtsdotools.org/display/DOCGLOSS/reference+set "Glossary link: reference set") files distributed by SNOMED International as part of the SNOMED CT International Release. This is also the standard format in which producers of [SNOMED CT extension](https://confluence.ihtsdotools.org/display/DOCGLOSS/SNOMED+CT+extension) are required to distribute any [reference sets](https://confluence.ihtsdotools.org/display/DOCGLOSS/reference+set "Glossary link: reference sets") that they produce to their sublicensees[1](https://confluence.ihtsdotools.org/display/DOCRELFMT/5+Reference+Set+Release+Files+Specification#Footnote1 "Footnote: Click here to display the footnote") .
+
+[Reference set](https://confluence.ihtsdotools.org/display/DOCGLOSS/Reference+set "Glossary link: Reference set") data structures provide a generic mechanism for configuration and extensibility of SNOMED CT to a wide range of different requirements. Reference sets act as building blocks that provide a common foundation that enables those developing SNOMED CT [extensions](https://confluence.ihtsdotools.org/display/DOCGLOSS/extension "Glossary link: extensions") to customize the way their users interact with [SNOMED CT](https://confluence.ihtsdotools.org/display/DOCGLOSS/SNOMED+CT "Glossary link: SNOMED CT"). The flexibility offered by [reference sets](https://confluence.ihtsdotools.org/display/DOCGLOSS/reference+set "Glossary link: reference sets") also enables adaptation of existing system to support changing requirements.
+
+The reference set file formats are formally defined in following subsections.
+
+  * [5.1 General Features of Reference Sets](5.1-General-Features-of-Reference-Sets_28739367.html)
+  * [5.2 Reference Set Types](5.2-Reference-Set-Types_28739366.html)
+
+* * *
+
+Footnotes Ref | Notes  
+---|---  
+[1](https://confluence.ihtsdotools.org/display/DOCRELFMT/5+Reference+Set+Release+Files+Specification#FootnoteMarker1-0 "Footnote: Click to return to reference in text") |  The files specified by this section form part of SNOMED CT Release Format 2 (RF2) - the standard release format for SNOMED CT since 2012. RF2 is a flexible, simple stable format with support for robust versioning. It enables innovation through adaptations to cater for changing requirements. This format is only mandated as the standard distribution format for SNOMED CT International and SNOMED CT Extensions. Internal representations of SNOMED CT resources within an application may vary provided such representations faithfully retain the information represented in the release files. 
