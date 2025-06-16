@@ -1,0 +1,12 @@
+# E.6 Concept Enumerations for modifierId
+
+This [concept](https://confluence.ihtsdotools.org/display/DOCGLOSS/concept "Glossary link: concept") enumeration represents a value that can be applied to the [relationship](https://confluence.ihtsdotools.org/display/DOCGLOSS/relationship "Glossary link: relationship"). [modifierId](https://confluence.ihtsdotools.org/display/DOCRELFMT/modifierId+\(field\) "Reference term: modifierId \(field\)") field. This is used to indicate the type of [Description Logic](https://confluence.ihtsdotools.org/display/DOCGLOSS/Description+Logic "Glossary link: Description Logic") (DL) restriction (some, all, etc.) that applies to the [relationship](https://confluence.ihtsdotools.org/display/DOCGLOSS/relationship "Glossary link: relationship").
+
+[Table E.6-1](https://confluence.ihtsdotools.org/display/DOCRELFMT/E.6+Concept+Enumerations+for+modifierId#Table-modifier "Modifier \(core metadata concept\) \(900000000000450001\)") shows the current set  of values for this [concept](https://confluence.ihtsdotools.org/display/DOCGLOSS/concept "Glossary link: concept") enumeration. 
+
+Table E.6-1: Modifier (core metadata concept) (900000000000450001)
+
+**Concept**| **Comment**  
+---|---  
+[ 900000000000451002 | Existential restriction modifier (core metadata concept)|](http://snomed.info/id/900000000000451002 "900000000000451002 | Existential restriction modifier \(core metadata concept\) |") | Indicates that [description logic](https://confluence.ihtsdotools.org/display/DOCGLOSS/description+logic "Glossary link: description logic") restriction represented by this defining [relationship](https://confluence.ihtsdotools.org/display/DOCGLOSS/relationship "Glossary link: relationship") applies to **some** aspect of the [concept](https://confluence.ihtsdotools.org/display/DOCGLOSS/concept "Glossary link: concept").  
+[ 900000000000452009 | Universal restriction modifier (core metadata concept)|](http://snomed.info/id/900000000000452009 "900000000000452009 | Universal restriction modifier \(core metadata concept\) |") | Indicates that [description logic](https://confluence.ihtsdotools.org/display/DOCGLOSS/description+logic "Glossary link: description logic") restriction represented by this defining [relationship](https://confluence.ihtsdotools.org/display/DOCGLOSS/relationship "Glossary link: relationship") applies to **all aspects** of the [concept](https://confluence.ihtsdotools.org/display/DOCGLOSS/concept "Glossary link: concept").
