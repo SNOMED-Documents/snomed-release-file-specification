@@ -1,3 +1,0 @@
-# relationshipGroup (field)
-
-Field in the [Relationship File](https://confluence.ihtsdotools.org/display/DOCGLOSS/Relationship+File "Glossary link: Relationship File") is used to group [Relationships](https://confluence.ihtsdotools.org/display/DOCGLOSS/Relationship "Glossary link: Relationships") together for a [concept](https://confluence.ihtsdotools.org/display/DOCGLOSS/concept "Glossary link: concept"). For example, where a particular type of prosthesis is inserted a joint, the [Defining characteristics](https://confluence.ihtsdotools.org/display/DOCGLOSS/Defining+characteristic "Glossary link: Defining characteristics") describing the prosthesis type would be in one group whereas those describing the location or laterality of the joint would be in another group. 
