@@ -1,3 +1,0 @@
-# mapGroup (field)
-
-Field in a [5.2.3.3 Complex and Extended Map from SNOMED CT Reference Sets](../../../5.2.3.3-Complex-and-Extended-Map-from-SNOMED-CT-Reference-Sets_28739374.html) containing an [integer](https://confluence.ihtsdotools.org/display/DOCGLOSS/integer) that groups a set of complex map records from which one may be selected as a [target code](https://confluence.ihtsdotools.org/display/DOCGLOSS/target+code). Where a [SNOMED CT concept](https://confluence.ihtsdotools.org/display/DOCGLOSS/SNOMED+CT+concept) maps onto 'n' [target codes](https://confluence.ihtsdotools.org/display/DOCGLOSS/target+code) , there will be 'n' groups, each containing one or more complex map records.
