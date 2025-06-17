@@ -8,4 +8,4 @@ The transitive closure file is not currently distributed but can be generated fr
 
 ## Related Links
 
-* See [4.2.5 Transitive Closure Files](4.2.5-Transitive-Closure-Files_28739343.html) for further details.
+* See [4.2.5 Transitive Closure Files](../../4.2.5-Transitive-Closure-Files_28739343.html) for further details.
