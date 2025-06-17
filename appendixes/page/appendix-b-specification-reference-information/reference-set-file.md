@@ -6,4 +6,4 @@ The file structure used to distribute [SNOMED CT Reference sets](https://conflue
 
 ## Related Links
 
-* [5.2 Reference Set Types](5.2-Reference-Set-Types_28739366.html)
+* [5.2 Reference Set Types](../../../5.2-Reference-Set-Types_28739366.html)

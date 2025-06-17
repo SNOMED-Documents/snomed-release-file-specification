@@ -8,4 +8,4 @@ Note: In [SNOMED CT release file](https://confluence.ihtsdotools.org/display/DOC
 
 ## Related Links
 
-* [3.1.2 Release File Data Types](3.1.2-Release-File-Data-Types_28739352.html)
+* [3.1.2 Release File Data Types](../../../3.1.2-Release-File-Data-Types_28739352.html)
