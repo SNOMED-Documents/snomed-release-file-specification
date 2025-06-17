@@ -8,5 +8,5 @@ Note: Field name in SNOMED CT Release Format 2
 
 ## Related Links
 
-* [4.1.4 Concept Enumerations for caseSignificanceId](../../../../pages/createpage.action)
+* [4.1.4 Concept Enumerations for caseSignificanceId](../../../pages/createpage.action)
 * [Description](https://confluence.ihtsdotools.org/display/DOCRELFMT/Description+file)

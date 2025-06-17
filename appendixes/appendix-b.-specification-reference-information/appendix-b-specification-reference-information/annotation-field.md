@@ -8,4 +8,4 @@ Note: Field name in SNOMED CT Release Format 2.
 
 ## Related Links
 
-* [5.2.1.6 DEPRECATED: Annotation Reference Set](../../../../28739377.html)
+* [5.2.1.6 DEPRECATED: Annotation Reference Set](../../../28739377.html)

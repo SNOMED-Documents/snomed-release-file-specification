@@ -8,5 +8,5 @@ Note: Field name in the SNOMED CT Release Format 2 concepts table.
 
 ## Related Links
 
-* [4.1.2 Concept Enumerations for definintionStatusId](../../../../pages/createpage.action)
+* [4.1.2 Concept Enumerations for definintionStatusId](../../../pages/createpage.action)
 * [Concept](https://confluence.ihtsdotools.org/display/DOCRELFMT/Concept+file)

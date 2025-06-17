@@ -10,4 +10,4 @@ The file structure used to distribute [SNOMED CT descriptions](https://confluenc
 
 ## Related Links
 
-* [4.2.2. Description File Specification](../../../../4.2.2.-Description-File-Specification_28739340.html)
+* [4.2.2. Description File Specification](../../../4.2.2.-Description-File-Specification_28739340.html)
