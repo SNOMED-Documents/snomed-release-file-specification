@@ -8,5 +8,5 @@ Note: The value of an SCTID is structured to include an item identifier, a check
 
 ## Related Links
 
-* [3.1.2 Release File Data Types](../../3.1.2-Release-File-Data-Types_28739352.html)
-* [6 SNOMED CT Identifiers](../../6-SNOMED-CT-Identifiers_33490090.html)
+* [3.1.2 Release File Data Types](3.1.2-Release-File-Data-Types_28739352.html)
+* [6 SNOMED CT Identifiers](6-SNOMED-CT-Identifiers_33490090.html)

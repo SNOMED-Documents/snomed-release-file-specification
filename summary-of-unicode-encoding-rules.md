@@ -58,7 +58,7 @@ Table 5: UTF-8 Encoding Example
 
 **Character**| **S**| **C**| **T**|
 
-<figure><img src="../../images/56329954.png" alt=""><figcaption><p>---|---|---|---|---|---</p></figcaption></figure>
+<figure><img src="images/56329954.png" alt=""><figcaption><p>---|---|---|---|---|---</p></figcaption></figure>
 
 \| **IMAGE\_PLACEHOLDER\_2**\
 Unicode| 0053| 0043| 0054| 00AE| 2462\

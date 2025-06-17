@@ -8,4 +8,4 @@ Note: The Identifier file is not currently used in the [SNOMED CT International 
 
 ## Related Links
 
-* [Identifier file](../../../Identifier-file_28739278.html)
+* [Identifier file](Identifier-file_28739278.html)
