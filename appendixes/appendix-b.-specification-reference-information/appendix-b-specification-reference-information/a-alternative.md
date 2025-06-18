@@ -1,4 +1,8 @@
-# Alternative
+---
+description: Instead of a page for each, add all A's on a page on its own
+---
+
+# A (Alternative)
 
 ## acceptabilityId (field)
 
