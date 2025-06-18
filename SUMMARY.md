@@ -104,6 +104,7 @@
       * [attributeDescription (field)](appendixes/appendix-b-specification-reference-information/overview/a/attributedescription-field.md)
       * [attributeOrder (field)](appendixes/appendix-b-specification-reference-information/overview/a/attributeorder-field.md)
       * [attributeType (field)](appendixes/appendix-b-specification-reference-information/overview/a/attributetype-field.md)
+      * [Alternative](appendixes/appendix-b.-specification-reference-information/appendix-b-specification-reference-information/alternative.md)
     * [B](appendixes/appendix-b.-specification-reference-information/b/README.md)
       * [Boolean (data type)](appendixes/appendix-b.-specification-reference-information/b/boolean-data-type.md)
     * [C](appendixes/appendix-b.-specification-reference-information/appendix-b-specification-reference-information-1/README.md)
