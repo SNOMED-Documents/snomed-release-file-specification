@@ -2,7 +2,7 @@
 
 * [SNOMED CT Release File Specification](README.md)
 * [1. Introduction](<1 introduction/README.md>)
-* [2 SNOMED CT Logical Model](<2 snomed-ct-logical-model/README.md>)
+* [SNOMED CT Logical Model](<2 snomed-ct-logical-model/README.md>)
   * [2.1 High Level Logical Model of SNOMED CT](<2 snomed-ct-logical-model/2.1-high-level-logical-model-of-snomed-ct.md>)
   * [2.2 Representation of the Logical Model](<2 snomed-ct-logical-model/2.2-representation-of-the-logical-model.md>)
   * [2.3 Concept Definitions](<2 snomed-ct-logical-model/2.3 concept-definitions/README.md>)
