@@ -10,7 +10,7 @@
     * [Necessary Conditions and Sufficient Definitions](<2 snomed-ct-logical-model/2.3 concept-definitions/2.3.2-necessary-conditions-and-sufficient-definitions.md>)
     * [Additional Logic Features](<2 snomed-ct-logical-model/2.3 concept-definitions/2.3.3-additional-logic-features.md>)
     * [Representing Concept Definitions](<2 snomed-ct-logical-model/2.3 concept-definitions/2.3.4 representing-concept-definitions/README.md>)
-      * [concept-definitions-represented-as-relationships](<2 snomed-ct-logical-model/2.3 concept-definitions/2.3.4 representing-concept-definitions/2.3.4.1-concept-definitions-represented-as-relationships.md>)
+      * [Concept Definitions Represented as Relationships](<2 snomed-ct-logical-model/2.3 concept-definitions/2.3.4 representing-concept-definitions/2.3.4.1-concept-definitions-represented-as-relationships.md>)
       * [concept-definitions-represented-in-owl](<2 snomed-ct-logical-model/2.3 concept-definitions/2.3.4 representing-concept-definitions/2.3.4.2-concept-definitions-represented-in-owl.md>)
 * [3 Release Types, Packages and Files](3-release-types-packages-and-files/README.md)
   * [3.1 Common Features of All Release Files](3-release-types-packages-and-files/3.1-common-features-of-all-release-files/README.md)
