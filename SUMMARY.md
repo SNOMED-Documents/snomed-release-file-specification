@@ -7,7 +7,7 @@
   * [Representation of the Logical Model](<2 snomed-ct-logical-model/2.2-representation-of-the-logical-model.md>)
   * [Concept Definitions](<2 snomed-ct-logical-model/2.3 concept-definitions/README.md>)
     * [Stated and Inferred Concept Definitions](<2 snomed-ct-logical-model/2.3 concept-definitions/2.3.1-stated-and-inferred-concept-definitions.md>)
-    * [necessary-conditions-and-sufficient-definitions](<2 snomed-ct-logical-model/2.3 concept-definitions/2.3.2-necessary-conditions-and-sufficient-definitions.md>)
+    * [Necessary Conditions and Sufficient Definitions](<2 snomed-ct-logical-model/2.3 concept-definitions/2.3.2-necessary-conditions-and-sufficient-definitions.md>)
     * [additional-logic-features](<2 snomed-ct-logical-model/2.3 concept-definitions/2.3.3-additional-logic-features.md>)
     * [Representing Concept Definitions](<2 snomed-ct-logical-model/2.3 concept-definitions/2.3.4 representing-concept-definitions/README.md>)
       * [concept-definitions-represented-as-relationships](<2 snomed-ct-logical-model/2.3 concept-definitions/2.3.4 representing-concept-definitions/2.3.4.1-concept-definitions-represented-as-relationships.md>)
