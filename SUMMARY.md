@@ -6,7 +6,7 @@
   * [High Level Logical Model of SNOMED CT](<2 snomed-ct-logical-model/2.1-high-level-logical-model-of-snomed-ct.md>)
   * [Representation of the Logical Model](<2 snomed-ct-logical-model/2.2-representation-of-the-logical-model.md>)
   * [Concept Definitions](<2 snomed-ct-logical-model/2.3 concept-definitions/README.md>)
-    * [2.3.1-stated-and-inferred-concept-definitions](<2 snomed-ct-logical-model/2.3 concept-definitions/2.3.1-stated-and-inferred-concept-definitions.md>)
+    * [stated-and-inferred-concept-definitions](<2 snomed-ct-logical-model/2.3 concept-definitions/2.3.1-stated-and-inferred-concept-definitions.md>)
     * [2.3.2-necessary-conditions-and-sufficient-definitions](<2 snomed-ct-logical-model/2.3 concept-definitions/2.3.2-necessary-conditions-and-sufficient-definitions.md>)
     * [2.3.3-additional-logic-features](<2 snomed-ct-logical-model/2.3 concept-definitions/2.3.3-additional-logic-features.md>)
     * [2.3.4 Representing Concept Definitions](<2 snomed-ct-logical-model/2.3 concept-definitions/2.3.4 representing-concept-definitions/README.md>)
