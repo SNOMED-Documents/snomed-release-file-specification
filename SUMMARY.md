@@ -21,7 +21,7 @@
     * [History Mechanism](3-release-types-packages-and-files/3.1-common-features-of-all-release-files/3.1.5-history-mechanism.md)
     * [Module Identification](3-release-types-packages-and-files/3.1-common-features-of-all-release-files/3.1.6-module-identification.md)
   * [Release Types](3-release-types-packages-and-files/3.2-release-types.md)
-  * [3.3 Naming Conventions for Release Packages and Files](3-release-types-packages-and-files/3.3-naming-conventions-for-release-packages-and-files/README.md)
+  * [Naming Conventions for Release Packages and Files](3-release-types-packages-and-files/3.3-naming-conventions-for-release-packages-and-files/README.md)
     * [3.3.1-release-package-naming-conventions](3-release-types-packages-and-files/3.3-naming-conventions-for-release-packages-and-files/3.3.1-release-package-naming-conventions.md)
     * [3.3.2-release-file-naming-convention](3-release-types-packages-and-files/3.3-naming-conventions-for-release-packages-and-files/3.3.2-release-file-naming-convention.md)
   * [3.4 Release Package Contents](3-release-types-packages-and-files/3.4-release-package-contents.md)
