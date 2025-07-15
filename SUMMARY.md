@@ -13,7 +13,7 @@
       * [Concept Definitions Represented as Relationships](<2 snomed-ct-logical-model/2.3 concept-definitions/2.3.4 representing-concept-definitions/2.3.4.1-concept-definitions-represented-as-relationships.md>)
       * [Concept Definitions Represented in OWL](<2 snomed-ct-logical-model/2.3 concept-definitions/2.3.4 representing-concept-definitions/2.3.4.2-concept-definitions-represented-in-owl.md>)
 * [Release Types, Packages and Files](3-release-types-packages-and-files/README.md)
-  * [3.1 Common Features of All Release Files](3-release-types-packages-and-files/3.1-common-features-of-all-release-files/README.md)
+  * [Common Features of All Release Files](3-release-types-packages-and-files/3.1-common-features-of-all-release-files/README.md)
     * [3.1.1 General Structure of Release Files](3-release-types-packages-and-files/3.1-common-features-of-all-release-files/3.1.1-general-structure-of-release-files.md)
     * [3.1.2-release-file-data-types](3-release-types-packages-and-files/3.1-common-features-of-all-release-files/3.1.2-release-file-data-types.md)
     * [3.1.3 Fields Present in All Release Files](3-release-types-packages-and-files/3.1-common-features-of-all-release-files/3.1.3-fields-present-in-all-release-files.md)
