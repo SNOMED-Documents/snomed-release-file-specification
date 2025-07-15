@@ -1,22 +1,28 @@
-# 3 Release Types, Packages and Files
+# Release Types, Packages and Files
 
-This section covers several general topics related to SNOMED CT [release packages](https://confluence.ihtsdotools.org/display/DOCGLOSS/release+package) and [release files](https://confluence.ihtsdotools.org/display/DOCGLOSS/release+file) including:
+This section covers several general topics related to SNOMED CT release packages and release files including:
 
-* [3.1 Common Features of All Release Files](../3%20release-types-packages-and-files/3.1-Common-Features-of-All-Release-Files_71172635.html)
-* [3.2 Release Types](../3%20release-types-packages-and-files/3.2-Release-Types_28739357.html)
-* [3.3 Naming Conventions for Release Packages and Files](../3%20release-types-packages-and-files/3.3-Naming-Conventions-for-Release-Packages-and-Files_56330780.html)
-* [3.4 Release Package Contents](../3%20release-types-packages-and-files/3.4-Release-Package-Contents_71172628.html)
+* [Common Features of All Release Files](3.1-common-features-of-all-release-files/)
+* [Release Types](3.2-release-types.md)
+* [Naming Conventions for Release Packages and Files](3.3-naming-conventions-for-release-packages-and-files/)
+* [Release Package Contents](3.4-release-package-contents.md)
 
 The following two sections provide detailed specifications of the release files.
 
-* Section [4 Component Release Files Specification](../3%20release-types-packages-and-files/4-Component-Release-Files-Specification_28739335.html) contains details of release files that represent the main SNOMED CT components:
+* Section [Component Release Files Specification](<../4 component-release-files-specification/>) contains details of release files that represent the main SNOMED CT components:
   * Concepts
   * Descriptions
   * Relationships
-* Section [5 Reference Set Release Files Specification](../3%20release-types-packages-and-files/5-Reference-Set-Release-Files-Specification_28739362.html) contains details of release files that customize and enhance SNOMED CT by representing:
+* Section [Reference Set Release Files Specification](<../5 reference-set-release-files-specification/>) contains details of release files that customize and enhance SNOMED CT by representing:
   * Subsets of concepts and descriptions
   * Maps to other code systems
   * Language and dialect preferences for different terms
   * Annotation of components
   * Associations between components
   * Other forms of configuration and extensibility
+
+{% hint style="info" %}
+**Historical Note on Current and Previous Release File Formats**
+
+The standard format in which  SNOMED CT has been distributed since 2012 is known as Release Format 2(RF2). It was developed in response to extensive feedback on the original release file format, now known as Release Format 1 (RF1), in which SNOMED CT was distributed between its first release in 2002 and 2012. The RF1 format is now deprecated and no longer supported.
+{% endhint %}
