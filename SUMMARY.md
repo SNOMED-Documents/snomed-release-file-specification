@@ -22,7 +22,7 @@
     * [Module Identification](3-release-types-packages-and-files/3.1-common-features-of-all-release-files/3.1.6-module-identification.md)
   * [Release Types](3-release-types-packages-and-files/3.2-release-types.md)
   * [Naming Conventions for Release Packages and Files](3-release-types-packages-and-files/3.3-naming-conventions-for-release-packages-and-files/README.md)
-    * [3.3.1-release-package-naming-conventions](3-release-types-packages-and-files/3.3-naming-conventions-for-release-packages-and-files/3.3.1-release-package-naming-conventions.md)
+    * [Release Package Naming Conventions](3-release-types-packages-and-files/3.3-naming-conventions-for-release-packages-and-files/3.3.1-release-package-naming-conventions.md)
     * [3.3.2-release-file-naming-convention](3-release-types-packages-and-files/3.3-naming-conventions-for-release-packages-and-files/3.3.2-release-file-naming-convention.md)
   * [3.4 Release Package Contents](3-release-types-packages-and-files/3.4-release-package-contents.md)
 * [4 Component Release Files Specification](<4 component-release-files-specification/README.md>)
