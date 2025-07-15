@@ -17,3 +17,9 @@ Quality Assurance checks, performed during the International release process, en
 
 * [Release Package Naming Conventions](3.3.1-release-package-naming-conventions.md)
 * [Release File Naming Convention](3.3.2-release-file-naming-convention.md)
+
+{% hint style="info" %}
+**Note**
+
+Prior to January 2010 other naming conventions were used. Implementers who need to review earlier releases should consult the documentation that accompanied the release that they need to review.
+{% endhint %}
