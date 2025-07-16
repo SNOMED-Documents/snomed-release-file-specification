@@ -25,7 +25,7 @@
     * [Release Package Naming Conventions](3-release-types-packages-and-files/3.3-naming-conventions-for-release-packages-and-files/3.3.1-release-package-naming-conventions.md)
     * [Release File Naming Convention](3-release-types-packages-and-files/3.3-naming-conventions-for-release-packages-and-files/3.3.2-release-file-naming-convention.md)
   * [Release Package Contents](3-release-types-packages-and-files/3.4-release-package-contents.md)
-* [4 Component Release Files Specification](<4 component-release-files-specification/README.md>)
+* [Component Release Files Specification](<4 component-release-files-specification/README.md>)
   * [4.1-associations-between-release-files](<4 component-release-files-specification/4.1-associations-between-release-files.md>)
   * [4.3 Metadata Hierarchy](<4 component-release-files-specification/4.3-metadata-hierarchy.md>)
   * [4.2 File Format Specifications](<4 component-release-files-specification/4.2 file-format-specifications/README.md>)
