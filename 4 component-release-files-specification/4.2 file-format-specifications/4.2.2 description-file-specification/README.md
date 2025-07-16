@@ -19,12 +19,12 @@ Where a concept only has one active description with a typeId of <mark style="co
 The term field will be restricted as follows:
 
 * to an overall maximum length of 32Kb;
-* to a maximum length, configurable for each description type as defined in the [900000000000538005 | Description format reference set|](http://snomed.info/id/900000000000538005) member associated with that [description type](https://confluence.ihtsdotools.org/display/DOCGLOSS/description+type)- see the [Description Format Reference Set](<../../../5 reference-set-release-files-specification/5.2 reference-set-types/5.2.4 metadata-reference-sets/5.2.4.3-description-format-reference-set.md>) specifications document for more details.
+* to a maximum length, configurable for each description type as defined in the [900000000000538005 | Description format reference set|](http://snomed.info/id/900000000000538005) member associated with that description type- see the [Description Format Reference Set](<../../../5 reference-set-release-files-specification/5.2 reference-set-types/5.2.4 metadata-reference-sets/5.2.4.3-description-format-reference-set.md>) specifications document for more details.
 * The Description Format Reference Set also defined the format of the term field (plain text, limited HTML, XHTML) for each description type.
 * Control characters (including TABs, CRs and LFs) will not appear in [900000000000540000 | Plain text|](http://snomed.info/id/900000000000540000) or [900000000000541001 | Limited HTML|](http://snomed.info/id/900000000000541001) format types.
 
 ## Related Links
 
-* [5.2.4.3 Description Format Reference Set](../../../4%20component-release-files-specification/4.2%20file-format-specifications/4.2.2%20description-file-specification/5.2.4.3-Description-Format-Reference-Set_28739380.html)
-* [Appendix C. Unicode UTF-8 encoding](../../../4%20component-release-files-specification/4.2%20file-format-specifications/4.2.2%20description-file-specification/Appendix-C.-Unicode-UTF-8-encoding_33490103.html)
-* [Description](https://confluence.ihtsdotools.org/display/DOCGLOSS/Description)
+* [Description Format Reference Set](<../../../5 reference-set-release-files-specification/5.2 reference-set-types/5.2.4 metadata-reference-sets/5.2.4.3-description-format-reference-set.md>)
+* [Appendix C. Unicode UTF-8 encoding](../../../appendixes/appendix-c-unicode-utf-8-encoding/)
+
