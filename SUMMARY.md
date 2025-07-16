@@ -27,7 +27,7 @@
   * [Release Package Contents](3-release-types-packages-and-files/3.4-release-package-contents.md)
 * [Component Release Files Specification](<4 component-release-files-specification/README.md>)
   * [Associations Between Release Files](<4 component-release-files-specification/4.1-associations-between-release-files.md>)
-  * [4.2 File Format Specifications](<4 component-release-files-specification/4.2 file-format-specifications/README.md>)
+  * [File Format Specifications](<4 component-release-files-specification/4.2 file-format-specifications/README.md>)
     * [4.2.1-concept-file-specification](<4 component-release-files-specification/4.2 file-format-specifications/4.2.1-concept-file-specification.md>)
     * [4.2.2 description-file-specification](<4 component-release-files-specification/4.2 file-format-specifications/4.2.2 description-file-specification/README.md>)
     * [4.2.3-relationship-file-specification](<4 component-release-files-specification/4.2 file-format-specifications/4.2.3-relationship-file-specification.md>)
