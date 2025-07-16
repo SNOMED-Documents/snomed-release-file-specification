@@ -29,7 +29,7 @@
   * [Associations Between Release Files](<4 component-release-files-specification/4.1-associations-between-release-files.md>)
   * [File Format Specifications](<4 component-release-files-specification/4.2 file-format-specifications/README.md>)
     * [Concept File Specification](<4 component-release-files-specification/4.2 file-format-specifications/4.2.1-concept-file-specification.md>)
-    * [4.2.2 description-file-specification](<4 component-release-files-specification/4.2 file-format-specifications/4.2.2 description-file-specification/README.md>)
+    * [Description File Specification](<4 component-release-files-specification/4.2 file-format-specifications/4.2.2 description-file-specification/README.md>)
     * [4.2.3-relationship-file-specification](<4 component-release-files-specification/4.2 file-format-specifications/4.2.3-relationship-file-specification.md>)
     * [4.2.4 Identifier File Specification](<4 component-release-files-specification/4.2 file-format-specifications/4.2.4-identifier-file-specification.md>)
       * [identifier-file](identifier-file.md)
