@@ -31,7 +31,7 @@
     * [Concept File Specification](<4 component-release-files-specification/4.2 file-format-specifications/4.2.1-concept-file-specification.md>)
     * [Description File Specification](<4 component-release-files-specification/4.2 file-format-specifications/4.2.2 description-file-specification/README.md>)
     * [Relationship File Specification](<4 component-release-files-specification/4.2 file-format-specifications/4.2.3-relationship-file-specification.md>)
-    * [4.2.4 Identifier File Specification](<4 component-release-files-specification/4.2 file-format-specifications/4.2.4-identifier-file-specification.md>)
+    * [Identifier File Specification](<4 component-release-files-specification/4.2 file-format-specifications/4.2.4-identifier-file-specification.md>)
       * [identifier-file](identifier-file.md)
     * [4.2.5-transitive-closure-files](<4 component-release-files-specification/4.2 file-format-specifications/4.2.5-transitive-closure-files.md>)
     * [4.2.6-concrete-value-file-specification](<4 component-release-files-specification/4.2 file-format-specifications/4.2.6-concrete-value-file-specification.md>)
