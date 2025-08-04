@@ -35,7 +35,7 @@
     * [Transitive Closure Files](<4 component-release-files-specification/4.2 file-format-specifications/4.2.5-transitive-closure-files.md>)
     * [Concrete Value File Specification](<4 component-release-files-specification/4.2 file-format-specifications/4.2.6-concrete-value-file-specification.md>)
   * [Metadata Hierarchy](<4 component-release-files-specification/4.3-metadata-hierarchy.md>)
-* [5 Reference Set Release Files Specification](<5 reference-set-release-files-specification/README.md>)
+* [Reference Set Release Files Specification](<5 reference-set-release-files-specification/README.md>)
   * [5.1 Essential Concept Identifiers](<5 reference-set-release-files-specification/5.1 essential-concept-identifiers/README.md>)
     * [5.1.1 Basic Reference Set Member File Format](<5 reference-set-release-files-specification/5.1 essential-concept-identifiers/5.1.1-basic-reference-set-member-file-format.md>)
     * [5.1.2. Extending the Basic Reference Set Member File Format](<5 reference-set-release-files-specification/5.1 essential-concept-identifiers/5.1.2-extending-the-basic-reference-set-member-file-format.md>)
