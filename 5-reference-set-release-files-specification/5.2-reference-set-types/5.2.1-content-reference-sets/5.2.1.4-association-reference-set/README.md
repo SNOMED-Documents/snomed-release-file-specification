@@ -10,7 +10,7 @@ An [900000000000521006 | Association type reference set|](http://snomed.info/id/
 
 An [Association reference set](https://confluence.ihtsdotools.org/display/DOCGLOSS/Association+reference+set) is a [reference set](https://confluence.ihtsdotools.org/display/DOCGLOSS/reference+set) used to represent associations between [components](https://confluence.ihtsdotools.org/display/DOCGLOSS/component). Its structure is shown in the following table.
 
-<figure><img src="../../../5%20reference-set-release-files-specification/5.2%20reference-set-types/5.2.1%20content-reference-sets/plugins/servlet/confluence/placeholder/unknown-macro" alt=""><figcaption><p><strong>Field</strong>| <strong>Data type</strong>| <strong>Purpose</strong>| <strong>[Mutable](https://confluence.ihtsdotools.org/display/DOCGLOSS/Mutable "Glossary link: Mutable")</strong>| <strong>Part of Primary Key</strong></p></figcaption></figure>
+<figure><img src="../../../../5%20reference-set-release-files-specification/5.2%20reference-set-types/5.2.1%20content-reference-sets/plugins/servlet/confluence/placeholder/unknown-macro" alt=""><figcaption><p><strong>Field</strong>| <strong>Data type</strong>| <strong>Purpose</strong>| <strong>[Mutable](https://confluence.ihtsdotools.org/display/DOCGLOSS/Mutable "Glossary link: Mutable")</strong>| <strong>Part of Primary Key</strong></p></figcaption></figure>
 
 \|---|---|---|---\
 id| \[UUID]\(https://confluence.ihtsdotools.org/display/DOCRELFMT/UUID+\\(data+type\\) "Reference term: UUID \\(\\(data type\\)\\)")| A 128 bit unsigned \[Integer]\(https://confluence.ihtsdotools.org/display/DOCRELFMT/Integer+\\(data+type\\) "Reference term: Integer \\(\\(data type\\)\\)"), uniquely identifying this \[reference set member]\(https://confluence.ihtsdotools.org/display/DOCGLOSS/reference+set+member "Glossary link: reference set member").Different versions of a \_reference set member\_ share the same \[id]\(https://confluence.ihtsdotools.org/display/DOCRELFMT/id+\\(field\\) "Reference term: id \\(\\(field\\)\\)") but have different \[effectiveTime]\(https://confluence.ihtsdotools.org/display/DOCRELFMT/effectiveTime+\\(field\\) "Reference term: effectiveTime \\(\\(field\\)\\)"). This allows a \_reference set member\_ to be modified or made \[inactive]\(https://confluence.ihtsdotools.org/display/DOCRELFMT/inactive+\\(field\\) "Reference term: inactive \\(field\\)") (i.e. removed from the active set) at a specified time.\
@@ -29,7 +29,7 @@ id| \[UUID]\(https://confluence.ihtsdotools.org/display/DOCRELFMT/UUID+\\(data+t
 
 The following metadata supports this [reference set](https://confluence.ihtsdotools.org/display/DOCGLOSS/reference+set):
 
-<figure><img src="../../../5%20reference-set-release-files-specification/5.2%20reference-set-types/5.2.1%20content-reference-sets/plugins/servlet/confluence/placeholder/unknown-macro" alt=""><figcaption><p>[ 900000000000455006 |Reference set|](http://snomed.info/id/900000000000455006 "900000000000455006 | Reference set |")</p></figcaption></figure>
+<figure><img src="../../../../5%20reference-set-release-files-specification/5.2%20reference-set-types/5.2.1%20content-reference-sets/plugins/servlet/confluence/placeholder/unknown-macro" alt=""><figcaption><p>[ 900000000000455006 |Reference set|](http://snomed.info/id/900000000000455006 "900000000000455006 | Reference set |")</p></figcaption></figure>
 
 [900000000000521006 |Association type|](http://snomed.info/id/900000000000521006)\
 [734138000 |Anatomy structure and entire association reference set|](http://snomed.info/id/734138000)\
@@ -39,4 +39,4 @@ The following metadata supports this [reference set](https://confluence.ihtsdoto
 
 ## Example Descriptors and Data
 
-See [5.2.5.1 Historical Association Reference Sets](../../../5%20reference-set-release-files-specification/5.2%20reference-set-types/5.2.1%20content-reference-sets/5.2.5.1-Historical-Association-Reference-Sets_106693955.html) for an example of the reference set description and data representation in an association type reference set.
+See [5.2.5.1 Historical Association Reference Sets](../../../../5%20reference-set-release-files-specification/5.2%20reference-set-types/5.2.1%20content-reference-sets/5.2.5.1-Historical-Association-Reference-Sets_106693955.html) for an example of the reference set description and data representation in an association type reference set.
