@@ -3,16 +3,16 @@
 This section describes four categories of reference set types, each of which contain several sub-types.
 
 * [Content Reference Sets](<5.2.1 content-reference-sets/>)
-  * Ordered Component Reference Set
-  * [5.2.1.1 Simple Reference Set](../../5%20reference-set-release-files-specification/5.2%20reference-set-types/5.2.1.1-Simple-Reference-Set_28739370.html)
-  * [5.2.1.3 Attribute Value Reference Set](../../5%20reference-set-release-files-specification/5.2%20reference-set-types/5.2.1.3-Attribute-Value-Reference-Set_28739372.html)
-    * [5.2.3.1 Component Inactivation Reference Sets](../../5%20reference-set-release-files-specification/5.2%20reference-set-types/5.2.3.1-Component-Inactivation-Reference-Sets_106699850.html)
-  * [5.2.1.4 Association Reference Set](../../5%20reference-set-release-files-specification/5.2%20reference-set-types/5.2.1.4-Association-Reference-Set_28739378.html)
-    * [5.2.5.1 Historical Association Reference Sets](../../5%20reference-set-release-files-specification/5.2%20reference-set-types/5.2.5.1-Historical-Association-Reference-Sets_106693955.html)
-  * [5.2.1.5 Ordered Association Reference Set](../../5%20reference-set-release-files-specification/5.2%20reference-set-types/5.2.1.5-Ordered-Association-Reference-Set_45529892.html)
+  * [Simple Reference Set](<5.2.1 content-reference-sets/5.2.1.1-simple-reference-set.md>)
+  * [Attribute Value Reference Set](../../5-reference-set-release-files-specification/5.2-reference-set-types/5.2.1-content-reference-sets/5.2.1.3-attribute-value-reference-set/)
+    * [Component Inactivation Reference Sets](<5.2.3 map-reference-sets/5.2.3.1 simple-map-from-snomed-ct-reference-set/5.2.3.1-component-inactivation-reference-sets.md>)
+  * [Association Reference Set](../../5-reference-set-release-files-specification/5.2-reference-set-types/5.2.1-content-reference-sets/5.2.1.4-association-reference-set/)
+    * [Historical Association Reference Sets](../../5-reference-set-release-files-specification/5.2-reference-set-types/5.2.1-content-reference-sets/5.2.1.4-association-reference-set/5.2.5.1-historical-association-reference-sets.md)
   * [5.2.1.6 DEPRECATED: Annotation Reference Set](../../5%20reference-set-release-files-specification/5.2%20reference-set-types/28739377.html)
   * [5.2.1.7 Query Specification Reference Set](../../5%20reference-set-release-files-specification/5.2%20reference-set-types/5.2.1.7-Query-Specification-Reference-Set_28739376.html)
   * [5.2.1.8 Ordered Reference Set](../../5%20reference-set-release-files-specification/5.2%20reference-set-types/5.2.1.8-Ordered-Reference-Set_28739371.html)
+    * [Ordered Component Reference Set](../../5-reference-set-release-files-specification/5.2-reference-set-types/5.2.1-content-reference-sets/5.2.1.8-ordered-reference-set/5.2.1.5-ordered-association-reference-set-1.md)
+    * [5.2.1.5 Ordered Association Reference Set](../../5%20reference-set-release-files-specification/5.2%20reference-set-types/5.2.1.5-Ordered-Association-Reference-Set_45529892.html)
   * [5.2.1.9 OWL Expression Reference Set](../../5%20reference-set-release-files-specification/5.2%20reference-set-types/5.2.1.9-OWL-Expression-Reference-Set_66486617.html)
   * [5.2.1.10 Postcoordinated Expression Type Reference Set](../../5%20reference-set-release-files-specification/5.2%20reference-set-types/5.2.1.10--Postcoordinated-Expression-Type-Reference-Set_142120942.html)
 * [5.2.2 Language Reference Sets](../../5%20reference-set-release-files-specification/5.2%20reference-set-types/5.2.2-Language-Reference-Sets_142120944.html)
