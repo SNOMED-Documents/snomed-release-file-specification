@@ -39,7 +39,7 @@
   * [General Features of Reference Sets](<5 reference-set-release-files-specification/5.1 essential-concept-identifiers/README.md>)
     * [Basic Reference Set Member File Format](<5 reference-set-release-files-specification/5.1 essential-concept-identifiers/5.1.1-basic-reference-set-member-file-format.md>)
     * [Extending the Basic Reference Set Member File Format](<5 reference-set-release-files-specification/5.1 essential-concept-identifiers/5.1.2-extending-the-basic-reference-set-member-file-format.md>)
-    * [5.1.3 Naming Conventions for Reference Sets](<5 reference-set-release-files-specification/5.1 essential-concept-identifiers/5.1.3-naming-conventions-for-reference-sets.md>)
+    * [Naming Conventions for Reference Sets](<5 reference-set-release-files-specification/5.1 essential-concept-identifiers/5.1.3-naming-conventions-for-reference-sets.md>)
     * [5.1.4 Metadata Supporting Reference Sets](<5 reference-set-release-files-specification/5.1 essential-concept-identifiers/5.1.4-metadata-supporting-reference-sets.md>)
   * [5.2 Reference Set Types](<5 reference-set-release-files-specification/5.2 reference-set-types/README.md>)
     * [5.2.1 Content Reference Sets](<5 reference-set-release-files-specification/5.2 reference-set-types/5.2.1 content-reference-sets/README.md>)
