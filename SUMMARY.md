@@ -37,7 +37,7 @@
   * [Metadata Hierarchy](<4 component-release-files-specification/4.3-metadata-hierarchy.md>)
 * [Reference Set Release Files Specification](<5 reference-set-release-files-specification/README.md>)
   * [General Features of Reference Sets](<5 reference-set-release-files-specification/5.1 essential-concept-identifiers/README.md>)
-    * [5.1.1 Basic Reference Set Member File Format](<5 reference-set-release-files-specification/5.1 essential-concept-identifiers/5.1.1-basic-reference-set-member-file-format.md>)
+    * [Basic Reference Set Member File Format](<5 reference-set-release-files-specification/5.1 essential-concept-identifiers/5.1.1-basic-reference-set-member-file-format.md>)
     * [5.1.2. Extending the Basic Reference Set Member File Format](<5 reference-set-release-files-specification/5.1 essential-concept-identifiers/5.1.2-extending-the-basic-reference-set-member-file-format.md>)
     * [5.1.3 Naming Conventions for Reference Sets](<5 reference-set-release-files-specification/5.1 essential-concept-identifiers/5.1.3-naming-conventions-for-reference-sets.md>)
     * [5.1.4 Metadata Supporting Reference Sets](<5 reference-set-release-files-specification/5.1 essential-concept-identifiers/5.1.4-metadata-supporting-reference-sets.md>)
