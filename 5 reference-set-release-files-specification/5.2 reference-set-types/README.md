@@ -4,7 +4,7 @@ This section describes four categories of reference set types, each of which con
 
 * [Content Reference Sets](<5.2.1 content-reference-sets/>)
   * [Simple Reference Set](<5.2.1 content-reference-sets/5.2.1.1-simple-reference-set.md>)
-  * [Attribute Value Reference Set](../../5-reference-set-release-files-specification/5.2-reference-set-types/5.2.1-content-reference-sets/5.2.1.3-attribute-value-reference-set/)
+  * [Attribute Value Reference Set](../../5-reference-set-release-files-specification/5.2-reference-set-types/5.2.1-content-reference-sets/5.2.1.3-attribute-value-reference-set/5.2.1.3-attribute-value-reference-set.md)
     * [Component Inactivation Reference Sets](<5.2.3 map-reference-sets/5.2.3.1 simple-map-from-snomed-ct-reference-set/5.2.3.1-component-inactivation-reference-sets.md>)
   * [Association Reference Set](../../5-reference-set-release-files-specification/5.2-reference-set-types/5.2.1-content-reference-sets/5.2.1.4-association-reference-set/)
     * [Historical Association Reference Sets](../../5-reference-set-release-files-specification/5.2-reference-set-types/5.2.1-content-reference-sets/5.2.1.4-association-reference-set/5.2.5.1-historical-association-reference-sets.md)
