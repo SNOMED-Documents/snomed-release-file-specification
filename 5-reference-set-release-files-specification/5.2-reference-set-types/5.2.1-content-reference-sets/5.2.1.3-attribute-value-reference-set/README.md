@@ -18,25 +18,13 @@ The metadata concepts shown in Table 5.2.1.3-2 are examples of concepts that ide
 
 Table 5.2.1.3-2: Attribute Value Reference Sets in the Metadata Hierarchy
 
-[900000000000454005 |Foundation metadata concept|](http://snomed.info/id/900000000000454005)\
-[900000000000455006 |Reference set|](http://snomed.info/id/900000000000455006)\
-[900000000000480006 |Attribute value type|](http://snomed.info/id/900000000000480006)\
-[900000000000489007 |Concept inactivation indicator reference set|](http://snomed.info/id/900000000000489007)\
-[900000000000490003 |Description inactivation indicator reference set|](http://snomed.info/id/900000000000490003)\
-[900000000000547002 |Relationship inactivation indicator reference set|](http://snomed.info/id/900000000000547002) /\* <-- Not currently used _/_\
-&#xNAN;_/_ Other attribute value reference sets exist but are not used to track component inactivation \*/
+<table data-full-width="true"><thead><tr><th></th></tr></thead><tbody><tr><td> <a href="http://snomed.info/id/900000000000454005">900000000000454005 |Foundation metadata concept|</a><br>      <a href="http://snomed.info/id/900000000000455006">900000000000455006 |Reference set|</a><br>             <a href="http://snomed.info/id/900000000000480006">900000000000480006 |Attribute value type|</a><br>                  <a href="http://snomed.info/id/900000000000489007">900000000000489007 |Concept inactivation indicator reference set|</a><br>                  <a href="http://snomed.info/id/900000000000490003">900000000000490003 |Description inactivation indicator reference set|</a><br>                  <a href="http://snomed.info/id/900000000000547002">900000000000547002 |Relationship inactivation indicator reference set|</a>  <mark style="color:$success;">&#x3C; Not currently used</mark> <br>  <mark style="color:$success;">Note. Other attribute value reference sets exist but are not used to track component inactivation</mark></td></tr></tbody></table>
 
 Item 5.2.1.3-1: Concept Inactivation Values (with usage notes)
 
-900000000001043018 [900000000001043018 |Concept inactivation value|](http://snomed.info/id/900000000001043018)\
-[723277005 |Nonconformance to editorial policy component|](http://snomed.info/id/723277005) /\* <-- New value introduced in 2017-07-31 International Release _/_\
-[_900000000000482003 |Duplicate|_](http://snomed.info/id/900000000000482003)\
-[_900000000000483008 |Outdated|_](http://snomed.info/id/900000000000483008)\
-[_900000000000484002 |Ambiguous|_](http://snomed.info/id/900000000000484002)\
-[_900000000000485001 |Erroneous|_](http://snomed.info/id/900000000000485001)\
-[_900000000000486000 |Limited|_](http://snomed.info/id/900000000000486000)\
-[_900000000000487009 |Moved elsewhere|_](http://snomed.info/id/900000000000487009)\
-[_900000000000492006 |Pending move|_](http://snomed.info/id/900000000000492006) _/_ <-- NEVER used for descriptions in the International Release - may have been used in extensions \*/
+<table data-full-width="true"><thead><tr><th></th></tr></thead><tbody><tr><td> 900000000001043018  <a href="http://snomed.info/id/900000000001043018">900000000001043018 |Concept inactivation value|</a>      <br>         <a href="http://snomed.info/id/723277005">723277005 |Nonconformance to editorial policy component|</a>   /*  &#x3C;-- New value introduced in 2017-07-31 International Release  */<br>         <a href="http://snomed.info/id/900000000000482003">900000000000482003 |Duplicate|</a><br>         <a href="http://snomed.info/id/900000000000483008">900000000000483008 |Outdated|</a><br>         <a href="http://snomed.info/id/900000000000484002">900000000000484002 |Ambiguous|</a><br>         <a href="http://snomed.info/id/900000000000485001">900000000000485001 |Erroneous|</a><br>         <a href="http://snomed.info/id/900000000000486000">900000000000486000 |Limited|</a><br>         <a href="http://snomed.info/id/900000000000487009">900000000000487009 |Moved elsewhere|</a><br>         <a href="http://snomed.info/id/900000000000492006">900000000000492006 |Pending move|</a>      /*  &#x3C;-- NEVER used for descriptions in the International Release - may have been used in extensions  */</td></tr></tbody></table>
+
+
 
 Table 5.2.1.3-3: Description Inactivation Values (with usage notes)
 
