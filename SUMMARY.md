@@ -44,7 +44,7 @@
   * [Reference Set Types](<5 reference-set-release-files-specification/5.2 reference-set-types/README.md>)
     * [Content Reference Sets](<5 reference-set-release-files-specification/5.2 reference-set-types/5.2.1 content-reference-sets/README.md>)
       * [Simple Reference Set](<5 reference-set-release-files-specification/5.2 reference-set-types/5.2.1 content-reference-sets/5.2.1.1-simple-reference-set.md>)
-      * [5.2.1.3-attribute-value-reference-set](5-reference-set-release-files-specification/5.2-reference-set-types/5.2.1-content-reference-sets/5.2.1.3-attribute-value-reference-set/README.md)
+      * [Attribute Value Reference Set](5-reference-set-release-files-specification/5.2-reference-set-types/5.2.1-content-reference-sets/5.2.1.3-attribute-value-reference-set/README.md)
         * [5.2.3.1 Component Inactivation Reference Sets](5-reference-set-release-files-specification/5.2-reference-set-types/5.2.1-content-reference-sets/5.2.1.3-attribute-value-reference-set/5.2.1.3-attribute-value-reference-set.md)
       * [5.2.1.4-association-reference-set](5-reference-set-release-files-specification/5.2-reference-set-types/5.2.1-content-reference-sets/5.2.1.4-association-reference-set/README.md)
         * [5.2.5.1-historical-association-reference-sets](5-reference-set-release-files-specification/5.2-reference-set-types/5.2.1-content-reference-sets/5.2.1.4-association-reference-set/5.2.5.1-historical-association-reference-sets.md)
