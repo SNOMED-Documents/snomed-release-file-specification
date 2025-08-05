@@ -26,5 +26,5 @@ The term field will be restricted as follows:
 ## Related Links
 
 * [Description Format Reference Set](<../../../5 reference-set-release-files-specification/5.2 reference-set-types/5.2.4 metadata-reference-sets/5.2.4.3-description-format-reference-set.md>)
-* [Appendix C. Unicode UTF-8 encoding](../../../appendixes/appendix-c-unicode-utf-8-encoding/)
+* [Appendix C. Unicode UTF-8 encoding](../../../appendices/appendix-c-unicode-utf-8-encoding/)
 

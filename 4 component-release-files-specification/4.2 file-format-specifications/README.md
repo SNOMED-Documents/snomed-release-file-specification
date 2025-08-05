@@ -6,7 +6,7 @@ The following subsections provide details of the format of the SNOMED CT compone
 * [Description File Specification](<4.2.2 description-file-specification/>)
 * [Relationship File Specification](4.2.3-relationship-file-specification.md)
 * [Identifier File Specification](4.2.4-identifier-file-specification.md)
-* [Transitive Closure Files](../../appendixes/appendix-b.-specification-reference-information/t/transitive-closure-file.md)
+* [Transitive Closure Files](../../appendices/appendix-b.-specification-reference-information/t/transitive-closure-file.md)
 * [Concrete Value File Specification](4.2.6-concrete-value-file-specification.md)
 
 {% hint style="info" %}

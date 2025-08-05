@@ -2,7 +2,7 @@
 
 [SNOMED CT core](https://confluence.ihtsdotools.org/display/DOCGLOSS/SNOMED+CT+core) _components_ have some fields that have values represented by [concepts](https://confluence.ihtsdotools.org/display/DOCGLOSS/concept) in specific parts of the [SNOMED CT](https://confluence.ihtsdotools.org/display/DOCGLOSS/SNOMED+CT) hierarchy. These are referred to as _concept_ enumerations.
 
-The range of permitted values for each of the _concept_ enumerations is the set of [subtypes](https://confluence.ihtsdotools.org/display/DOCGLOSS/subtype) of a specified _concept_ which is itself a _subtype_ of [900000000000442005 | Core metadata concept (core metadata concept)|](http://snomed.info/id/900000000000442005) . The current set of _concept_ enumeration types is shown in [Table Appendix E:-1](display/DOCRELFMT/Appendix+E:+Concept+Enumerations/#Table-concept-table-core). The values of each of these and the ways they should be used in implemented systems are described in the following subsections.
+The range of permitted values for each of the _concept_ enumerations is the set of [subtypes](https://confluence.ihtsdotools.org/display/DOCGLOSS/subtype) of a specified _concept_ which is itself a _subtype_ of [900000000000442005 | Core metadata concept (core metadata concept)|](http://snomed.info/id/900000000000442005) . The current set of _concept_ enumeration types is shown in [Table Appendix E:-1](../../display/DOCRELFMT/Appendix+E:+Concept+Enumerations/#Table-concept-table-core). The values of each of these and the ways they should be used in implemented systems are described in the following subsections.
 
 Table Appendix E:thumbsdown: Core metadata concept (core metadata concept) (900000000000442005)
 
