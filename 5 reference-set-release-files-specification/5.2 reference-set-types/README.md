@@ -26,28 +26,30 @@ This section describes four categories of reference set types, each of which con
   * [Simple map with correlation from SNOMED CT type reference set](<5.2.3 map-reference-sets/5.2.3.6-simple-map-with-correlation-from-snomed-ct-type-reference-set.md>)
   * [Simple map with correlation to SNOMED CT type reference set](<5.2.3 map-reference-sets/5.2.3.7-simple-map-with-correlation-to-snomed-ct-type-reference-set.md>)
   * [Simple map with correlation from SNOMED CT to SNOMED CT type reference set](<5.2.3 map-reference-sets/5.2.3.8-simple-map-with-correlation-from-snomed-ct-to-snomed-ct-type-reference-set.md>)
-* [5.2.4 Metadata Reference Sets](../../5%20reference-set-release-files-specification/5.2%20reference-set-types/5.2.4-Metadata-Reference-Sets_142120950.html)
-  * [5.2.4.1 Reference Set Descriptor](../../5%20reference-set-release-files-specification/5.2%20reference-set-types/5.2.4.1-Reference-Set-Descriptor_28739369.html)
-  * [5.2.4.2 Module Dependency Reference Set](../../5%20reference-set-release-files-specification/5.2%20reference-set-types/5.2.4.2-Module-Dependency-Reference-Set_28739379.html)
-  * [5.2.4.3 Description Format Reference Set](../../5%20reference-set-release-files-specification/5.2%20reference-set-types/5.2.4.3-Description-Format-Reference-Set_28739380.html)
-  * [5.2.4.4 MRCM Domain Reference Set](../../5%20reference-set-release-files-specification/5.2%20reference-set-types/5.2.4.4-MRCM-Domain-Reference-Set_45529893.html)
-  * [5.2.4.5 MRCM Attribute Domain Reference Set](../../5%20reference-set-release-files-specification/5.2%20reference-set-types/5.2.4.5-MRCM-Attribute-Domain-Reference-Set_45529894.html)
-  * [5.2.4.6 MRCM Attribute Range Reference Set](../../5%20reference-set-release-files-specification/5.2%20reference-set-types/5.2.4.6-MRCM-Attribute-Range-Reference-Set_45529895.html)
-  * [5.2.4.7 MRCM Module Scope Reference Set](../../5%20reference-set-release-files-specification/5.2%20reference-set-types/5.2.4.7-MRCM-Module-Scope-Reference-Set_45529896.html)
-  * [5.2.4.8 Component Annotation String Value Reference Set](../../5%20reference-set-release-files-specification/5.2%20reference-set-types/5.2.4.8-Component-Annotation-String-Value-Reference-Set_212339752.html)
-  * [5.2.4.9 Member Annotation String Value Reference Set](../../5%20reference-set-release-files-specification/5.2%20reference-set-types/5.2.4.9-Member-Annotation-String-Value-Reference-Set_212339754.html)
+* [Metadata Reference Sets](<5.2.4 metadata-reference-sets/>)
+  * [Reference Set Descriptor](<5.2.4 metadata-reference-sets/5.2.4.1-reference-set-descriptor.md>)
+  * [Module Dependency Reference Set](<5.2.4 metadata-reference-sets/5.2.4.2-module-dependency-reference-set.md>)
+  * [Description Format Reference Set](<5.2.4 metadata-reference-sets/5.2.4.3-description-format-reference-set.md>)
+  * [MRCM Domain Reference Set](<5.2.4 metadata-reference-sets/5.2.4.4-mrcm-domain-reference-set.md>)
+  * [MRCM Attribute Domain Reference Set](<5.2.4 metadata-reference-sets/5.2.4.5-mrcm-attribute-domain-reference-set.md>)
+  * [MRCM Attribute Range Reference Set](<5.2.4 metadata-reference-sets/5.2.4.6-mrcm-attribute-range-reference-set.md>)
+  * [MRCM Module Scope Reference Set](<5.2.4 metadata-reference-sets/5.2.4.7-mrcm-module-scope-reference-set.md>)
+  * [Component Annotation String Value Reference Set](<5.2.4 metadata-reference-sets/5.2.4.8-component-annotation-string-value-reference-set.md>)
+  * [Member Annotation String Value Reference Set](<5.2.4 metadata-reference-sets/5.2.4.9-member-annotation-string-value-reference-set.md>)
 
-Each reference set type follows a pattern and that pattern is also represented in a machine readable form using a set of [Reference Set Descriptor](../../5%20reference-set-release-files-specification/5.2%20reference-set-types/5.2.4.1-Reference-Set-Descriptor_28739369.html) members (known as a Descriptor Template, for short). In most case, the same pattern may be used to define a number of different [reference sets](https://confluence.ihtsdotools.org/display/DOCGLOSS/reference+set) to serve a variety of purposes. However, there are also some highly specific [reference set](https://confluence.ihtsdotools.org/display/DOCGLOSS/reference+set) types that exist for a single specified purpose. These are the [Reference Set Descriptor Reference Set](../../5%20reference-set-release-files-specification/5.2%20reference-set-types/5.2.4.1-Reference-Set-Descriptor_28739369.html), [Module Dependency Reference Set](../../5%20reference-set-release-files-specification/5.2%20reference-set-types/5.2.4.2-Module-Dependency-Reference-Set_28739379.html) and [Description Format Reference Set](../../5%20reference-set-release-files-specification/5.2%20reference-set-types/5.2.4.3-Description-Format-Reference-Set_28739380.html).
+Each reference set type follows a pattern and that pattern is also represented in a machine readable form using a set of [Reference Set Descriptor ](<5.2.4 metadata-reference-sets/5.2.4.1-reference-set-descriptor.md>)members (known as a Descriptor Template, for short). In most case, the same pattern may be used to define a number of different reference sets to serve a variety of purposes. However, there are also some highly specific reference set types that exist for a single specified purpose. These are the [Reference Set Descriptor Reference Set](<5.2.4 metadata-reference-sets/5.2.4.1-reference-set-descriptor.md>), [Module Dependency Reference Set ](<5.2.4 metadata-reference-sets/5.2.4.2-module-dependency-reference-set.md>)and [Description Format Reference Set](<5.2.4 metadata-reference-sets/5.2.4.3-description-format-reference-set.md>).
 
-In each subsection, a [reference set](https://confluence.ihtsdotools.org/display/DOCGLOSS/reference+set) type is described under the following subheadings:
+In each subsection, a reference set type is described under the following subheadings:
 
-* The purpose of the [reference set](https://confluence.ihtsdotools.org/display/DOCGLOSS/reference+set);
-* The format of the [reference set](https://confluence.ihtsdotools.org/display/DOCGLOSS/reference+set) member record is detailed in a table;
-* The metadata supporting the [reference set](https://confluence.ihtsdotools.org/display/DOCGLOSS/reference+set);
-* The machine readable [reference set](https://confluence.ihtsdotools.org/display/DOCGLOSS/reference+set) descriptor member records for the [reference set](https://confluence.ihtsdotools.org/display/DOCGLOSS/reference+set) type;
-* Examples of the [reference set](https://confluence.ihtsdotools.org/display/DOCGLOSS/reference+set) type;
+* The purpose of the reference set;
+* The format of the reference set member record is detailed in a table;
+* The metadata supporting the reference set;
+* The machine readable reference set descriptor member records for the reference set type;
+* Examples of the reference set type;
 
 Related Links
 
-* [Unicode UTF-8 encoding](../../5%20reference-set-release-files-specification/5.2%20reference-set-types/Appendix-C.-Unicode-UTF-8-encoding_33490103.html)
-* [Reference set](https://confluence.ihtsdotools.org/display/DOCGLOSS/Reference+set)
+* [Unicode UTF-8 encoding](../../appendixes/appendix-c-unicode-utf-8-encoding/)
+
+
+
