@@ -15,7 +15,7 @@
 * [Release Types, Packages and Files](3-release-types-packages-and-files/README.md)
   * [Common Features of All Release Files](3-release-types-packages-and-files/3.1-common-features-of-all-release-files/README.md)
     * [General Structure of Release Files](3-release-types-packages-and-files/3.1-common-features-of-all-release-files/3.1.1-general-structure-of-release-files.md)
-    * [Release File Data TypesInteger](3-release-types-packages-and-files/3.1-common-features-of-all-release-files/3.1.2-release-file-data-types.md)
+    * [Release File Data Types](3-release-types-packages-and-files/3.1-common-features-of-all-release-files/3.1.2-release-file-data-types.md)
     * [Fields Present in All Release Files](3-release-types-packages-and-files/3.1-common-features-of-all-release-files/3.1.3-fields-present-in-all-release-files.md)
     * [Meaning of the Active Field](3-release-types-packages-and-files/3.1-common-features-of-all-release-files/3.1.4-meaning-of-the-active-field.md)
     * [History Mechanism](3-release-types-packages-and-files/3.1-common-features-of-all-release-files/3.1.5-history-mechanism.md)
