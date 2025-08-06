@@ -20,9 +20,6 @@ Table 5.2.1.4-2: Association Reference Sets in the Metadata Hierarchy
 
 <table data-header-hidden data-full-width="true"><thead><tr><th></th></tr></thead><tbody><tr><td> <a href="http://snomed.info/id/900000000000455006">900000000000455006 |Reference set|</a><br>         <a href="http://snomed.info/id/900000000000521006">900000000000521006 |Association type|</a><br>                 <a href="http://snomed.info/id/734138000">734138000 |Anatomy structure and entire association reference set|</a><br>                 <a href="http://snomed.info/id/734139008">734139008 |Anatomy structure and part association reference set|</a><br>                 <a href="http://snomed.info/id/900000000000522004">900000000000522004 |Historical association|</a> <mark style="color:$success;">- this has many subtypes</mark></td></tr></tbody></table>
 
-\
-
-
 ## Example Descriptors and Data
 
-See [5.2.5.1 Historical Association Reference Sets](../../../../5%20reference-set-release-files-specification/5.2%20reference-set-types/5.2.1%20content-reference-sets/5.2.5.1-Historical-Association-Reference-Sets_106693955.html) for an example of the reference set description and data representation in an association type reference set.
+See [Historical Association Reference Sets](5.2.5.1-historical-association-reference-sets.md) for an example of the reference set description and data representation in an association type reference set.
