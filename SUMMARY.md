@@ -48,7 +48,7 @@
         * [Component Inactivation Reference Sets](5-reference-set-release-files-specification/5.2-reference-set-types/5.2.1-content-reference-sets/5.2.1.3-attribute-value-reference-set/5.2.1.3-attribute-value-reference-set.md)
       * [Association Reference Set](5-reference-set-release-files-specification/5.2-reference-set-types/5.2.1-content-reference-sets/5.2.1.4-association-reference-set/README.md)
         * [Historical Association Reference Sets](5-reference-set-release-files-specification/5.2-reference-set-types/5.2.1-content-reference-sets/5.2.1.4-association-reference-set/5.2.5.1-historical-association-reference-sets.md)
-      * [5.2.1.6-deprecated-annotation-reference-set](<5 reference-set-release-files-specification/5.2 reference-set-types/5.2.1 content-reference-sets/5.2.1.6-deprecated-annotation-reference-set.md>)
+      * [Annotation Reference Set - Deprecated](<5 reference-set-release-files-specification/5.2 reference-set-types/5.2.1 content-reference-sets/5.2.1.6-deprecated-annotation-reference-set.md>)
       * [5.2.1.7-query-specification-reference-set](<5 reference-set-release-files-specification/5.2 reference-set-types/5.2.1 content-reference-sets/5.2.1.7-query-specification-reference-set.md>)
       * [5.2.1.8-ordered-reference-set](5-reference-set-release-files-specification/5.2-reference-set-types/5.2.1-content-reference-sets/5.2.1.8-ordered-reference-set/README.md)
         * [5.2.1.5-ordered-association-reference-set](5-reference-set-release-files-specification/5.2-reference-set-types/5.2.1-content-reference-sets/5.2.1.8-ordered-reference-set/5.2.1.5-ordered-association-reference-set.md)
