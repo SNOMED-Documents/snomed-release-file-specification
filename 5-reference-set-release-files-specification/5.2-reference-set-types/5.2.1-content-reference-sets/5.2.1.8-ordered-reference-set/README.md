@@ -50,15 +50,11 @@ The reference set example tables on this page have been revised as follows to ai
 
 ### Descriptor Template
 
-The tables below show the descriptor that defines the structure of the [447258008 | Ordered type reference set|](http://snomed.info/id/447258008) pattern and an example of descriptor for a [reference set](https://confluence.ihtsdotools.org/display/DOCGLOSS/reference+set) that follows this pattern.
+The tables below show the descriptor that defines the structure of the [|Ordered type reference set|](http://snomed.info/id/447258008) pattern and an example of descriptor for a reference set that follows this pattern.
 
 Table 5.2.1.8-3: Refset Descriptor rows for Ordered Reference Set
 
-| **refsetId**          | **referencedComponentId** | **attributeDescription**                                        | **attributeType**        | **attributeOrder** |
-| --------------------- | ------------------------- | --------------------------------------------------------------- | ------------------------ | ------------------ |
-| \[ 900000000000456007 | Reference set descriptor  | ]\(http://snomed.info/id/900000000000456007 "900000000000456007 | Reference set descriptor | ")                 |
-| \[ 900000000000456007 | Reference set descriptor  | ]\(http://snomed.info/id/900000000000456007 "900000000000456007 | Reference set descriptor | ")                 |
-| \[ 900000000000456007 | Reference set descriptor  | ]\(http://snomed.info/id/900000000000456007 "900000000000456007 | Reference set descriptor | ")                 |
+<table data-header-hidden data-full-width="true"><thead><tr><th width="131.00390625"></th><th width="212.98828125"></th><th width="194.5859375"></th><th></th><th></th></tr></thead><tbody><tr><td><strong>refsetId</strong></td><td><strong>referencedComponentId</strong> </td><td><strong>attributeDescription</strong> </td><td><strong>attributeType</strong> </td><td><strong>attributeOrder</strong> </td></tr><tr><td><a href="http://snomed.info/id/900000000000456007">900000000000456007 |Reference set descriptor|</a></td><td><a href="http://snomed.info/id/447258008">447258008 |Ordered type reference set|</a><br><br></td><td><a href="http://snomed.info/id/449608002">449608002 |Referenced component|</a></td><td><a href="http://snomed.info/id/900000000000460005">900000000000460005 | Component type|</a></td><td>0</td></tr><tr><td><a href="http://snomed.info/id/900000000000456007">900000000000456007 |Reference set descriptor|</a></td><td><a href="http://snomed.info/id/447258008">447258008 |Ordered type reference set|</a></td><td><a href="http://snomed.info/id/447255006">447255006 |Priority order reference set attribute|</a></td><td><a href="http://snomed.info/id/900000000000478000">900000000000478000 | Unsigned integer|</a></td><td>1</td></tr><tr><td><a href="http://snomed.info/id/900000000000456007">900000000000456007 |Reference set descriptor|</a></td><td><a href="http://snomed.info/id/447258008">447258008 |Ordered type reference set|</a></td><td><a href="http://snomed.info/id/447257003">447257003 |"Linked to" reference set attribute|</a></td><td><a href="http://snomed.info/id/900000000000460005">900000000000460005 |Component type|</a></td><td>2</td></tr></tbody></table>
 
 ## Example Data
 
