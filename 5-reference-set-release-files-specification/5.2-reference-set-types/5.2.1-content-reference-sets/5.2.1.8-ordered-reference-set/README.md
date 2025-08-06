@@ -31,15 +31,22 @@ Table 5.2.1.8-1: Ordered reference set - Data structure
 
 ## Metadata
 
-The following metadata in the "Foundation metadata [concept](https://confluence.ihtsdotools.org/display/DOCGLOSS/concept)" [hierarchy](https://confluence.ihtsdotools.org/display/DOCGLOSS/hierarchy) supports this [reference set](https://confluence.ihtsdotools.org/display/DOCGLOSS/reference+set)
+The following metadata in the "Foundation metadata concept" hierarchy supports this reference set.
 
 Table 5.2.1.8-2: Ordered References Sets in the Metadata Hierarchy
 
-* [900000000000454005 | Foundation metadata concept|](http://snomed.info/id/900000000000454005)
-  * [900000000000455006 | Reference set|](http://snomed.info/id/900000000000455006)
-    * [447258008 | Ordered type reference set|](http://snomed.info/id/447258008)
+<table data-header-hidden data-full-width="true"><thead><tr><th></th></tr></thead><tbody><tr><td><p> <a href="http://snomed.info/id/900000000000454005">900000000000454005 |Foundation metadata concept|</a>  </p><p>         <a href="http://snomed.info/id/900000000000455006">900000000000455006 |Reference set|</a>  </p><p>                 <a href="http://snomed.info/id/447258008">447258008 | Ordered type reference set|</a></p></td></tr></tbody></table>
 
 ## Reference Set Descriptor and Example Data
+
+{% hint style="info" %}
+**Notes on the tables used to show descriptors and examples**
+
+The reference set example tables on this page have been revised as follows to aid clarity and understanding:
+
+* The first four columns which are present in all release files are not shown. The omitted columns (id, effectiveTime, active, moduleId) are used in the same way in all referenced sets to support identification, versioning and packaging. They do not directly affect the specific features of a particular reference set or reference set type.
+* Reference set columns that contain SNOMED CT identifiers are expanded to show details of the concept or description referenced by that identifier. In some cases, the term is shown in the same column using the expression syntax, in other cases an additional column with a name suffix '\_term' has been added. In the standard reference set files only the identifier is present in the column and there is no added column for the term. When using reference sets, the term and other details of the component are looked up from the relevant component release files.
+{% endhint %}
 
 ### Descriptor Template
 
