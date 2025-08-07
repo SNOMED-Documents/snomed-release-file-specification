@@ -1,4 +1,3 @@
-# 5.2.2 Language Reference Sets
+# Language Reference Sets
 
-  * [5.2.2.1 Language Reference Set](5.2.2.1-Language-Reference-Set_28739375.html)
-
+* [5.2.2.1 Language Reference Set](5.2.2.1-language-reference-set.md)

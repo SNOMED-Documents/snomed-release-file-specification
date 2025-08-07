@@ -55,7 +55,7 @@
         * [Ordered Component Reference Set](5-reference-set-release-files-specification/5.2-reference-set-types/5.2.1-content-reference-sets/5.2.1.8-ordered-reference-set/5.2.1.5-ordered-association-reference-set-1.md)
       * [Owl Expression Reference Set](<5 reference-set-release-files-specification/5.2 reference-set-types/5.2.1 content-reference-sets/5.2.1.9-owl-expression-reference-set.md>)
       * [Postcoordinated Expression Type Reference Set](<5 reference-set-release-files-specification/5.2 reference-set-types/5.2.1 content-reference-sets/5.2.1.10-postcoordinated-expression-type-reference-set.md>)
-    * [5.2.2 Language Reference Sets](<5 reference-set-release-files-specification/5.2 reference-set-types/5.2.2 language-reference-sets/README.md>)
+    * [Language Reference Sets](<5 reference-set-release-files-specification/5.2 reference-set-types/5.2.2 language-reference-sets/README.md>)
       * [5.2.2.1-language-reference-set](<5 reference-set-release-files-specification/5.2 reference-set-types/5.2.2 language-reference-sets/5.2.2.1-language-reference-set.md>)
     * [5.2.3 Map Reference Sets](<5 reference-set-release-files-specification/5.2 reference-set-types/5.2.3 map-reference-sets/README.md>)
       * [5.2.3.2-simple-map-to-snomed-ct-reference-set](<5 reference-set-release-files-specification/5.2 reference-set-types/5.2.3 map-reference-sets/5.2.3.2-simple-map-to-snomed-ct-reference-set.md>)
