@@ -59,6 +59,7 @@
       * [Language Reference Set](<5 reference-set-release-files-specification/5.2 reference-set-types/5.2.2 language-reference-sets/5.2.2.1-language-reference-set.md>)
     * [Map Reference Sets](<5 reference-set-release-files-specification/5.2 reference-set-types/5.2.3 map-reference-sets/README.md>)
       * [simple-map-from-snomed-ct-reference-set](5-reference-set-release-files-specification/5.2-reference-set-types/5.2.3-map-reference-sets/5.2.3.1-simple-map-from-snomed-ct-reference-set.md)
+      * [Copy of simple-map-from-snomed-ct-reference-set](5-reference-set-release-files-specification/5.2-reference-set-types/5.2.3-map-reference-sets/5.2.3.1-simple-map-from-snomed-ct-reference-set-1.md)
       * [5.2.3.2-simple-map-to-snomed-ct-reference-set](<5 reference-set-release-files-specification/5.2 reference-set-types/5.2.3 map-reference-sets/5.2.3.2-simple-map-to-snomed-ct-reference-set.md>)
       * [5.2.3.3-complex-and-extended-map-from-snomed-ct-reference-sets](<5 reference-set-release-files-specification/5.2 reference-set-types/5.2.3 map-reference-sets/5.2.3.3-complex-and-extended-map-from-snomed-ct-reference-sets.md>)
       * [5.2.3.4-map-to-snomed-ct-with-correlation-and-origin-reference-set](<5 reference-set-release-files-specification/5.2 reference-set-types/5.2.3 map-reference-sets/5.2.3.4-map-to-snomed-ct-with-correlation-and-origin-reference-set.md>)
