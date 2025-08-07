@@ -2,7 +2,7 @@
 
 * ​[Simple Reference Set](https://app.gitbook.com/o/h8Z6qGxuQrzM9vbx5bPT/s/irKbJsZG57nSWZA4GT0M/5-reference-set-release-files-specification/5.2-reference-set-types/5.2.1-content-reference-sets/5.2.1.1-simple-reference-set)​
 * ​[Attribute Value Reference Set](https://app.gitbook.com/o/h8Z6qGxuQrzM9vbx5bPT/s/irKbJsZG57nSWZA4GT0M/5-reference-set-release-files-specification/5.2-reference-set-types/5.2.1-content-reference-sets/5.2.1.3-attribute-value-reference-set)​
-  * [Component Inactivation Reference Sets](https://app.gitbook.com/o/h8Z6qGxuQrzM9vbx5bPT/s/irKbJsZG57nSWZA4GT0M/5-reference-set-release-files-specification/5.2-reference-set-types/5.2.3-map-reference-sets/5.2.3.1-simple-map-from-snomed-ct-reference-set/5.2.3.1-component-inactivation-reference-sets)​
+  * [Component Inactivation Reference Sets](../../../5-reference-set-release-files-specification/5.2-reference-set-types/5.2.1-content-reference-sets/5.2.1.3-attribute-value-reference-set/5.2.1.3-attribute-value-reference-set.md)​
 * [Association Reference Set](https://app.gitbook.com/o/h8Z6qGxuQrzM9vbx5bPT/s/irKbJsZG57nSWZA4GT0M/5-reference-set-release-files-specification/5.2-reference-set-types/5.2.1-content-reference-sets/5.2.1.4-association-reference-set)​
   * [Historical Association Reference Sets](https://app.gitbook.com/o/h8Z6qGxuQrzM9vbx5bPT/s/irKbJsZG57nSWZA4GT0M/5-reference-set-release-files-specification/5.2-reference-set-types/5.2.1-content-reference-sets/5.2.1.4-association-reference-set/5.2.5.1-historical-association-reference-sets)​
 * [Annotation Reference Set](https://app.gitbook.com/o/h8Z6qGxuQrzM9vbx5bPT/s/irKbJsZG57nSWZA4GT0M/5-reference-set-release-files-specification/5.2-reference-set-types/5.2.1-content-reference-sets/5.2.1.6-deprecated-annotation-reference-set)​
