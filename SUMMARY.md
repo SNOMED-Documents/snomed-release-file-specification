@@ -68,7 +68,7 @@
       * [Simple map with correlation from SNOMED CT to SNOMED CT type Reference Set](<5 reference-set-release-files-specification/5.2 reference-set-types/5.2.3 map-reference-sets/5.2.3.8-simple-map-with-correlation-from-snomed-ct-to-snomed-ct-type-reference-set.md>)
     * [Metadata Reference Sets](<5 reference-set-release-files-specification/5.2 reference-set-types/5.2.4 metadata-reference-sets/README.md>)
       * [Reference Set Descriptor](<5 reference-set-release-files-specification/5.2 reference-set-types/5.2.4 metadata-reference-sets/5.2.4.1-reference-set-descriptor.md>)
-      * [5.2.4.2-module-dependency-reference-set](<5 reference-set-release-files-specification/5.2 reference-set-types/5.2.4 metadata-reference-sets/5.2.4.2-module-dependency-reference-set.md>)
+      * [Module Dependency Reference Set](<5 reference-set-release-files-specification/5.2 reference-set-types/5.2.4 metadata-reference-sets/5.2.4.2-module-dependency-reference-set.md>)
       * [5.2.4.3-description-format-reference-set](<5 reference-set-release-files-specification/5.2 reference-set-types/5.2.4 metadata-reference-sets/5.2.4.3-description-format-reference-set.md>)
       * [5.2.4.4-mrcm-domain-reference-set](<5 reference-set-release-files-specification/5.2 reference-set-types/5.2.4 metadata-reference-sets/5.2.4.4-mrcm-domain-reference-set.md>)
       * [5.2.4.5-mrcm-attribute-domain-reference-set](<5 reference-set-release-files-specification/5.2 reference-set-types/5.2.4 metadata-reference-sets/5.2.4.5-mrcm-attribute-domain-reference-set.md>)
