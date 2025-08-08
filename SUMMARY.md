@@ -70,7 +70,7 @@
       * [Reference Set Descriptor](<5 reference-set-release-files-specification/5.2 reference-set-types/5.2.4 metadata-reference-sets/5.2.4.1-reference-set-descriptor.md>)
       * [Module Dependency Reference Set](<5 reference-set-release-files-specification/5.2 reference-set-types/5.2.4 metadata-reference-sets/5.2.4.2-module-dependency-reference-set.md>)
       * [Description Format Reference Set](<5 reference-set-release-files-specification/5.2 reference-set-types/5.2.4 metadata-reference-sets/5.2.4.3-description-format-reference-set.md>)
-      * [5.2.4.4-mrcm-domain-reference-set](<5 reference-set-release-files-specification/5.2 reference-set-types/5.2.4 metadata-reference-sets/5.2.4.4-mrcm-domain-reference-set.md>)
+      * [MRCM Domain Reference Set](<5 reference-set-release-files-specification/5.2 reference-set-types/5.2.4 metadata-reference-sets/5.2.4.4-mrcm-domain-reference-set.md>)
       * [5.2.4.5-mrcm-attribute-domain-reference-set](<5 reference-set-release-files-specification/5.2 reference-set-types/5.2.4 metadata-reference-sets/5.2.4.5-mrcm-attribute-domain-reference-set.md>)
       * [5.2.4.6-mrcm-attribute-range-reference-set](<5 reference-set-release-files-specification/5.2 reference-set-types/5.2.4 metadata-reference-sets/5.2.4.6-mrcm-attribute-range-reference-set.md>)
       * [5.2.4.7-mrcm-module-scope-reference-set](<5 reference-set-release-files-specification/5.2 reference-set-types/5.2.4 metadata-reference-sets/5.2.4.7-mrcm-module-scope-reference-set.md>)
