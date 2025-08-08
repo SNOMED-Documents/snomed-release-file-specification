@@ -64,7 +64,7 @@
       * [Map to SNOMED CT with Correlation and Origin Reference Set](<5 reference-set-release-files-specification/5.2 reference-set-types/5.2.3 map-reference-sets/5.2.3.4-map-to-snomed-ct-with-correlation-and-origin-reference-set.md>)
       * [Code to Expression Reference Set](<5 reference-set-release-files-specification/5.2 reference-set-types/5.2.3 map-reference-sets/5.2.3.5-code-to-expression-reference-set.md>)
       * [Simple map with correlation from SNOMED CT type Reference Set](<5 reference-set-release-files-specification/5.2 reference-set-types/5.2.3 map-reference-sets/5.2.3.6-simple-map-with-correlation-from-snomed-ct-type-reference-set.md>)
-      * [5.2.3.7-simple-map-with-correlation-to-snomed-ct-type-reference-set](<5 reference-set-release-files-specification/5.2 reference-set-types/5.2.3 map-reference-sets/5.2.3.7-simple-map-with-correlation-to-snomed-ct-type-reference-set.md>)
+      * [Simple map with correlation to SNOMED CT type Reference Set](<5 reference-set-release-files-specification/5.2 reference-set-types/5.2.3 map-reference-sets/5.2.3.7-simple-map-with-correlation-to-snomed-ct-type-reference-set.md>)
       * [5.2.3.8-simple-map-with-correlation-from-snomed-ct-to-snomed-ct-type-reference-set](<5 reference-set-release-files-specification/5.2 reference-set-types/5.2.3 map-reference-sets/5.2.3.8-simple-map-with-correlation-from-snomed-ct-to-snomed-ct-type-reference-set.md>)
     * [5.2.4 Metadata Reference Sets](<5 reference-set-release-files-specification/5.2 reference-set-types/5.2.4 metadata-reference-sets/README.md>)
       * [5.2.4.1-reference-set-descriptor](<5 reference-set-release-files-specification/5.2 reference-set-types/5.2.4 metadata-reference-sets/5.2.4.1-reference-set-descriptor.md>)
