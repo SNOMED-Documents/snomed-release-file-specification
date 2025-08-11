@@ -114,7 +114,7 @@
     * [D](appendices/appendix-b.-specification-reference-information/d/README.md)
       * [definitionstatusid (field)](appendices/appendix-b.-specification-reference-information/d/definitionstatusid-field.md)
       * [Description file](appendices/appendix-b.-specification-reference-information/d/description-file.md)
-      * [descriptionformat-field](appendices/appendix-b.-specification-reference-information/d/descriptionformat-field.md)
+      * [descriptionFormat (field)](appendices/appendix-b.-specification-reference-information/d/descriptionformat-field.md)
       * [descriptionlength-field](appendices/appendix-b.-specification-reference-information/d/descriptionlength-field.md)
       * [destinationid-field](appendices/appendix-b.-specification-reference-information/d/destinationid-field.md)
       * [Dualkey (field)](appendices/appendix-b.-specification-reference-information/d/dualkey-field.md)
