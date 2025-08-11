@@ -1,6 +1,4 @@
-# sourceeffectivetime-field
-
-## sourceEffectiveTime (field)
+# sourceEffectiveTime (field)
 
 A field in the Module Dependency Reference Set which specifies the effectiveTime of the version of the source module with depends on the specified version of the target module. The effectiveTime must match exactly.
 
