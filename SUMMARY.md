@@ -75,7 +75,7 @@
       * [MRCM Attribute Range Reference Set](<5 reference-set-release-files-specification/5.2 reference-set-types/5.2.4 metadata-reference-sets/5.2.4.6-mrcm-attribute-range-reference-set.md>)
       * [MRCM Module Scope Reference Set](<5 reference-set-release-files-specification/5.2 reference-set-types/5.2.4 metadata-reference-sets/5.2.4.7-mrcm-module-scope-reference-set.md>)
       * [Component Annotation String Value Reference Set](<5 reference-set-release-files-specification/5.2 reference-set-types/5.2.4 metadata-reference-sets/5.2.4.8-component-annotation-string-value-reference-set.md>)
-      * [5.2.4.9-member-annotation-string-value-reference-set](<5 reference-set-release-files-specification/5.2 reference-set-types/5.2.4 metadata-reference-sets/5.2.4.9-member-annotation-string-value-reference-set.md>)
+      * [Member Annotation String Value Reference Set](<5 reference-set-release-files-specification/5.2 reference-set-types/5.2.4 metadata-reference-sets/5.2.4.9-member-annotation-string-value-reference-set.md>)
 * [6 SNOMED CT Identifiers](<6 snomed-ct-identifiers/README.md>)
   * [6.1 SCTID Data Type](<6 snomed-ct-identifiers/6.1-sctid-data-type.md>)
   * [6.2 SCTID Representation](<6 snomed-ct-identifiers/6.2-sctid-representation.md>)
