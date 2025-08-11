@@ -154,6 +154,7 @@
       * [refsetId (field)](appendices/appendix-b.-specification-reference-information/r/refsetid-field.md)
       * [Relationship file](appendices/appendix-b.-specification-reference-information/r/relationship-file.md)
       * [relationshipGroup (field)](appendices/appendix-b.-specification-reference-information/r/relationshipgroup-field.md)
+      * [referencedMemberId (field)](appendices/appendix-b.-specification-reference-information/r/referencedmemberid-field.md)
     * [S](appendices/appendix-b.-specification-reference-information/s/README.md)
       * [sourceid (field)](appendices/appendix-b.-specification-reference-information/s/sourceid-field.md)
       * [sourceeffectivetime-field](appendices/appendix-b.-specification-reference-information/s/sourceeffectivetime-field.md)

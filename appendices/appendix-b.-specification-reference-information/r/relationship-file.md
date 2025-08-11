@@ -1,7 +1,5 @@
 # Relationship file
 
-## Relationship file
-
 The file structure used to distribute SNOMED CT relationships.
 
 ## Related Links
