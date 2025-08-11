@@ -82,7 +82,7 @@
   * [SCTID Constraints](<6 snomed-ct-identifiers/6.3-sctid-constraints.md>)
   * [Check-digit](<6 snomed-ct-identifiers/6.4 check-digit/README.md>)
     * [SNOMED CT Identifier Check](<6 snomed-ct-identifiers/6.4 check-digit/6.4.1-snomed-ct-identifier-check.md>)
-    * [6.4.2-check-digit-computation](<6 snomed-ct-identifiers/6.4 check-digit/6.4.2-check-digit-computation.md>)
+    * [Check digit computation](<6 snomed-ct-identifiers/6.4 check-digit/6.4.2-check-digit-computation.md>)
   * [6.5 Partition Identifier](<6 snomed-ct-identifiers/6.5-partition-identifier.md>)
   * [6.6 Namespace-Identifier](<6 snomed-ct-identifiers/6.6-namespace-identifier.md>)
   * [6.7 Item-Identifier Digits](<6 snomed-ct-identifiers/6.7-item-identifier-digits.md>)
