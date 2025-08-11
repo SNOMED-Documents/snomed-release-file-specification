@@ -165,7 +165,7 @@
       * [targetComponentId (field)](appendices/appendix-b.-specification-reference-information/t/targetcomponentid-field.md)
       * [targetEffectiveTime (field)](appendices/appendix-b.-specification-reference-information/t/targeteffectivetime-field.md)
       * [term (field)](appendices/appendix-b.-specification-reference-information/t/term-field.md)
-      * [time-data-type](appendices/appendix-b.-specification-reference-information/t/time-data-type.md)
+      * [Time (data type)](appendices/appendix-b.-specification-reference-information/t/time-data-type.md)
       * [transitive-closure-file](appendices/appendix-b.-specification-reference-information/t/transitive-closure-file.md)
       * [typeid-field](appendices/appendix-b.-specification-reference-information/t/typeid-field.md)
     * [U](appendices/appendix-b.-specification-reference-information/u/README.md)
