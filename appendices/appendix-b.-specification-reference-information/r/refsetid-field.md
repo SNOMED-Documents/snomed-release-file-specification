@@ -1,13 +1,13 @@
-# refsetid-field
+# refsetId (field)
 
 ## refsetId (field)
 
-A field in a [Reference Set](https://confluence.ihtsdotools.org/display/DOCGLOSS/Reference+Set) which uniquely [Identifier](https://confluence.ihtsdotools.org/display/DOCGLOSS/Identifier) which refers to the component to which a row in the [Reference Set](https://confluence.ihtsdotools.org/display/DOCGLOSS/Reference+Set) applies.
+A field in a Reference Set which uniquely Identifier which refers to the component to which a row in the Reference Set applies.
 
-Note: This field is present in all types of [Reference Sets](https://confluence.ihtsdotools.org/display/DOCGLOSS/Reference+Set) and its data type is [SCTID](https://confluence.ihtsdotools.org/display/DOCGLOSS/SCTID). It links together all the members of a [Reference Set](https://confluence.ihtsdotools.org/display/DOCGLOSS/Reference+Set) and refers to a concept that names the [Reference Set](https://confluence.ihtsdotools.org/display/DOCGLOSS/Reference+Set) .
+Note: This field is present in all types of Reference Sets and its data type is SCTID. It links together all the members of a Reference Set and refers to a concept that names the Reference Set .
 
 ## Related Links
 
-* [5.1.1 Basic Reference Set Member File Format](../../../5.1.1-Basic-Reference-Set-Member-File-Format_28739345.html)
-* [5.2 Reference Set Types](../../../5.2-Reference-Set-Types_28739366.html)
-* [Simple Reference Set](https://confluence.ihtsdotools.org/display/WIPRELFMT/Simple+Reference+Set)
+* [Basic Reference Set Member File Format](<../../../5 reference-set-release-files-specification/5.1 essential-concept-identifiers/5.1.1-basic-reference-set-member-file-format.md>)
+* [Reference Set Types](<../../../5 reference-set-release-files-specification/5.2 reference-set-types/>)
+* [Simple Reference Set](<../../../5 reference-set-release-files-specification/5.2 reference-set-types/5.2.1 content-reference-sets/5.2.1.1-simple-reference-set.md>)

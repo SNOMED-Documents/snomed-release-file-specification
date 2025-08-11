@@ -151,7 +151,7 @@
     * [R](appendices/appendix-b.-specification-reference-information/r/README.md)
       * [referencedComponentId (field)](appendices/appendix-b.-specification-reference-information/r/referencedcomponentid-field.md)
       * [Reference Set file](appendices/appendix-b.-specification-reference-information/r/reference-set-file.md)
-      * [refsetid-field](appendices/appendix-b.-specification-reference-information/r/refsetid-field.md)
+      * [refsetId (field)](appendices/appendix-b.-specification-reference-information/r/refsetid-field.md)
       * [relationship-file](appendices/appendix-b.-specification-reference-information/r/relationship-file.md)
       * [relationshipGroup (field)](appendices/appendix-b.-specification-reference-information/r/relationshipgroup-field.md)
     * [S](appendices/appendix-b.-specification-reference-information/s/README.md)
