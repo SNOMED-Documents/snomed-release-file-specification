@@ -172,7 +172,7 @@
       * [Unicode](appendices/appendix-b.-specification-reference-information/u/unicode.md)
       * [UTF-16](appendices/appendix-b.-specification-reference-information/u/utf-16.md)
       * [UTF-8](appendices/appendix-b.-specification-reference-information/u/utf-8.md)
-      * [uuid-data-type](appendices/appendix-b.-specification-reference-information/u/uuid-data-type.md)
+      * [UUID (data type)](appendices/appendix-b.-specification-reference-information/u/uuid-data-type.md)
     * [V](appendices/appendix-b.-specification-reference-information/v/README.md)
       * [value (field)](appendices/appendix-b.-specification-reference-information/v/value-field.md)
       * [valueId (field)](appendices/appendix-b.-specification-reference-information/v/valueid-field.md)
