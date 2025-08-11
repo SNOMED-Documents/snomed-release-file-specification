@@ -4,6 +4,6 @@ _A field_ holding either an Integer, Decimal, or Text represented as a [string](
 
 **Note:** The field is used in the following Release Format 2 specifications:
 
-* [Concrete Value File Specification](https://confluence.ihtsdotools.org/display/WIPRELFMT/4.2.6+Concrete+Value+File+Specification?src=sidebar)
-* [Component Annotation String Value Reference Set](https://confluence.ihtsdotools.org/display/WIPRELFMT/5.2.4.8+Component+Annotation+String+Value+Reference+Set?src=sidebar)
-* [Member Annotation String Value Reference Set](https://confluence.ihtsdotools.org/display/WIPRELFMT/5.2.4.9+Member+Annotation+String+Value+Reference+Set?src=sidebar)
+* [Concrete Value File Specification](<../../../4 component-release-files-specification/4.2 file-format-specifications/4.2.6-concrete-value-file-specification.md>)
+* [Component Annotation String Value Reference Set](<../../../5 reference-set-release-files-specification/5.2 reference-set-types/5.2.4 metadata-reference-sets/5.2.4.8-component-annotation-string-value-reference-set.md>)
+* [Member Annotation String Value Reference Set](<../../../5 reference-set-release-files-specification/5.2 reference-set-types/5.2.4 metadata-reference-sets/5.2.4.9-member-annotation-string-value-reference-set.md>)
