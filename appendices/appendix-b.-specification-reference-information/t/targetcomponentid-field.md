@@ -1,11 +1,9 @@
-# targetcomponentid-field
+# targetComponentId (field)
 
-## targetComponentId (field)
-
-An Association [Reference Set](https://confluence.ihtsdotools.org/display/DOCGLOSS/Reference+Set) field containing a [SNOMED CT identifier](https://confluence.ihtsdotools.org/display/DOCGLOSS/SNOMED+CT+identifier) which specifies the target of the association from the source component (e.g. a [concept](https://confluence.ihtsdotools.org/display/DOCGLOSS/concept) or [Description](https://confluence.ihtsdotools.org/display/DOCGLOSS/Description)) referred to by the [referencedComponentId](https://confluence.ihtsdotools.org/display/DOCGLOSS/referencedComponentId) .
+An Association Reference Set field containing a SNOMED CT identifier which specifies the target of the association from the source component (e.g. a concept or Description) referred to by the referencedComponentId .
 
 Note: Field name in SNOMED CT Release Format 2.
 
 ## Related Links
 
-* [5.2.1.4 Association Reference Set](../../../5.2.1.4-Association-Reference-Set_28739378.html)
+* [Association Reference Set](../../../5-reference-set-release-files-specification/5.2-reference-set-types/5.2.1-content-reference-sets/5.2.1.4-association-reference-set/)
