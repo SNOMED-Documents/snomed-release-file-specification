@@ -1,6 +1,10 @@
 # Associations Between Release Files Prior to July 2018
 
-The [stated relationship file](https://confluence.ihtsdotools.org/display/DOCRELFMT/stated+relationship+file), was used to represent the stated view of relationships prior to a transition process between July 2018 and July 2019. In July 2019 this file became obsolete and was completely replaced by two [OWL Expression Reference Set](../../../5.2.1.9-OWL-Expression-Reference-Set_66486617.html)s (the [OWL axiom reference set file](https://confluence.ihtsdotools.org/display/DOCRELFMT/OWL+axiom+reference+set+file) and the [OWL ontology reference set file](https://confluence.ihtsdotools.org/display/DOCRELFMT/OWL+ontology+reference+set+file)).
+{% hint style="warning" %}
+For details of the Stated Definition View since July 2019 please see [Associations Between Release Files](<../../../4 component-release-files-specification/4.1-associations-between-release-files.md>).
+{% endhint %}
+
+The [stated relationship file](../../appendix-b.-specification-reference-information/s/stated-relationship-file.md), was used to represent the stated view of relationships prior to a transition process between July 2018 and July 2019. In July 2019 this file became obsolete and was completely replaced by two [OWL Expression Reference Sets](<../../../5 reference-set-release-files-specification/5.2 reference-set-types/5.2.1 content-reference-sets/5.2.1.9-owl-expression-reference-set.md>) (the OWL axiom reference set file and the OWL ontology reference set file).
 
 [Figure 1](https://confluence.ihtsdotools.org/display/DOCRELFMT/Associations+Between+Release+Files+Prior+to+July+2018#Figure-assoc-2018) shows the associations between files that represent the [stated](https://confluence.ihtsdotools.org/display/DOCGLOSS/stated+view) and [inferred views](https://confluence.ihtsdotools.org/display/DOCGLOSS/inferred+view) prior to the transition. \<span style="color:red;">Error: Referenced caption id not found!\</span>\<div class="macroHelp">\<b>Captions on current page:\</b>\<br/> - Figure: with ID: \<b>assoc-2018\</b> \<br/> shows the associations between the release files that following these changes.
 
