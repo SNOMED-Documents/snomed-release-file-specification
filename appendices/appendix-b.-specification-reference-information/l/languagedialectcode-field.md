@@ -1,6 +1,6 @@
 # languageDialectCode (field)
 
-A field in the Component annotation type reference set or a Member annotation type reference set, containing a [string](https://confluence.ihtsdotools.org/display/DOCRELFMT/string+\(data+type\)) that indicates the language and/or dialect of the string held in the [value](https://confluence.ihtsdotools.org/display/DOCRELFMT/value+\(field\)) field.
+A field in the Component annotation type reference set or a Member annotation type reference set, containing a [string](../s/string-data-type.md) that indicates the language and/or dialect of the string held in the[ value](../v/value-field.md) field.
 
 The format of the languageDialectCode string follows the standard [RFC 5646](https://www.rfc-editor.org/info/rfc5646).
 
