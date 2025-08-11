@@ -106,7 +106,7 @@
     * [B](appendices/appendix-b.-specification-reference-information/b/README.md)
       * [Boolean (data type)](appendices/appendix-b.-specification-reference-information/b/boolean-data-type.md)
     * [C](appendices/appendix-b.-specification-reference-information/appendix-b-specification-reference-information-1/README.md)
-      * [casesignificanceid-field](appendices/appendix-b.-specification-reference-information/appendix-b-specification-reference-information-1/casesignificanceid-field.md)
+      * [casesignificanceid field](appendices/appendix-b.-specification-reference-information/appendix-b-specification-reference-information-1/casesignificanceid-field.md)
       * [characteristicTypeId (field)](appendices/appendix-b.-specification-reference-information/appendix-b-specification-reference-information-1/characteristictypeid-field.md)
       * [concept-file](appendices/appendix-b.-specification-reference-information/appendix-b-specification-reference-information-1/concept-file.md)
       * [conceptId (field)](appendices/appendix-b.-specification-reference-information/appendix-b-specification-reference-information-1/conceptid-field.md)
