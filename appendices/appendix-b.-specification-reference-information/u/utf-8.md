@@ -1,12 +1,10 @@
-# utf-8
+# UTF-8
 
-## UTF-8
-
-A standard method of encoding [Unicode](https://confluence.ihtsdotools.org/display/DOCGLOSS/Unicode) characters in a way optimized for the ASCII character set. _UTF-8_ is described in \[see [Appendix C. Unicode UTF-8 encoding](../../../Appendix-C.-Unicode-UTF-8-encoding_33490103.html) ].
+A standard method of encoding [Unicode](unicode.md) characters in a way optimized for the ASCII character set. _UTF-8_ is described in [Unicode UTF-8 encoding](../../appendix-c-unicode-utf-8-encoding/).
 
 Note: This encoding is used for release file fields of data type "String".
 
 ## Related Links
 
-* [3.1.2 Release File Data Types](../../../3.1.2-Release-File-Data-Types_28739352.html)
-* [Appendix C. Unicode UTF-8 encoding](../../../Appendix-C.-Unicode-UTF-8-encoding_33490103.html)
+* [Release File Data Types](../../../3-release-types-packages-and-files/3.1-common-features-of-all-release-files/3.1.2-release-file-data-types.md)
+* [Unicode UTF-8 encoding](../../appendix-c-unicode-utf-8-encoding/)
