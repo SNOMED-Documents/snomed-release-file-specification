@@ -132,7 +132,7 @@
       * [Keyword (field)](appendices/appendix-b.-specification-reference-information/k/keyword-field.md)
     * [L](appendices/appendix-b.-specification-reference-information/l/README.md)
       * [languageDialectCode (field)](appendices/appendix-b.-specification-reference-information/l/languagedialectcode-field.md)
-      * [linkedtoid (field)](appendices/appendix-b.-specification-reference-information/l/linkedtoid-field.md)
+      * [linkedToId (field)](appendices/appendix-b.-specification-reference-information/l/linkedtoid-field.md)
     * [M](appendices/appendix-b.-specification-reference-information/m/README.md)
       * [mapAdvice (field)](appendices/appendix-b.-specification-reference-information/m/mapadvice-field.md)
       * [mapCategoryId (field)](appendices/appendix-b.-specification-reference-information/m/mapcategoryid-field.md)
