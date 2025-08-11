@@ -123,7 +123,6 @@
       * [effectiveTime (field)](appendices/appendix-b.-specification-reference-information/e/effectivetime-field.md)
       * [Excluded word (field)](appendices/appendix-b.-specification-reference-information/e/excluded-word-field.md)
       * [Excluded words table](appendices/appendix-b.-specification-reference-information/e/excluded-words-table.md)
-      * [expression (field)](appendices/appendix-b.-specification-reference-information/e/expression-field.md)
     * [I](appendices/appendix-b.-specification-reference-information/i/README.md)
       * [id (field)](appendices/appendix-b.-specification-reference-information/i/id-field.md)
       * [identifierschemeid-field](appendices/appendix-b.-specification-reference-information/i/identifierschemeid-field.md)
