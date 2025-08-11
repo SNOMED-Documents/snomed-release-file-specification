@@ -83,7 +83,7 @@
   * [Check-digit](<6 snomed-ct-identifiers/6.4 check-digit/README.md>)
     * [SNOMED CT Identifier Check](<6 snomed-ct-identifiers/6.4 check-digit/6.4.1-snomed-ct-identifier-check.md>)
     * [Check digit computation](<6 snomed-ct-identifiers/6.4 check-digit/6.4.2-check-digit-computation.md>)
-  * [6.5 Partition Identifier](<6 snomed-ct-identifiers/6.5-partition-identifier.md>)
+  * [Partition Identifier](<6 snomed-ct-identifiers/6.5-partition-identifier.md>)
   * [6.6 Namespace-Identifier](<6 snomed-ct-identifiers/6.6-namespace-identifier.md>)
   * [6.7 Item-Identifier Digits](<6 snomed-ct-identifiers/6.7-item-identifier-digits.md>)
   * [6.8 Example SNOMED CT identifiers](<6 snomed-ct-identifiers/6.8-example-snomed-ct-identifiers.md>)
