@@ -72,7 +72,7 @@
       * [Description Format Reference Set](<5 reference-set-release-files-specification/5.2 reference-set-types/5.2.4 metadata-reference-sets/5.2.4.3-description-format-reference-set.md>)
       * [MRCM Domain Reference Set](<5 reference-set-release-files-specification/5.2 reference-set-types/5.2.4 metadata-reference-sets/5.2.4.4-mrcm-domain-reference-set.md>)
       * [MRCM Attribute Domain Reference Set](<5 reference-set-release-files-specification/5.2 reference-set-types/5.2.4 metadata-reference-sets/5.2.4.5-mrcm-attribute-domain-reference-set.md>)
-      * [5.2.4.6-mrcm-attribute-range-reference-set](<5 reference-set-release-files-specification/5.2 reference-set-types/5.2.4 metadata-reference-sets/5.2.4.6-mrcm-attribute-range-reference-set.md>)
+      * [MRCM Attribute Range Reference Set](<5 reference-set-release-files-specification/5.2 reference-set-types/5.2.4 metadata-reference-sets/5.2.4.6-mrcm-attribute-range-reference-set.md>)
       * [5.2.4.7-mrcm-module-scope-reference-set](<5 reference-set-release-files-specification/5.2 reference-set-types/5.2.4 metadata-reference-sets/5.2.4.7-mrcm-module-scope-reference-set.md>)
       * [5.2.4.8-component-annotation-string-value-reference-set](<5 reference-set-release-files-specification/5.2 reference-set-types/5.2.4 metadata-reference-sets/5.2.4.8-component-annotation-string-value-reference-set.md>)
       * [5.2.4.9-member-annotation-string-value-reference-set](<5 reference-set-release-files-specification/5.2 reference-set-types/5.2.4 metadata-reference-sets/5.2.4.9-member-annotation-string-value-reference-set.md>)
