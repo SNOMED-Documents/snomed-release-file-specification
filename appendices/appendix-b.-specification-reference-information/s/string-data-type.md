@@ -1,12 +1,11 @@
-# string-data-type
-
-## String (data type)
+# String (data type)
 
 A datatype representing a sequence of characters.
 
-Note: In [SNOMED CT release file](https://confluence.ihtsdotools.org/display/DOCGLOSS/SNOMED+CT+release+file) specifications strings are represented using _Unicode_ _UTF-8_ encoding.
+Note: In SNOMED CT release file specifications strings are represented using _Unicode_ _UTF-8_ encoding.
 
 ## Related Links
 
-* [3.1.2 Release File Data Types](../../../3.1.2-Release-File-Data-Types_28739352.html)
-* [Appendix C. Unicode UTF-8 encoding](../../../Appendix-C.-Unicode-UTF-8-encoding_33490103.html)
+* [Release File Data Types](../../../3-release-types-packages-and-files/3.1-common-features-of-all-release-files/3.1.2-release-file-data-types.md)
+* [Unicode UTF-8 encoding](../../appendix-c-unicode-utf-8-encoding/)
+

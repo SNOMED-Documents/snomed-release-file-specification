@@ -4,7 +4,7 @@
 The stated relationships file is no longer maintained and distributed. From July 2019 it was replaced by the [OWL Expression Reference Set file](../o/owl-expression-reference-set-file.md).
 {% endhint %}
 
-A previously used distribution file that contained the stated form represented by SNOMED CT relationships .
+A previously used distribution file that contained the stated form represented by SNOMED CT relationships.
 
 Notes:
 

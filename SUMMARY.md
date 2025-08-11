@@ -160,7 +160,7 @@
       * [sourceEffectiveTime (field)](appendices/appendix-b.-specification-reference-information/s/sourceeffectivetime-field.md)
       * [sourceId (field)](appendices/appendix-b.-specification-reference-information/s/sourceid-field.md)
       * [Stated Relationship file](appendices/appendix-b.-specification-reference-information/s/stated-relationship-file.md)
-      * [string-data-type](appendices/appendix-b.-specification-reference-information/s/string-data-type.md)
+      * [String (data type)](appendices/appendix-b.-specification-reference-information/s/string-data-type.md)
       * [substrate (field)](appendices/appendix-b.-specification-reference-information/s/substrate-field.md)
     * [T](appendices/appendix-b.-specification-reference-information/t/README.md)
       * [targetcomponentid-field](appendices/appendix-b.-specification-reference-information/t/targetcomponentid-field.md)
