@@ -113,7 +113,7 @@
       * [correlationid-field](appendices/appendix-b.-specification-reference-information/appendix-b-specification-reference-information-1/correlationid-field.md)
     * [D](appendices/appendix-b.-specification-reference-information/d/README.md)
       * [definitionstatusid (field)](appendices/appendix-b.-specification-reference-information/d/definitionstatusid-field.md)
-      * [description-file](appendices/appendix-b.-specification-reference-information/d/description-file.md)
+      * [Description file](appendices/appendix-b.-specification-reference-information/d/description-file.md)
       * [descriptionformat-field](appendices/appendix-b.-specification-reference-information/d/descriptionformat-field.md)
       * [descriptionlength-field](appendices/appendix-b.-specification-reference-information/d/descriptionlength-field.md)
       * [destinationid-field](appendices/appendix-b.-specification-reference-information/d/destinationid-field.md)

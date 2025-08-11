@@ -1,8 +1,6 @@
-# description-file
+# Description file
 
-## Description file
-
-The file structure used to distribute [SNOMED CT descriptions](https://confluence.ihtsdotools.org/display/DOCGLOSS/SNOMED+CT+description).
+The file structure used to distribute SNOMED CT descriptions.
 
 #### Note
 
@@ -10,4 +8,4 @@ The file structure used to distribute [SNOMED CT descriptions](https://confluenc
 
 ## Related Links
 
-* [4.2.2. Description File Specification](../../../4.2.2.-Description-File-Specification_28739340.html)
+* [Description File Specification](<../../../4 component-release-files-specification/4.2 file-format-specifications/4.2.2 description-file-specification/>)
