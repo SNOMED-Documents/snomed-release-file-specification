@@ -1,6 +1,6 @@
 # value (field)
 
-_A field_ holding either an Integer, Decimal, or Text represented as a [string](https://confluence.ihtsdotools.org/display/DOCRELFMT/string+\(data+type\)). Numbers are prefixed with a # (hash) symbol. Texts are surrounded with " (double quote) with double quotes inside the string escaped using \ (backslash).
+_A field_ holding either an Integer, Decimal, or Text represented as a string. Numbers are prefixed with a # (hash) symbol. Texts are surrounded with " (double quote) with double quotes inside the string escaped using \ (backslash).
 
 **Note:** The field is used in the following Release Format 2 specifications:
 
