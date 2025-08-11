@@ -7,7 +7,7 @@ The following notes were included in the original specification of modifierId an
 {% hint style="info" %}
 **Original release notes on modifierId**
 
-The  [modifierId](../appendix-b.-specification-reference-information/m/modifierid-field/) field will initially be set to [900000000000451002 |Some|](http://snomed.info/id/900000000000451002) to keep compatibility with the RF1 release. Widening the range of this field to include other values (such as |All|) will in future increase the expressive power of SNOMED CT. However, this is likely to come at the cost of an increase in reasoning complexity, leading to potential issues for classification tooling.
+The  [modifierId](../appendix-b.-specification-reference-information/m/modifierid-field.md) field will initially be set to [900000000000451002 |Some|](http://snomed.info/id/900000000000451002) to keep compatibility with the RF1 release. Widening the range of this field to include other values (such as |All|) will in future increase the expressive power of SNOMED CT. However, this is likely to come at the cost of an increase in reasoning complexity, leading to potential issues for classification tooling.
 
 Notes:&#x20;
 

@@ -1,6 +1,4 @@
-# owl-expression-reference-set-file
-
-## OWL Expression Reference Set file
+# Owl Expression Reference Set file
 
 A release file that follows the [OWL Expression Reference Set](../../../5.2.1.9-OWL-Expression-Reference-Set_66486617.html) pattern and contains expressions that represent general statements about the [SNOMED CT](https://confluence.ihtsdotools.org/display/DOCGLOSS/SNOMED+CT) ontology and [axioms](https://confluence.ihtsdotools.org/display/DOCGLOSS/axiom) that define [SNOMED CT concepts](https://confluence.ihtsdotools.org/display/DOCGLOSS/SNOMED+CT+concept).
 
