@@ -77,7 +77,7 @@
       * [Component Annotation String Value Reference Set](<5 reference-set-release-files-specification/5.2 reference-set-types/5.2.4 metadata-reference-sets/5.2.4.8-component-annotation-string-value-reference-set.md>)
       * [Member Annotation String Value Reference Set](<5 reference-set-release-files-specification/5.2 reference-set-types/5.2.4 metadata-reference-sets/5.2.4.9-member-annotation-string-value-reference-set.md>)
 * [SNOMED CT Identifiers](<6 snomed-ct-identifiers/README.md>)
-  * [6.1 SCTID Data Type](<6 snomed-ct-identifiers/6.1-sctid-data-type.md>)
+  * [SCTID Data Type](<6 snomed-ct-identifiers/6.1-sctid-data-type.md>)
   * [6.2 SCTID Representation](<6 snomed-ct-identifiers/6.2-sctid-representation.md>)
   * [6.3 SCTID Constraints](<6 snomed-ct-identifiers/6.3-sctid-constraints.md>)
   * [6.4 check-digit](<6 snomed-ct-identifiers/6.4 check-digit/README.md>)
