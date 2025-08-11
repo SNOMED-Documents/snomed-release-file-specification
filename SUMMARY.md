@@ -126,7 +126,7 @@
     * [I](appendices/appendix-b.-specification-reference-information/i/README.md)
       * [id (field)](appendices/appendix-b.-specification-reference-information/i/id-field.md)
       * [identifierSchemeId (field)](appendices/appendix-b.-specification-reference-information/i/identifierschemeid-field.md)
-      * [integer-data-type](appendices/appendix-b.-specification-reference-information/i/integer-data-type.md)
+      * [Integer (data type)](appendices/appendix-b.-specification-reference-information/i/integer-data-type.md)
       * [Identifier file](appendices/appendix-b.-specification-reference-information/i/identifier-file.md)
     * [K](appendices/appendix-b.-specification-reference-information/k/README.md)
       * [Keyword (field)](appendices/appendix-b.-specification-reference-information/k/keyword-field.md)
