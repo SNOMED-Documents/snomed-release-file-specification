@@ -1,12 +1,10 @@
-# sctid-data-type
+# SCTID (data type)
 
-## SCTID (data type)
-
-A unique integer identifier applied to each [SNOMED CT component](https://confluence.ihtsdotools.org/display/DOCGLOSS/SNOMED+CT+component) ( [Concept](https://confluence.ihtsdotools.org/display/DOCGLOSS/Concept), [Description](https://confluence.ihtsdotools.org/display/DOCGLOSS/Description), [Relationship](https://confluence.ihtsdotools.org/display/DOCGLOSS/Relationship) ).
+A unique integer identifier applied to each SNOMED CT component ( Concept, Description, Relationship).
 
 Note: The value of an SCTID is structured to include an item identifier, a check-digit and a partition identifier. Depending in the value of the partition identifier it may also include a namespace identifier.
 
 ## Related Links
 
-* [3.1.2 Release File Data Types](../../../3.1.2-Release-File-Data-Types_28739352.html)
-* [6 SNOMED CT Identifiers](../../../6-SNOMED-CT-Identifiers_33490090.html)
+* [Release File Data Types](../../../3-release-types-packages-and-files/3.1-common-features-of-all-release-files/3.1.2-release-file-data-types.md)
+* [SNOMED CT Identifiers](<../../../6 snomed-ct-identifiers/>)
