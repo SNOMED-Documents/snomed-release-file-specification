@@ -1,11 +1,11 @@
-# concept-file
+# Concept file
 
 ## Concept file
 
-The file structure used to distribute [SNOMED CT concepts](https://confluence.ihtsdotools.org/display/DOCGLOSS/SNOMED+CT+concept) .
+The file structure used to distribute SNOMED CT concepts.
 
 Note: Component File name in SNOMED CT Release Format 2
 
 ## Related Links
 
-* [4.2.1 Concept File Specification](../../../4.2.1-Concept-File-Specification_28739339.html)
+* [Concept File Specification](<../../../4 component-release-files-specification/4.2 file-format-specifications/4.2.1-concept-file-specification.md>)
