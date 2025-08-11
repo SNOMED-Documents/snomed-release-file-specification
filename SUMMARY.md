@@ -129,6 +129,7 @@
       * [id (field)](appendices/appendix-b.-specification-reference-information/i/id-field.md)
       * [identifierschemeid-field](appendices/appendix-b.-specification-reference-information/i/identifierschemeid-field.md)
       * [integer-data-type](appendices/appendix-b.-specification-reference-information/i/integer-data-type.md)
+      * [Identifier file](appendices/appendix-b.-specification-reference-information/i/identifier-file.md)
     * [K](appendices/appendix-b.-specification-reference-information/k/README.md)
       * [Keyword (field)](appendices/appendix-b.-specification-reference-information/k/keyword-field.md)
     * [L](appendices/appendix-b.-specification-reference-information/l/README.md)
