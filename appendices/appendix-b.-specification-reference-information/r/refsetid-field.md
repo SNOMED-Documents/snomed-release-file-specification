@@ -1,7 +1,5 @@
 # refsetId (field)
 
-## refsetId (field)
-
 A field in a Reference Set which uniquely Identifier which refers to the component to which a row in the Reference Set applies.
 
 Note: This field is present in all types of Reference Sets and its data type is SCTID. It links together all the members of a Reference Set and refers to a concept that names the Reference Set .
