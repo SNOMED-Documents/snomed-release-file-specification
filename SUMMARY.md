@@ -87,7 +87,7 @@
   * [Namespace-Identifier](<6 snomed-ct-identifiers/6.6-namespace-identifier.md>)
   * [Item-Identifier Digits](<6 snomed-ct-identifiers/6.7-item-identifier-digits.md>)
   * [Example SNOMED CT identifiers](<6 snomed-ct-identifiers/6.8-example-snomed-ct-identifiers.md>)
-  * [6.9 The Namespace Hierarchy](<6 snomed-ct-identifiers/6.9-the-namespace-hierarchy.md>)
+  * [The Namespace Hierarchy](<6 snomed-ct-identifiers/6.9-the-namespace-hierarchy.md>)
 * [Appendices](appendices/README.md)
   * [Appendix A: Notes on Release File Changes](appendices/appendix-a-notes-on-release-file-changes/README.md)
     * [Associations Between Release Files Prior to July 2018](appendices/appendix-a-notes-on-release-file-changes/associations-between-release-files-prior-to-july-2018.md)
