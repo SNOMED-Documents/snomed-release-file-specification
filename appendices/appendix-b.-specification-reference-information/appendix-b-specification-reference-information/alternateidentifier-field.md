@@ -6,4 +6,4 @@ A field in the Identifier file containing the representation of an Identifier in
 
 ## Related Links
 
-* Identifier
+* [Identifier](../i/identifier-file.md)
