@@ -1,6 +1,4 @@
-# annotation-field
-
-## annotation (field)
+# annotation (field)
 
 An Annotation Reference Set field containing additional information linked to a SNOMED CT component .
 

@@ -1,7 +1,5 @@
 # Concept file
 
-## Concept file
-
 The file structure used to distribute SNOMED CT concepts.
 
 Note: Component File name in SNOMED CT Release Format 2
