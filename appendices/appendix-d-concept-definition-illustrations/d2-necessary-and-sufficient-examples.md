@@ -1,66 +1,57 @@
-# d2-necessary-and-sufficient-examples
+# D.2 Necessary and Sufficient - Examples
 
-## D.2 Necessary and Sufficient - Examples
-
-The appendix contains an extended version of [2.3.2 Necessary Conditions and Sufficient Definitions](../../2.3.2-Necessary-Conditions-and-Sufficient-Definitions_33490089.html) supported by more detailed examples.
+The appendix contains an extended version of [Necessary Conditions and Sufficient Definitions](<../../2 snomed-ct-logical-model/2.3 concept-definitions/2.3.2-necessary-conditions-and-sufficient-definitions.md>) supported by more detailed examples.
 
 ## Assertions
 
-The [stated view](https://confluence.ihtsdotools.org/display/DOCGLOSS/stated+view) of [concept definition](https://confluence.ihtsdotools.org/display/DOCGLOSS/concept+definition) consists of one or more assertions made by [SNOMED CT authors](https://confluence.ihtsdotools.org/display/DOCGLOSS/SNOMED+CT+author).
+The stated view of concept definition consists of one or more assertions made by SNOMED CT authors.
 
 ## Necessary Conditions
 
-Each time an assertion is made about a concept, an [author](https://confluence.ihtsdotools.org/display/DOCGLOSS/author) must decide if that assertion is a [necessary condition](https://confluence.ihtsdotools.org/display/DOCGLOSS/necessary+condition). If the assertion is always true for that concept and its [subtypes](https://confluence.ihtsdotools.org/display/DOCGLOSS/subtype), it is a [necessary condition](https://confluence.ihtsdotools.org/display/DOCGLOSS/necessary+condition).
+Each time an assertion is made about a concept, an author must decide if that assertion is a necessary condition. If the assertion is always true for that concept and its subtypes, it is a necessary condition.
 
 * This implies that for all instances of that concept or its subtypes, the assertion must be true, even if it has not been explicitly stated.
-
-***
-
-A [necessary condition](https://confluence.ihtsdotools.org/display/DOCGLOSS/necessary+condition) is defined as a characteristic that is always true of a [concept](https://confluence.ihtsdotools.org/display/DOCGLOSS/concept).
+* A necessary condition is defined as a characteristic that is always true of a concept.
 
 #### Example
 
-* If you have a [71620000 | fracture of femur|](http://snomed.info/id/71620000) , the morphological abnormality [72704001 | fracture|](http://snomed.info/id/72704001) must be present. Therefore, [116676008 | morphology|](http://snomed.info/id/116676008) = [72704001 | fracture|](http://snomed.info/id/72704001) is a _necessary condition_ of [71620000 | fracture of femur|](http://snomed.info/id/71620000) .
+* If you have a [71620000 |fracture of femur|](http://snomed.info/id/71620000) , the morphological abnormality [72704001 |fracture|](http://snomed.info/id/72704001) must be present. Therefore, [116676008 |morphology|](http://snomed.info/id/116676008) = [72704001 |fracture|](http://snomed.info/id/72704001) is a _necessary condition_ of [71620000 |fracture of femur|](http://snomed.info/id/71620000) .
 
 ## Sufficient Definitions
 
-For each [concept](https://confluence.ihtsdotools.org/display/DOCGLOSS/concept) an [author](https://confluence.ihtsdotools.org/display/DOCGLOSS/author) must decide if there are one or more sets of assertions that form a [sufficient definition](https://confluence.ihtsdotools.org/display/DOCGLOSS/sufficient+definition) of that concept. A set of assertions is a [sufficient definition](https://confluence.ihtsdotools.org/display/DOCGLOSS/sufficient+definition) if it distinguishes a [concept](https://confluence.ihtsdotools.org/display/DOCGLOSS/concept) and its subtypes from other concepts.
+For each concept an author must decide if there are one or more sets of assertions that form a sufficient definition of that concept. A set of assertions is a sufficient definition if it distinguishes a concept and its subtypes from other concepts.
 
 * This implies that if all assertions in the set are true for a concept, it must be an instance of the defined concept or a subtype of that concept.
-
-***
-
-A [sufficient definition](https://confluence.ihtsdotools.org/display/DOCGLOSS/sufficient+definition) is a set of characteristics which distinguish a [concept](https://confluence.ihtsdotools.org/display/DOCGLOSS/concept) and its [subtypes](https://confluence.ihtsdotools.org/display/DOCGLOSS/subtype) from all other [concepts](https://confluence.ihtsdotools.org/display/DOCGLOSS/concept).
+* A sufficient definition is a set of characteristics which distinguish a concept and its subtypes from all other concepts.
 
 #### Notes
 
-* Any concept that matches the _sufficient definition_ is equivalent to or a [subtype](https://confluence.ihtsdotools.org/display/DOCGLOSS/subtype) of the defined concept.
-* A [concept](https://confluence.ihtsdotools.org/display/DOCGLOSS/concept) may have more than one _sufficient definition_. In that case any concept that matches at least one of these _sufficient definitions_ is equivalent to or a [subtype](https://confluence.ihtsdotools.org/display/DOCGLOSS/subtype) of the defined concept.
+* Any concept that matches the _sufficient definition_ is equivalent to or a subtype of the defined concept.
+* A concept may have more than one _sufficient definition_. In that case any concept that matches at least one of these _sufficient definitions_ is equivalent to or a subtype of the defined concept.
 
 #### Examples
 
-* The following set of assertions is a sufficient definition for [74400008 | appendicitis (disorder)|](http://snomed.info/id/74400008) because any [concept](https://confluence.ihtsdotools.org/display/DOCGLOSS/concept) for which this set of assertions is true must either be the disorder _appendicitis_ or a subtype of _appendicitis_.
+* The following set of assertions is a sufficient definition for [74400008 |appendicitis (disorder)|](http://snomed.info/id/74400008) because any concept for which this set of assertions is true must either be the disorder _appendicitis_ or a subtype of _appendicitis_.
 
-[18526009 |disorder of appendix|](http://snomed.info/id/18526009) +\
-[302168000 |inflammation of large intestine|](http://snomed.info/id/302168000) :\
-[116676008 |associated morphology|](http://snomed.info/id/116676008) = [23583003 |inflammation|](http://snomed.info/id/23583003) ,\
-[363698007 |finding site|](http://snomed.info/id/363698007) = [66754008 |appendix structure|](http://snomed.info/id/66754008)
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <p><a href="http://snomed.info/id/18526009">18526009 |disorder of appendix|</a>  +<br>            <a href="http://snomed.info/id/302168000">302168000 |inflammation of large intestine|</a> :<br>            <a href="http://snomed.info/id/116676008">116676008 |associated morphology|</a>  =  <a href="http://snomed.info/id/23583003">23583003 |inflammation|</a> ,<br>            <a href="http://snomed.info/id/363698007">363698007 |finding site|</a>  =  <a href="http://snomed.info/id/66754008">66754008 |appendix structure|</a>  </p> |
 
-* Both the following sets of assertions are sufficient definitions for the concept [8801005 | Secondary diabetes mellitus (disorder)|](http://snomed.info/id/8801005) :
+* Both the following sets of assertions are sufficient definitions for the concept [8801005 |Secondary diabetes mellitus (disorder)|](http://snomed.info/id/8801005) :
 
 [73211009 |Diabetes mellitus|](http://snomed.info/id/73211009) : [246075003 |Causative agent|](http://snomed.info/id/246075003) = [105590001 |Substance|](http://snomed.info/id/105590001)
 
 [73211009 |Diabetes mellitus|](http://snomed.info/id/73211009) : [42752001 |Due to|](http://snomed.info/id/42752001) = [64572001 |Disease|](http://snomed.info/id/64572001)
 
-* While each of the assertions [246075003 | Causative agent|](http://snomed.info/id/246075003) = [105590001 | Substance|](http://snomed.info/id/105590001) and [42752001 | Due to|](http://snomed.info/id/42752001) = [64572001 | Disease|](http://snomed.info/id/64572001) form part of a [sufficient definition](https://confluence.ihtsdotools.org/display/DOCGLOSS/sufficient+definition), neither of these assertions are [necessary conditions](https://confluence.ihtsdotools.org/display/DOCGLOSS/necessary+condition) because _only one_ of them needs to be true. This illustrates that an assertion that is part of a [sufficient definition](https://confluence.ihtsdotools.org/display/DOCGLOSS/sufficient+definition) need not be a [necessary condition](https://confluence.ihtsdotools.org/display/DOCGLOSS/necessary+condition).
+* While each of the assertions [246075003 |Causative agent|](http://snomed.info/id/246075003) = [105590001 |Substance|](http://snomed.info/id/105590001) and [42752001 |Due to|](http://snomed.info/id/42752001) = [64572001 |Disease|](http://snomed.info/id/64572001) form part of a sufficient definition, neither of these assertions are necessary conditions because _only one_ of them needs to be true. This illustrates that an assertion that is part of a sufficient definition need not be a necessary condition.
 
 ## Concepts with no Sufficient Definitions
 
-A [concept](https://confluence.ihtsdotools.org/display/DOCGLOSS/concept) that has no [sufficient definitions](https://confluence.ihtsdotools.org/display/DOCGLOSS/sufficient+definition) is a [primitive concept](https://confluence.ihtsdotools.org/display/DOCGLOSS/primitive+concept).
+A concept that has no sufficient definitions is a primitive concept.
 
-Because [primitive concepts](https://confluence.ihtsdotools.org/display/DOCGLOSS/primitive+concept) have no [sufficient definitions](https://confluence.ihtsdotools.org/display/DOCGLOSS/sufficient+definition) it is not possible for a [description logic classifier](https://confluence.ihtsdotools.org/display/DOCGLOSS/description+logic+classifier) to determine if other concepts are [subtypes](https://confluence.ihtsdotools.org/display/DOCGLOSS/subtype) of this concept. Similarly, it is not possible to automatically determine whether an expression is a subtype of a primitive concept. Therefore, only concepts or expressions that explicitly state they are subtypes of primitive concepts will be treated as subtypes when applying expression constraints or undertaking analysis.
+Because primitive concepts have no sufficient definitions it is not possible for a description logic classifier to determine if other concepts are subtypes of this concept. Similarly, it is not possible to automatically determine whether an expression is a subtype of a primitive concept. Therefore, only concepts or expressions that explicitly state they are subtypes of primitive concepts will be treated as subtypes when applying expression constraints or undertaking analysis.
 
-However, note that this does not prevent a [primitive concept](https://confluence.ihtsdotools.org/display/DOCGLOSS/primitive+concept) being classified as a subtype of a [sufficiently defined concept](https://confluence.ihtsdotools.org/display/DOCGLOSS/sufficiently+defined+concept).
+However, note that this does not prevent a primitive concept being classified as a subtype of a sufficiently defined concept.
 
 ## Concepts with a Sufficient Definition
 
