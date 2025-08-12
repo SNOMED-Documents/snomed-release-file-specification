@@ -128,49 +128,45 @@ Table D.2-3: Possible stated view of the definition of <mark style="color:blue;"
 
 <table data-header-hidden data-full-width="true"><thead><tr><th width="402.97833251953125"></th><th width="535.0970458984375"></th></tr></thead><tbody><tr><td><strong>Concept</strong></td><td><strong>Stated View of Concept Definition</strong></td></tr><tr><td><a href="http://snomed.info/id/8801005">8801005 | Secondary diabetes mellitus (disorder)|</a></td><td>>>> <a href="http://snomed.info/id/73211009">73211009 |Diabetes mellitus|</a> :<br>         <a href="http://snomed.info/id/246075003">246075003 |Causative agent|</a>  =  <a href="http://snomed.info/id/763158003">763158003 |Medicinal product|</a><br>OR<br>>>> <a href="http://snomed.info/id/73211009">73211009 |Diabetes mellitus|</a> : <br>         <a href="http://snomed.info/id/42752001">42752001 |Due to|</a>  =  <a href="http://snomed.info/id/64572001">64572001 |Disease|</a></td></tr></tbody></table>
 
-<figure><img src="../../images/71172659.png" alt=""><figcaption><p>Sufficiently Defined</p></figcaption></figure>
+<figure><img src="../../images/71172659.png" alt=""><figcaption></figcaption></figure>
 
-1. A [sufficiently defined concept](https://confluence.ihtsdotools.org/display/DOCGLOSS/sufficiently+defined+concept) is a [concept](https://confluence.ihtsdotools.org/display/DOCGLOSS/concept) with one or more [sufficient definitions](https://confluence.ihtsdotools.org/display/DOCGLOSS/sufficient+definition).
+
+
+Sufficiently Defined\
+
+
+
+A sufficiently defined concept is a concept with one or more sufficient definitions.
 
 #### Notes
 
-```
- * A [SNOMED CT concept](https://confluence.ihtsdotools.org/display/DOCGLOSS/SNOMED+CT+concept "Glossary link: SNOMED CT concept") is expressed in a human-readable form by its [fully specified name](https://confluence.ihtsdotools.org/display/DOCGLOSS/fully+specified+name "Glossary link: fully specified name") (FSN).
- * A  _sufficiently defined concept_ has at least one [sufficient definition](https://confluence.ihtsdotools.org/display/DOCGLOSS/sufficient+definition "Glossary link: sufficient definition") that distinguishes it from any [concepts](https://confluence.ihtsdotools.org/display/DOCGLOSS/concept "Glossary link: concepts") or [expressions](https://confluence.ihtsdotools.org/display/DOCGLOSS/expression "Glossary link: expressions") that are neither equivalent to, nor subtypes of, the defined concept.
-```
+* A SNOMED CT concept is expressed in a human-readable form by its fully specified name (FSN).
+* A _sufficiently defined concept_ has at least one sufficient definition that distinguishes it from any concepts or expressions that are neither equivalent to, nor subtypes of, the defined concept.
 
 **Examples**
 
-```
- * The [concept](https://confluence.ihtsdotools.org/display/DOCGLOSS/concept "Glossary link: concept") [ 74400008 | appendicitis (disorder)|](http://snomed.info/id/74400008 "74400008 | appendicitis \(disorder\) |") is  _sufficiently defined_ by the following definition because any [concept](https://confluence.ihtsdotools.org/display/DOCGLOSS/concept "Glossary link: concept") for which these defining relationships are true, is either the disorder  _appendicitis_ or a subtype of  _appendicitis_.
-```
+The  concept [74400008 |appendicitis (disorder)|](http://snomed.info/id/74400008)  is _sufficiently defined_ by the following definition because any concept for which these defining relationships are true, is either the disorder _appendicitis_ or a subtype of _appendicitis_.
 
 [74400008 |appendicitis (disorder)|](http://snomed.info/id/74400008)\
 \=== [18526009 |disorder of appendix|](http://snomed.info/id/18526009) :\
 [116676008 |associated morphology|](http://snomed.info/id/116676008) = [23583003 |inflammation|](http://snomed.info/id/23583003) ,\
 [363698007 |finding site|](http://snomed.info/id/363698007) = [66754008 |appendix structure|](http://snomed.info/id/66754008)
 
-```
- * If a concept has a  _sufficient_ definition, it is possible to infer whether another concept or a [postcoordinated expression](https://confluence.ihtsdotools.org/display/DOCGLOSS/postcoordinated+expression "Glossary link: postcoordinated expression") is a [subtype](https://confluence.ihtsdotools.org/display/DOCGLOSS/subtype "Glossary link: subtype") of, or equivalent to, that [concept](https://confluence.ihtsdotools.org/display/DOCGLOSS/concept "Glossary link: concept").  
-```
+* &#x20;If a concept has a _sufficient_ definition, it is possible to infer whether another concept or a  postcoordinated expression is a  subtype of, or equivalent to, that concept.\
 
-2\. ## Primitive
 
-A [primitive concept](https://confluence.ihtsdotools.org/display/DOCGLOSS/primitive+concept) is a [concept](https://confluence.ihtsdotools.org/display/DOCGLOSS/concept) without a [sufficient definition](https://confluence.ihtsdotools.org/display/DOCGLOSS/sufficient+definition) in the [necessary normal form](https://confluence.ihtsdotools.org/display/DOCGLOSS/necessary+normal+form) distributed in the [relationship](https://confluence.ihtsdotools.org/display/DOCRELFMT/relationship+file).
+## Primitive
+
+A primitive concept is a concept without a sufficient definition in the necessary normal form distributed in the relationship.
 
 #### Notes
 
-```
- * The meaning of a [SNOMED CT concept](https://confluence.ihtsdotools.org/display/DOCGLOSS/SNOMED+CT+concept "Glossary link: SNOMED CT concept") is expressed in a human-readable form by its [fully specified name](https://confluence.ihtsdotools.org/display/DOCGLOSS/fully+specified+name "Glossary link: fully specified name"). Each [concept](https://confluence.ihtsdotools.org/display/DOCGLOSS/concept "Glossary link: concept") also has a formal [concept definition](https://confluence.ihtsdotools.org/display/DOCGLOSS/concept+definition "Glossary link: concept definition") that provides a computer-processable representation of the meaning of the concept.
-
- * A  _primitive concept_ has a [concept definition](https://confluence.ihtsdotools.org/display/DOCGLOSS/concept+definition "Glossary link: concept definition") that is not sufficient to computably distinguish it from other [concepts](https://confluence.ihtsdotools.org/display/DOCGLOSS/concept "Glossary link: concepts").
-```
+* The meaning of a SNOMED CT concept is expressed in a human-readable form by its fully specified name. Each concept also has a formal concept definition that provides a computer-processable representation of the meaning of the concept.
+* A _primitive concept_ has a concept definition that is not sufficient to computably distinguish it from other concepts.
 
 #### Example
 
-```
- * The concept [ 5596004 | atypical appendicitis (disorder)|](http://snomed.info/id/5596004 "5596004 | atypical appendicitis \(disorder\) |") is  _primitive_ because the following definition is not sufficient to distinguish _atypical appendicitis_ from any other type of _appendicitis:_
-```
+* The concept  [5596004 |atypical appendicitis (disorder)|](http://snomed.info/id/5596004) is _primitive_ because the following definition is not sufficient to distinguish _atypical appendicitis_ from any other type of _appendicitis:_
 
 [5596004 |atypical appendicitis (disorder)|](http://snomed.info/id/5596004)\
 <<< [116680003 |is a|](http://snomed.info/id/116680003) = [74400008 |appendicitis|](http://snomed.info/id/74400008)\
@@ -181,15 +177,15 @@ A [primitive concept](https://confluence.ihtsdotools.org/display/DOCGLOSS/primit
 
 All SNOMED CT defining relationships currently released are necessarily (always) true for the concept defined. Relationships that are necessarily true are also know as necessary conditions.
 
-A [necessary condition](https://confluence.ihtsdotools.org/display/DOCGLOSS/necessary+condition) is defined as a characteristic that is always true of a [concept](https://confluence.ihtsdotools.org/display/DOCGLOSS/concept).
+A necessary condition is defined as a characteristic that is always true of a concept.
 
 #### Example
 
-* If you have a [71620000 | fracture of femur|](http://snomed.info/id/71620000) , the morphological abnormality [72704001 | fracture|](http://snomed.info/id/72704001) must be present. Therefore, [116676008 | morphology|](http://snomed.info/id/116676008) = [72704001 | fracture|](http://snomed.info/id/72704001) is a _necessary condition_ of [71620000 | fracture of femur|](http://snomed.info/id/71620000) .
+* If you have a [71620000 |fracture of femur|](http://snomed.info/id/71620000) , the morphological abnormality [72704001 |fracture|](http://snomed.info/id/72704001) must be present. Therefore, [116676008 | morphology|](http://snomed.info/id/116676008) = [72704001 |fracture|](http://snomed.info/id/72704001) is a _necessary condition_ of [71620000 |fracture of femur|](http://snomed.info/id/71620000) .
 
 ## Sufficient Sets of Conditions
 
-In practice there can be several sufficient definitions for a concept. That is to say several different ways in which a concept could be sufficiently defined by different sets of [defining relationships](https://confluence.ihtsdotools.org/display/DOCGLOSS/defining+relationship) For example:
+In practice there can be several sufficient definitions for a concept. That is to say several different ways in which a concept could be sufficiently defined by different sets of defining relationships For example:
 
 Gastric ulcer is defined as follows:
 
@@ -198,11 +194,11 @@ Gastric ulcer is defined as follows:
 { [116676008 |associated morphology|](http://snomed.info/id/116676008) = [56208002 |ulcer|](http://snomed.info/id/56208002) ,\
 [363698007 |finding site|](http://snomed.info/id/363698007) = [69695003 |stomach structure|](http://snomed.info/id/69695003) }
 
-This is a _sufficient_ definition because any [56208002 | ulcer|](http://snomed.info/id/56208002) in a [69695003 | stomach structure|](http://snomed.info/id/69695003) is by definition a [397825006 | gastric ulcer|](http://snomed.info/id/397825006) . Based on this definition:
+This is a _sufficient_ definition because any [56208002 |ulcer|](http://snomed.info/id/56208002) in a [69695003 |stomach structure|](http://snomed.info/id/69695003) is by definition a [397825006 |gastric ulcer|](http://snomed.info/id/397825006) . Based on this definition:
 
-Any [postcoordinated expression](https://confluence.ihtsdotools.org/display/DOCGLOSS/postcoordinated+expression) that specified a disease involving an [56208002 | ulcer|](http://snomed.info/id/56208002) with [363698007 | finding site|](http://snomed.info/id/363698007) [69695003 | stomach structure|](http://snomed.info/id/69695003) would be equivalent to or a [subtype](https://confluence.ihtsdotools.org/display/DOCGLOSS/subtype) of [397825006 | gastric ulcer|](http://snomed.info/id/397825006)
+Any postcoordinated expression that specified a disease involving an [56208002 |ulcer|](http://snomed.info/id/56208002) with [363698007 |finding site|](http://snomed.info/id/363698007) = [69695003 |stomach structure|](http://snomed.info/id/69695003) would be equivalent to or a subtype of [397825006 |gastric ulcer|](http://snomed.info/id/397825006)
 
-However, a [query](https://confluence.ihtsdotools.org/display/WIPRELFMT/query+\(field\)) for all disorders involving [78653002 | gastric mucosa|](http://snomed.info/id/78653002) would incorrectly exclude [397825006 | gastric ulcer|](http://snomed.info/id/397825006) as the site is specified as [78653002 | gastric mucosa|](http://snomed.info/id/78653002) which is more specific than [69695003 | stomach structure|](http://snomed.info/id/69695003) . In reality there is another sufficient set defining relationships
+However, a [query](../appendix-b.-specification-reference-information/q/query-field.md) for all disorders involving [78653002 |gastric mucosa|](http://snomed.info/id/78653002) would incorrectly exclude [397825006 |gastric ulcer|](http://snomed.info/id/397825006) as the site is specified as [78653002 |gastric mucosa|](http://snomed.info/id/78653002) which is more specific than [69695003 |stomach structure|](http://snomed.info/id/69695003) . In reality there is another sufficient set defining relationships
 
 [397825006 |gastric ulcer|](http://snomed.info/id/397825006)\
 \=== [116680003 |is a|](http://snomed.info/id/116680003) = [64572001 |disease|](http://snomed.info/id/64572001)\
@@ -213,11 +209,11 @@ but this is not currently represented in SNOMED CT. The reason for this is that 
 
 When multiple sufficient sets are supported, satisfying a single sufficient set enables an inference to be made that all necessary conditions must also be true. For example
 
-* The definition [363698007 | finding site|](http://snomed.info/id/363698007) = [78653002 | gastric mucosa|](http://snomed.info/id/78653002) is a _necessary_ condition for [397825006 | gastric ulcer|](http://snomed.info/id/397825006) :
-  * This is true because all gastric ulcers necessarily involve the [78653002 | gastric mucosa|](http://snomed.info/id/78653002)
-* The definition [116676008 | morphology|](http://snomed.info/id/116676008) = [56208002 | ulcer|](http://snomed.info/id/56208002) and [363698007 | finding site|](http://snomed.info/id/363698007) = [69695003 | stomach structure|](http://snomed.info/id/69695003) is a _sufficient_ definition for [397825006 | gastric ulcer|](http://snomed.info/id/397825006) :
-  * This is true because any ulcer in a stomach structure is a [397825006 | gastric ulcer|](http://snomed.info/id/397825006)
-* Therefore, an assertion that a person has an [56208002 | ulcer|](http://snomed.info/id/56208002) with [363698007 | finding site|](http://snomed.info/id/363698007) [69695003 | stomach|](http://snomed.info/id/69695003) is _sufficient_ to imply that they have a [397825006 | gastric ulcer|](http://snomed.info/id/397825006) :
-  * Since a gastric ulcer _necessarily_ involves the [78653002 | gastric mucosa|](http://snomed.info/id/78653002) it should be possible to deduce that a person with an "ulcer" with finding site [69695003 | stomach|](http://snomed.info/id/69695003) has a disorder of with a site [78653002 | gastric mucosa|](http://snomed.info/id/78653002)
+* The definition [363698007 |finding site|](http://snomed.info/id/363698007) = [78653002 |gastric mucosa|](http://snomed.info/id/78653002) is a _necessary_ condition for [397825006 |gastric ulcer|](http://snomed.info/id/397825006) :
+  * This is true because all gastric ulcers necessarily involve the [78653002 |gastric mucosa|](http://snomed.info/id/78653002)
+* The definition [116676008 |morphology|](http://snomed.info/id/116676008) = [56208002 |ulcer|](http://snomed.info/id/56208002) and [363698007 |finding site|](http://snomed.info/id/363698007) = [69695003 |stomach structure|](http://snomed.info/id/69695003) is a _sufficient_ definition for [397825006 |gastric ulcer|](http://snomed.info/id/397825006) :
+  * This is true because any ulcer in a stomach structure is a [397825006 |gastric ulcer|](http://snomed.info/id/397825006)
+* Therefore, an assertion that a person has an [56208002 |ulcer|](http://snomed.info/id/56208002) with [363698007 |finding site|](http://snomed.info/id/363698007) [69695003 |stomach|](http://snomed.info/id/69695003) is _sufficient_ to imply that they have a [397825006 |gastric ulcer|](http://snomed.info/id/397825006) :
+  * Since a gastric ulcer _necessarily_ involves the [78653002 | gastric mucosa|](http://snomed.info/id/78653002) it should be possible to deduce that a person with an "ulcer" with finding site [69695003 |stomach|](http://snomed.info/id/69695003) has a disorder of with a site [78653002 |gastric mucosa|](http://snomed.info/id/78653002)
 
 However, as the current profile does not enable recognition of multiple sufficient sets, the general rule is to represent the most general sufficient set as this gives the greatest coverage for subsumption testing. This approach is taken because including more defining relationships, without distinguishing them from the sufficient set means some logically equivalent expressions will not compute as equivalent to or subsumed by the defined concept. This occurs in any cases where the expression does not include one of the attributes in the definition - even if it was not part of the logically sufficient set.
