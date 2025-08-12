@@ -15,7 +15,7 @@ This appendix illustrates some of the features of concept definitions outlined i
 
 ***
 
-* [D.1 Stated and Inferred Definitions - Examples](../../D.1-Stated-and-Inferred-Definitions---Examples_71172657.html)
-* [D.2 Necessary and Sufficient - Examples](../../D.2-Necessary-and-Sufficient---Examples_71172658.html)
+* [D.1 Stated and Inferred Definitions - Examples](d1-stated-and-inferred-definitions-examples.md)
+* [D.2 Necessary and Sufficient - Examples](d2-necessary-and-sufficient-examples.md)
 
 ***
