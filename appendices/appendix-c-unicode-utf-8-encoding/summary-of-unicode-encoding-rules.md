@@ -13,7 +13,7 @@ Characters in the range 'u+0000' to 'u+007f' are encoded as a single byte.
 
 Table 1: UTF-8 Single Byte Encoding
 
-<figure><img src="../../.gitbook/assets/Image 12-08-2025 at 10.40.jpg" alt=""><figcaption></figcaption></figure>
+<div align="left"><figure><img src="../../.gitbook/assets/Image 12-08-2025 at 10.40.jpg" alt=""><figcaption></figcaption></figure></div>
 
 ### Two byte encoding
 
@@ -21,7 +21,7 @@ Characters in the range 'u+0080' to 'u+07ff' are encoded as two bytes.
 
 Table 2: Two byte encoding
 
-<figure><img src="../../.gitbook/assets/Image 12-08-2025 at 10.42.jpg" alt=""><figcaption></figcaption></figure>
+<div align="left"><figure><img src="../../.gitbook/assets/Image 12-08-2025 at 10.42.jpg" alt=""><figcaption></figcaption></figure></div>
 
 ### Three byte encoding
 
@@ -29,7 +29,7 @@ Characters in the range 'u+0800' to 'u+ffff' are encoded as three bytes:
 
 Table 3: UTF-8 Three Byte Encoding
 
-<figure><img src="../../.gitbook/assets/Image 12-08-2025 at 10.43.jpg" alt=""><figcaption></figcaption></figure>
+<div align="left"><figure><img src="../../.gitbook/assets/Image 12-08-2025 at 10.43.jpg" alt=""><figcaption></figcaption></figure></div>
 
 ## Notes on encoding rules
 
@@ -43,4 +43,4 @@ Table 4: UTF-8 Encoding Rules
 
 Table 5: UTF-8 Encoding Example
 
-<figure><img src="../../.gitbook/assets/Image 12-08-2025 at 10.47.jpeg" alt=""><figcaption></figcaption></figure>
+<div align="left"><figure><img src="../../.gitbook/assets/Image 12-08-2025 at 10.47.jpeg" alt=""><figcaption></figcaption></figure></div>
