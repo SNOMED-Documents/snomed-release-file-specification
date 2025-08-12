@@ -184,7 +184,7 @@
       * [WordKey table](appendices/appendix-b.-specification-reference-information/w/wordkey-table.md)
       * [Word equivalents table](appendices/appendix-b.-specification-reference-information/w/word-equivalents-table.md)
   * [Appendix C. Unicode UTF-8 encoding](appendices/appendix-c-unicode-utf-8-encoding/README.md)
-    * [summary-of-unicode-encoding-rules](appendices/appendix-c-unicode-utf-8-encoding/summary-of-unicode-encoding-rules.md)
+    * [Summary of Unicode Encoding Rules](appendices/appendix-c-unicode-utf-8-encoding/summary-of-unicode-encoding-rules.md)
   * [Appendix D: Concept Definition Illustrations](appendices/appendix-d-concept-definition-illustrations/README.md)
     * [d1-stated-and-inferred-definitions-examples](appendices/appendix-d-concept-definition-illustrations/d1-stated-and-inferred-definitions-examples.md)
     * [d2-necessary-and-sufficient-examples](appendices/appendix-d-concept-definition-illustrations/d2-necessary-and-sufficient-examples.md)
