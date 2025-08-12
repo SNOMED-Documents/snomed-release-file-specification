@@ -98,22 +98,25 @@ Table D.2-1: Stated view of the definition of <mark style="color:blue;">|</mark>
 
 ## A Definition that is Necessary but Not Sufficient
 
-The definition shown in [Table D.2-2](https://confluence.ihtsdotools.org/display/DOCRELFMT/D.2+Necessary+and+Sufficient+-+Examples#Table-stated-view-primitive) provides an example of another simple case.
+The definition shown in Table D.2-2 provides an example of another simple case.
 
 * The <<< symbol indicates that the concept is a subtype of the concept definition.
-  * This means that each of the assertions in the definition is **necessarily** true for all instance of the concept [173574009 | Acute benign pericarditis (disorder)|](http://snomed.info/id/173574009) .
-  * However, this definition is **not sufficient** , because it is represent a more general meaning. Put another way, it does not capture one or more distinguishing features or the [173574009 | Acute benign pericarditis (disorder)|](http://snomed.info/id/173574009) . This means that even if all the assertions are true, it may or may not be this concept or one of its subtypes.
+  * This means that each of the assertions in the definition is **necessarily** true for all instance of the concept [173574009 |Acute benign pericarditis (disorder)|](http://snomed.info/id/173574009) .
+  * However, this definition is **not sufficient** , because it is represent a more general meaning. Put another way, it does not capture one or more distinguishing features or the [173574009 |Acute benign pericarditis (disorder)|](http://snomed.info/id/173574009) . This means that even if all the assertions are true, it may or may not be this concept or one of its subtypes.
 
-Table D.2-2: Stated view of the definition of |Acute benign pericarditis|
+Table D.2-2: Stated view of the definition of <mark style="color:blue;">|</mark>Acute benign pericarditis<mark style="color:blue;">|</mark>
 
-| **Concept**    | **Stated View of Concept Definition** |
-| -------------- | ------------------------------------- |
-| \[ 173574009   | Acute benign pericarditis (disorder)  |
-| \[ 263502005   | Clinical course                       |
-| { \[ 116676008 | Associated morphology                 |
-| \[ 363698007   | Finding site                          |
+
+
+<table data-header-hidden data-full-width="true"><thead><tr><th width="385.859375"></th><th></th></tr></thead><tbody><tr><td><strong>Concept</strong></td><td><strong>Stated View of Concept Definition</strong></td></tr><tr><td><a href="http://snomed.info/id/173574009">173574009 | Acute benign pericarditis (disorder)|</a></td><td>&#x3C;&#x3C;&#x3C;  <a href="http://snomed.info/id/64572001">64572001 |Disease|</a>  :<br>         <a href="http://snomed.info/id/263502005">263502005 |Clinical course|</a>  =  <a href="http://snomed.info/id/424124008">424124008 |Sudden onset AND/OR short duration|</a><br>            {  <a href="http://snomed.info/id/116676008">116676008 |Associated morphology|</a>  =  <a href="http://snomed.info/id/4532008">4532008 |Acute inflammation|</a>  , <br>               <a href="http://snomed.info/id/363698007">363698007 |Finding site|</a>  =  <a href="http://snomed.info/id/24949005">24949005 |Pericardial sac structure|</a>  }</td></tr></tbody></table>
 
 <figure><img src="../../images/71172661.png" alt=""><figcaption></figcaption></figure>
+
+##
+
+##
+
+##
 
 ## A Definition that is Sufficient with Assertions that are Not Necessarily True
 
