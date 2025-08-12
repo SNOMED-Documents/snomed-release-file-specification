@@ -186,7 +186,7 @@
   * [Appendix C. Unicode UTF-8 encoding](appendices/appendix-c-unicode-utf-8-encoding/README.md)
     * [Summary of Unicode Encoding Rules](appendices/appendix-c-unicode-utf-8-encoding/summary-of-unicode-encoding-rules.md)
   * [Appendix D: Concept Definition Illustrations](appendices/appendix-d-concept-definition-illustrations/README.md)
-    * [d1-stated-and-inferred-definitions-examples](appendices/appendix-d-concept-definition-illustrations/d1-stated-and-inferred-definitions-examples.md)
+    * [D.1 Stated and Inferred Definitions - Examples](appendices/appendix-d-concept-definition-illustrations/d1-stated-and-inferred-definitions-examples.md)
     * [d2-necessary-and-sufficient-examples](appendices/appendix-d-concept-definition-illustrations/d2-necessary-and-sufficient-examples.md)
   * [Appendix E: Concept Enumerations](appendices/appendix-e-concept-enumerations/README.md)
     * [E.1 Concept Enumerations for moduleId](appendices/appendix-e-concept-enumerations/e1-concept-enumerations-for-moduleid.md)
