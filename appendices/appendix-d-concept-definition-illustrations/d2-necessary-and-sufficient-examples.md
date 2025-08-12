@@ -55,15 +55,15 @@ However, note that this does not prevent a primitive concept being classified as
 
 ## Concepts with a Sufficient Definition
 
-A [concept](https://confluence.ihtsdotools.org/display/DOCGLOSS/concept) that has at least one [sufficient definition](https://confluence.ihtsdotools.org/display/DOCGLOSS/sufficient+definition) is a [sufficiently defined concept](https://confluence.ihtsdotools.org/display/DOCGLOSS/sufficiently+defined+concept).
+A concept that has at least one sufficient definition is a sufficiently defined concept.
 
-A [description logic classifier](https://confluence.ihtsdotools.org/display/DOCGLOSS/description+logic+classifier) can determine whether the stated definitions of other concepts meet at least one of the [sufficient definitions](https://confluence.ihtsdotools.org/display/DOCGLOSS/sufficient+definition) and if so will classify these concepts as its [subtypes](https://confluence.ihtsdotools.org/display/DOCGLOSS/subtype). Similarly, it is possible to determine whether an expression is equivalent to or a subtype of a [sufficiently defined concept](https://confluence.ihtsdotools.org/display/DOCGLOSS/sufficiently+defined+concept). Therefore, where expression constraints or queries refer to [sufficiently defined concepts](https://confluence.ihtsdotools.org/display/DOCGLOSS/sufficiently+defined+concept) the results will include the inferred subtypes of these concepts.
+A description logic classifier can determine whether the stated definitions of other concepts meet at least one of the sufficient definitions and if so will classify these concepts as its subtypes. Similarly, it is possible to determine whether an expression is equivalent to or a subtype of a sufficiently defined concept. Therefore, where expression constraints or queries refer to sufficiently defined concepts the results will include the inferred subtypes of these concepts.
 
 ## Sufficiently Defined Concepts with Necessary Conditions
 
-If a [sufficiently defined concept](https://confluence.ihtsdotools.org/display/DOCGLOSS/sufficiently+defined+concept) has one or more additional [necessary conditions](https://confluence.ihtsdotools.org/display/DOCGLOSS/necessary+condition) then any concept or expression that satisfies one of its [sufficient definitions](https://confluence.ihtsdotools.org/display/DOCGLOSS/sufficient+definition) will also inherit any [necessary conditions](https://confluence.ihtsdotools.org/display/DOCGLOSS/necessary+condition).
+If a sufficiently defined concept has one or more additional necessary conditions then any concept or expression that satisfies one of its sufficient definitions will also inherit any necessary conditions.
 
-For example one sufficient definition of [397825006 | Gastric ulcer (disorder)|](http://snomed.info/id/397825006) is an ulcer in a stomach structure:
+For example one sufficient definition of [397825006 |Gastric ulcer (disorder)|](http://snomed.info/id/397825006) is an ulcer in a stomach structure:
 
 \=== [64572001 |disease|](http://snomed.info/id/64572001) : { [116676008 |associated morphology|](http://snomed.info/id/116676008) = [56208002 |ulcer|](http://snomed.info/id/56208002) ,\
 [363698007 |finding site|](http://snomed.info/id/363698007) = [69695003 |stomach structure|](http://snomed.info/id/69695003) }
@@ -73,31 +73,26 @@ However, another definition could be created with a more specific site gastric m
 \=== [64572001 |disease|](http://snomed.info/id/64572001) : { [116676008 |associated morphology|](http://snomed.info/id/116676008) = [56208002 |ulcer|](http://snomed.info/id/56208002) ,\
 [363698007 |finding site|](http://snomed.info/id/363698007) = [78653002 |gastric mucosa|](http://snomed.info/id/78653002) }
 
-In both cases these definition are equivalent to [397825006 | Gastric ulcer (disorder)|](http://snomed.info/id/397825006) . The more general definition is flexible when it comes to allowing refinement to a specific location of the ulcer within the stomach, which is actually useful information. It also avoids requiring an expression to refer specifically to the mucosa (stomach lining), which is where all gastric ulcers occur.
+In both cases these definition are equivalent to [397825006 |Gastric ulcer (disorder)|](http://snomed.info/id/397825006) . The more general definition is flexible when it comes to allowing refinement to a specific location of the ulcer within the stomach, which is actually useful information. It also avoids requiring an expression to refer specifically to the mucosa (stomach lining), which is where all gastric ulcers occur.
 
 For example, an expression including the specific location could look like this
 
 \=== [64572001 |disease|](http://snomed.info/id/64572001) : { [116676008 |associated morphology|](http://snomed.info/id/116676008) = [56208002 |ulcer|](http://snomed.info/id/56208002) ,\
 [363698007 |finding site|](http://snomed.info/id/363698007) = [127869006 |Anterior wall of fundus of stomach|](http://snomed.info/id/127869006) }
 
-This satisfies the sufficient definition because the finding site is a subtype of stomach structure. This will therefore classify as a type of [397825006 | Gastric ulcer (disorder)|](http://snomed.info/id/397825006) located in the anterior wall of the gastric fundus. The problem is that a query for disorders of the gastric mucosa will not find this expression. << [64572001 |disease|](http://snomed.info/id/64572001) : [363698007 |finding site|](http://snomed.info/id/363698007) = [78653002 |gastric mucosa|](http://snomed.info/id/78653002) However, adding the definition that refers to the gastric mucosa as an additional [necessary condition](https://confluence.ihtsdotools.org/display/DOCGLOSS/necessary+condition) can solve this problem. The expression satisfies the [sufficient definition](https://confluence.ihtsdotools.org/display/DOCGLOSS/sufficient+definition) implying this is a type of [397825006 | Gastric ulcer (disorder)|](http://snomed.info/id/397825006) . The fact that it is a type of gastric ulcer causes it to inherit [363698007 | finding site|](http://snomed.info/id/363698007) = [78653002 | gastric mucosa|](http://snomed.info/id/78653002) so it will now be included in the query for disease in the gastric mucosa.
+This satisfies the sufficient definition because the finding site is a subtype of stomach structure. This will therefore classify as a type of [397825006 |Gastric ulcer (disorder)|](http://snomed.info/id/397825006) located in the anterior wall of the gastric fundus. The problem is that a query for disorders of the gastric mucosa will not find this expression. << [64572001 |disease|](http://snomed.info/id/64572001) : [363698007 |finding site|](http://snomed.info/id/363698007) = [78653002 |gastric mucosa|](http://snomed.info/id/78653002) However, adding the definition that refers to the gastric mucosa as an additional necessary condition can solve this problem. The expression satisfies the sufficient definition implying this is a type of [397825006 |Gastric ulcer (disorder)|](http://snomed.info/id/397825006) . The fact that it is a type of gastric ulcer causes it to inherit [363698007 |finding site|](http://snomed.info/id/363698007) = [78653002 |gastric mucosa|](http://snomed.info/id/78653002) so it will now be included in the query for disease in the gastric mucosa.
 
 ## A Definition that is Both Necessary and Sufficient
 
-The definition shown in [Table D.2-1](https://confluence.ihtsdotools.org/display/DOCRELFMT/D.2+Necessary+and+Sufficient+-+Examples#Table-stated-view-procedures) provides an example of a simple case.
+The definition shown in Table D.2-1 provides an example of a simple case.
 
 * The === symbol indicates that the concept definition is equivalent to the concept.
-  * This means that each of the assertions in the definition is **necessarily** true for all instance of the concept [710785000 | Laparoscopic repair of hernia|](http://snomed.info/id/710785000) .
+  * This means that each of the assertions in the definition is **necessarily** true for all instance of the concept [710785000 |Laparoscopic repair of hernia|](http://snomed.info/id/710785000) .
   * It also means that this definition is **sufficient** , because if all the assertions are true, this implies this is either the concept or a subtype of the concept.
 
-Table D.2-1: Stated view of the definition of |Laparoscopic repair of hernia|
+Table D.2-1: Stated view of the definition of <mark style="color:blue;">|</mark>Laparoscopic repair of hernia<mark style="color:blue;">|</mark>
 
-| **Concept**    | **Stated View of Concept Definition** |
-| -------------- | ------------------------------------- |
-| \[ 710785000   | Laparoscopic repair of hernia         |
-| { \[ 363700003 | Direct morphology                     |
-| \[ 425391005   | Using access device                   |
-| \[ 260686004   | Method                                |
+<table data-header-hidden data-full-width="true"><thead><tr><th width="345.3038330078125"></th><th width="792.8768310546875"></th></tr></thead><tbody><tr><td><strong>Concept</strong></td><td><strong>Stated View of Concept Definition</strong></td></tr><tr><td><a href="http://snomed.info/id/710785000">710785000 | Laparoscopic repair of hernia|</a></td><td>===  <a href="http://snomed.info/id/71388002">71388002 |Procedure|</a>  :<br>            {  <a href="http://snomed.info/id/363700003">363700003 |Direct morphology|</a>  =  <a href="http://snomed.info/id/414402003">414402003 |Hernial opening (morphologic abnormality)|</a> , <br>               <a href="http://snomed.info/id/425391005">425391005 |Using access device|</a>  =  <a href="http://snomed.info/id/86174004">86174004 |Laparoscope, device|</a> , <br>               <a href="http://snomed.info/id/260686004">260686004 |Method|</a>  =  <a href="http://snomed.info/id/257903006">257903006 |Repair - action|</a>  }</td></tr></tbody></table>
 
 <figure><img src="../../images/71172660.png" alt=""><figcaption></figcaption></figure>
 
