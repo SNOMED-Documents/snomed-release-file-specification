@@ -32,7 +32,7 @@ Table D.1-1 shows the stated view of the definitions of [710785000 |Laparoscopic
 
 The classifier has compared the definition of [710785000 |Laparoscopic repair of hernia|](http://snomed.info/id/710785000) with the concept definitions shown in Tale D.1-3 and determined that [710785000 | Laparoscopic repair of hernia|](http://snomed.info/id/710785000) is a subtype of all these concepts.
 
-In fact, the classifier will also have found several other supertypes but the inferred view distributed in the relationship file only includes proximal supertypes (parents). Other supertype ancestors are excluded from the file because they are redundant <sup>1</sup> .
+In fact, the classifier will also have found several other supertypes but the inferred view distributed in the relationship file only includes proximal supertypes (parents). Other supertype ancestors are excluded from the file because they are redundant.<sup>1</sup>&#x20;
 
 Table D.1-1: Stated view of the definition of <mark style="color:blue;">|</mark>Laparoscopic repair of hernia<mark style="color:blue;">|</mark>
 
@@ -42,41 +42,10 @@ Table D.1-2: Inferred view of the definition of the concept <mark style="color:b
 
 <table data-header-hidden data-full-width="true"><thead><tr><th width="236.19354248046875"></th><th width="788.795166015625"></th></tr></thead><tbody><tr><td><strong>Concept</strong></td><td><strong>Inferred View of Concept Definition</strong></td></tr><tr><td><a href="http://snomed.info/id/710785000">710785000 | Laparoscopic repair of hernia|</a></td><td>===  <a href="http://snomed.info/id/363321000">363321000 |Surgical repair procedure by device|</a>  + <br>     <a href="http://snomed.info/id/50465008">50465008 |Hernia repair|</a>  + <br>     <a href="http://snomed.info/id/51316009">51316009 |Laparoscopic procedure|</a>  + <br>     <a href="http://snomed.info/id/264274002">264274002 |Endoscopic operation|</a>  :<br>            {  <a href="http://snomed.info/id/363700003">363700003 |Direct morphology|</a>  =  <a href="http://snomed.info/id/414402003">414402003 |Hernial opening (morphologic abnormality)|</a> , <br>               <a href="http://snomed.info/id/425391005">425391005 |Using access device|</a>  =  <a href="http://snomed.info/id/86174004">86174004 |Laparoscope, device|</a> , <br>               <a href="http://snomed.info/id/260686004">260686004 |Method|</a>  =  <a href="http://snomed.info/id/257903006">257903006 |Repair - action|</a>  }</td></tr></tbody></table>
 
-| **Concept**    | **Inferred View of Concept Definition** |
-| -------------- | --------------------------------------- |
-| \[ 710785000   | Laparoscopic repair of hernia           |
-| \[ 50465008    | Hernia repair                           |
-| \[ 51316009    | Laparoscopic procedure                  |
-| \[ 264274002   | Endoscopic operation                    |
-| { \[ 363700003 | Direct morphology                       |
-| \[ 425391005   | Using access device                     |
-| \[ 260686004   | Method                                  |
+Table D.1-3: Stated views of the four supertype concepts in the inferred <mark style="color:blue;">|</mark>Laparoscopic repair of hernia<mark style="color:blue;">|</mark>
 
-Table D.1-3: Stated views of the four supertype concepts in the inferred |Laparoscopic repair of hernia|
+<table data-header-hidden data-full-width="true"><thead><tr><th width="265.00958251953125"></th><th width="800"></th></tr></thead><tbody><tr><td><strong>Concept</strong></td><td><strong>Stated View of Concept Definition</strong></td></tr><tr><td><a href="http://snomed.info/id/363321000">363321000 | Surgical repair procedure by device|</a></td><td>===  <a href="http://snomed.info/id/4365001">4365001 |Surgical repair|</a>  :<br>            {  <a href="http://snomed.info/id/405815000">405815000 |Procedure device|</a>  =  <a href="http://snomed.info/id/49062001">49062001 |Device|</a> , <br>               <a href="http://snomed.info/id/260686004">260686004 |Method|</a>  =  <a href="http://snomed.info/id/257903006">257903006 |Repair - action|</a>  }</td></tr><tr><td><a href="http://snomed.info/id/50465008">50465008 | Hernia repair|</a></td><td>===  <a href="http://snomed.info/id/4365001">4365001 |Surgical repair|</a>  :<br>            {  <a href="http://snomed.info/id/363700003">363700003 |Direct morphology|</a>  =  <a href="http://snomed.info/id/414402003">414402003 |Hernial opening (morphologic abnormality)|</a> , <br>               <a href="http://snomed.info/id/260686004">260686004 |Method|</a>  =  <a href="http://snomed.info/id/257903006">257903006 |Repair - action|</a>  }</td></tr><tr><td><p><a href="http://snomed.info/id/4365001">4365001 | Surgical repair|</a></p><p>A supertype in the two definitions above<br></p></td><td>===  <a href="http://snomed.info/id/128927009">128927009 |Procedure by method|</a>  :<br>         <a href="http://snomed.info/id/260686004">260686004 |Method|</a>  =  <a href="http://snomed.info/id/257903006">257903006 |Repair - action|</a></td></tr><tr><td><a href="http://snomed.info/id/51316009">51316009 | Laparoscopic procedure|</a></td><td>===  <a href="http://snomed.info/id/363687006">363687006 |Endoscopic procedure|</a>  :<br>         <a href="http://snomed.info/id/425391005">425391005 |Using access device|</a>  =  <a href="http://snomed.info/id/86174004">86174004 |Laparoscope, device|</a></td></tr><tr><td><p><br><a href="http://snomed.info/id/363687006">363687006 | Endoscopic procedure|</a></p><p>A supertype in the definition above</p></td><td>===  <a href="http://snomed.info/id/71388002">71388002 |Procedure|</a>  :<br>            {  <a href="http://snomed.info/id/425391005">425391005 |Using access device|</a>  =  <a href="http://snomed.info/id/37270008">37270008 |Endoscope, device|</a> , <br>               <a href="http://snomed.info/id/260686004">260686004 |Method|</a>  =  <a href="http://snomed.info/id/129284003">129284003 |Surgical action|</a>  }</td></tr><tr><td><a href="http://snomed.info/id/264274002">264274002 | Endoscopic operation|</a></td><td>===  <a href="http://snomed.info/id/71388002">71388002 |Procedure|</a>  :<br>            {  <a href="http://snomed.info/id/425391005">425391005 |Using access device|</a>  =  <a href="http://snomed.info/id/37270008">37270008 |Endoscope, device|</a> , <br>               <a href="http://snomed.info/id/260686004">260686004 |Method|</a>  =  <a href="http://snomed.info/id/129284003">129284003 |Surgical action|</a>  }</td></tr></tbody></table>
 
-| **Concept**    | **Stated View of Concept Definition** |
-| -------------- | ------------------------------------- |
-| \[ 363321000   | Surgical repair procedure by device   |
-| { \[ 405815000 | Procedure device                      |
-| \[ 260686004   | Method                                |
-| \[ 50465008    | Hernia repair                         |
-| { \[ 363700003 | Direct morphology                     |
-| \[ 260686004   | Method                                |
-
-\| [4365001 | Surgical repair|](http://snomed.info/id/4365001) A supertype in the two definitions above| === [128927009 |Procedure by method|](http://snomed.info/id/128927009) :\
-[260686004 |Method|](http://snomed.info/id/260686004) = [257903006 |Repair - action|](http://snomed.info/id/257903006)\
-[51316009 | Laparoscopic procedure|](http://snomed.info/id/51316009) | === [363687006 |Endoscopic procedure|](http://snomed.info/id/363687006) :\
-[425391005 |Using access device|](http://snomed.info/id/425391005) = [86174004 |Laparoscope, device|](http://snomed.info/id/86174004)
-
-\| [363687006 | Endoscopic procedure|](http://snomed.info/id/363687006) A supertype in the definition above| === [71388002 |Procedure|](http://snomed.info/id/71388002) :\
-{ [425391005 |Using access device|](http://snomed.info/id/425391005) = [37270008 |Endoscope, device|](http://snomed.info/id/37270008) ,\
-[260686004 |Method|](http://snomed.info/id/260686004) = [129284003 |Surgical action|](http://snomed.info/id/129284003) }\
-[264274002 | Endoscopic operation|](http://snomed.info/id/264274002) | === [71388002 |Procedure|](http://snomed.info/id/71388002) :\
-{ [425391005 |Using access device|](http://snomed.info/id/425391005) = [37270008 |Endoscope, device|](http://snomed.info/id/37270008) ,\
-[260686004 |Method|](http://snomed.info/id/260686004) = [129284003 |Surgical action|](http://snomed.info/id/129284003) }
-
-***
-
-| Footnotes Ref                                                                                                              | Notes                                                                                                                                                                                                                                                                                    |
-| -------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [1](https://confluence.ihtsdotools.org/display/DOCRELFMT/D.1+Stated+and+Inferred+Definitions+-+Examples#FootnoteMarker1-0) | Supertype ancestor relationships are not included in the inferred view distributed in the [relationship file](https://confluence.ihtsdotools.org/display/DOCRELFMT/relationship+file) because they do not contribute directly to the concept definition and can be reached transitively. |
+{% hint style="info" %}
+1. Supertype ancestor relationships are not included in the inferred view distributed in the relationship file because they do not contribute directly to the concept definition and can be reached transitively.
+{% endhint %}
