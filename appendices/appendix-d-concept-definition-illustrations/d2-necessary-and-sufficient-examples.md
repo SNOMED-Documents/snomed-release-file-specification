@@ -108,34 +108,25 @@ Table D.2-2: Stated view of the definition of <mark style="color:blue;">|</mark>
 
 
 
-<table data-header-hidden data-full-width="true"><thead><tr><th width="385.859375"></th><th></th></tr></thead><tbody><tr><td><strong>Concept</strong></td><td><strong>Stated View of Concept Definition</strong></td></tr><tr><td><a href="http://snomed.info/id/173574009">173574009 | Acute benign pericarditis (disorder)|</a></td><td>&#x3C;&#x3C;&#x3C;  <a href="http://snomed.info/id/64572001">64572001 |Disease|</a>  :<br>         <a href="http://snomed.info/id/263502005">263502005 |Clinical course|</a>  =  <a href="http://snomed.info/id/424124008">424124008 |Sudden onset AND/OR short duration|</a><br>            {  <a href="http://snomed.info/id/116676008">116676008 |Associated morphology|</a>  =  <a href="http://snomed.info/id/4532008">4532008 |Acute inflammation|</a>  , <br>               <a href="http://snomed.info/id/363698007">363698007 |Finding site|</a>  =  <a href="http://snomed.info/id/24949005">24949005 |Pericardial sac structure|</a>  }</td></tr></tbody></table>
+<table data-header-hidden data-full-width="true"><thead><tr><th width="385.859375"></th><th width="700.3724365234375"></th></tr></thead><tbody><tr><td><strong>Concept</strong></td><td><strong>Stated View of Concept Definition</strong></td></tr><tr><td><a href="http://snomed.info/id/173574009">173574009 | Acute benign pericarditis (disorder)|</a></td><td>&#x3C;&#x3C;&#x3C;  <a href="http://snomed.info/id/64572001">64572001 |Disease|</a>  :<br>         <a href="http://snomed.info/id/263502005">263502005 |Clinical course|</a>  =  <a href="http://snomed.info/id/424124008">424124008 |Sudden onset AND/OR short duration|</a><br>            {  <a href="http://snomed.info/id/116676008">116676008 |Associated morphology|</a>  =  <a href="http://snomed.info/id/4532008">4532008 |Acute inflammation|</a>  , <br>               <a href="http://snomed.info/id/363698007">363698007 |Finding site|</a>  =  <a href="http://snomed.info/id/24949005">24949005 |Pericardial sac structure|</a>  }</td></tr></tbody></table>
 
 <figure><img src="../../images/71172661.png" alt=""><figcaption></figcaption></figure>
 
-##
-
-##
-
-##
-
 ## A Definition that is Sufficient with Assertions that are Not Necessarily True
 
-The definition shown in [Table D.2-3](https://confluence.ihtsdotools.org/display/DOCRELFMT/D.2+Necessary+and+Sufficient+-+Examples#Table-stated-view-secondary-dm) provides an example of a more complex case.
+{% hint style="warning" %}
+This example illustrates a type of definition that was not supported prior to the enhancement to SNOMED CT support for advanced description logic. Therefore, the definition shown is for illustration only and will not be found in current releases of SNOMED.
+{% endhint %}
+
+The definition shown in Table D.2-3 provides an example of a more complex case.
 
 * The >>> symbol indicates that the concept definition represents a subtype of the concept.
-  * This means that each instance of the definition is **sufficient to represent a** subtype of the concept [8801005 | Secondary diabetes mellitus (disorder)|](http://snomed.info/id/8801005) .
-  * The definition does not represent a necessary condition, i.e. the definition is not necessarily true for all instances of the concept [8801005 | Secondary diabetes mellitus (disorder)|](http://snomed.info/id/8801005) . Or, said in other words, not all cases of [8801005 | Secondary diabetes mellitus (disorder)|](http://snomed.info/id/8801005) are caused by a medicinal product or a disease.
+  * This means that each instance of the definition is **sufficient to represent a** subtype of the concept [8801005 |Secondary diabetes mellitus (disorder)|](http://snomed.info/id/8801005) .
+  * The definition does not represent a necessary condition, i.e. the definition is not necessarily true for all instances of the concept [8801005 |Secondary diabetes mellitus (disorder)|](http://snomed.info/id/8801005) . Or, said in other words, not all cases of [8801005 |Secondary diabetes mellitus (disorder)|](http://snomed.info/id/8801005) are caused by a medicinal product or a disease.
 
-Table D.2-3: Possible stated view of the definition of |Secondary diabetes mellitus|
+Table D.2-3: Possible stated view of the definition of <mark style="color:blue;">|</mark>Secondary diabetes mellitus<mark style="color:blue;">|</mark>
 
-| **Concept**  | **Stated View of Concept Definition**  |
-| ------------ | -------------------------------------- |
-| \[ 8801005   | Secondary diabetes mellitus (disorder) |
-| \[ 246075003 | Causative agent                        |
-| OR           |                                        |
-
-> > > [73211009 |Diabetes mellitus|](http://snomed.info/id/73211009) :\
-> > > [42752001 |Due to|](http://snomed.info/id/42752001) = [64572001 |Disease|](http://snomed.info/id/64572001)
+<table data-header-hidden data-full-width="true"><thead><tr><th width="402.97833251953125"></th><th width="535.0970458984375"></th></tr></thead><tbody><tr><td><strong>Concept</strong></td><td><strong>Stated View of Concept Definition</strong></td></tr><tr><td><a href="http://snomed.info/id/8801005">8801005 | Secondary diabetes mellitus (disorder)|</a></td><td>>>> <a href="http://snomed.info/id/73211009">73211009 |Diabetes mellitus|</a> :<br>         <a href="http://snomed.info/id/246075003">246075003 |Causative agent|</a>  =  <a href="http://snomed.info/id/763158003">763158003 |Medicinal product|</a><br>OR<br>>>> <a href="http://snomed.info/id/73211009">73211009 |Diabetes mellitus|</a> : <br>         <a href="http://snomed.info/id/42752001">42752001 |Due to|</a>  =  <a href="http://snomed.info/id/64572001">64572001 |Disease|</a></td></tr></tbody></table>
 
 <figure><img src="../../images/71172659.png" alt=""><figcaption><p>Sufficiently Defined</p></figcaption></figure>
 
