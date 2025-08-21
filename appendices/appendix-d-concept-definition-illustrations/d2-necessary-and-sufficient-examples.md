@@ -1,6 +1,6 @@
 # D.2 Necessary and Sufficient - Examples
 
-The appendix contains an extended version of [Necessary Conditions and Sufficient Definitions](<../../2 snomed-ct-logical-model/2.3 concept-definitions/2.3.2-necessary-conditions-and-sufficient-definitions.md>) supported by more detailed examples.
+The appendix contains an extended version of [Necessary Conditions and Sufficient Definitions](../../logical-model/2.3-concept-definitions/2.3.2-necessary-conditions-and-sufficient-definitions.md) supported by more detailed examples.
 
 ## Assertions
 

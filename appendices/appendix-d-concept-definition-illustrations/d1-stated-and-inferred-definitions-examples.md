@@ -1,6 +1,6 @@
 # D.1 Stated and Inferred Definitions - Examples
 
-The appendix contains an extended version of [Stated and Inferred Concept Definitions](<../../2 snomed-ct-logical-model/2.3 concept-definitions/2.3.1-stated-and-inferred-concept-definitions.md>) supported by more detailed examples.
+The appendix contains an extended version of [Stated and Inferred Concept Definitions](../../logical-model/2.3-concept-definitions/2.3.1-stated-and-inferred-concept-definitions.md) supported by more detailed examples.
 
 ## Stated View of Concept Definitions
 

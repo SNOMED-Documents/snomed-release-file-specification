@@ -6,5 +6,5 @@ Note: SNOMED CT release files do not use UTF-16. However, the UTF-8 representati
 
 ## Related Links
 
-* [Release File Data Types](../../../3-release-types-packages-and-files/3.1-common-features-of-all-release-files/3.1.2-release-file-data-types.md)
+* [Release File Data Types](../../../release-types-packages-and-files/3.1-common-features-of-all-release-files/3.1.2-release-file-data-types.md)
 * [Unicode UTF-8 encoding](../../appendix-c-unicode-utf-8-encoding/)

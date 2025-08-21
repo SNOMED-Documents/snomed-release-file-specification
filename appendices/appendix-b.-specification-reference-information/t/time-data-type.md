@@ -16,4 +16,4 @@ July 31st 2012: **20120731** .
 ## Related Links
 
 * [http://en.wikipedia.org/wiki/ISO\_8601](http://en.wikipedia.org/wiki/ISO_8601)
-* [Release File Data Types](../../../3-release-types-packages-and-files/3.1-common-features-of-all-release-files/3.1.2-release-file-data-types.md)
+* [Release File Data Types](../../../release-types-packages-and-files/3.1-common-features-of-all-release-files/3.1.2-release-file-data-types.md)

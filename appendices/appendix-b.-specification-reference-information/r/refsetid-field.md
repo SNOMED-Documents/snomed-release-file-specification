@@ -6,6 +6,6 @@ Note: This field is present in all types of Reference Sets and its data type is 
 
 ## Related Links
 
-* [Basic Reference Set Member File Format](<../../../5 reference-set-release-files-specification/5.1 essential-concept-identifiers/5.1.1-basic-reference-set-member-file-format.md>)
-* [Reference Set Types](<../../../5 reference-set-release-files-specification/5.2 reference-set-types/>)
-* [Simple Reference Set](<../../../5 reference-set-release-files-specification/5.2 reference-set-types/5.2.1 content-reference-sets/5.2.1.1-simple-reference-set.md>)
+* [Basic Reference Set Member File Format](../../../reference-set-release-file-specification/5.1-essential-concept-identifiers/5.1.1-basic-reference-set-member-file-format.md)
+* [Reference Set Types](../../../reference-set-release-file-specification/5.2-reference-set-types/)
+* [Simple Reference Set](../../../reference-set-release-file-specification/5.2-reference-set-types/5.2.1-content-reference-sets/5.2.1.1-simple-reference-set.md)
