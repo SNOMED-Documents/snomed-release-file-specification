@@ -8,4 +8,4 @@ The file structure used to distribute SNOMED CT descriptions.
 
 ## Related Links
 
-* [Description File Specification](../../../component-release-file-specification/4.2-file-format-specifications/4.2.2-description-file-specification.md)
+* [Description File Specification](<../../../4 component-release-files-specification/4.2 file-format-specifications/4.2.2 description-file-specification/>)

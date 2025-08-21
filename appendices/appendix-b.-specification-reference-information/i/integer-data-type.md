@@ -6,4 +6,4 @@ Note: In SNOMED CT release file specifications integers are represented as a str
 
 ## Related Links
 
-* [Release File Data Types](../../../release-types-packages-and-files/3.1-common-features-of-all-release-files/3.1.2-release-file-data-types.md)
+* [Release File Data Types](../../../3-release-types-packages-and-files/3.1-common-features-of-all-release-files/3.1.2-release-file-data-types.md)

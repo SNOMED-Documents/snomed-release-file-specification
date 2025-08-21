@@ -6,5 +6,5 @@ The transitive closure file is not currently distributed but can be generated fr
 
 ## Related Links
 
-* [Transitive Closure Files](../../../component-release-file-specification/4.2-file-format-specifications/4.2.5-transitive-closure-files.md) for further details.
+* [Transitive Closure Files](<../../../4 component-release-files-specification/4.2 file-format-specifications/4.2.5-transitive-closure-files.md>) for further details.
 

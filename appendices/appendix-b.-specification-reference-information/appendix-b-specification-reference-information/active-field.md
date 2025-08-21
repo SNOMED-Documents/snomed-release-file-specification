@@ -6,4 +6,4 @@ Note: Field name in SNOMED CT Release Format 2.
 
 ## Related Links
 
-* [Release Types](../../../release-types-packages-and-files/3.2-release-types.md)
+* [Release Types](../../../3-release-types-packages-and-files/3.2-release-types.md)

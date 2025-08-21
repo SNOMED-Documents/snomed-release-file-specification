@@ -11,7 +11,7 @@ A concept definition is a set of one or more axioms that partially or sufficient
   * Axioms that assert that a concept is a subtype of one or more other concepts. In the inferred view these are represented as subtype relationships.
   * Axioms that assert characteristics of a concept that distinguish it from its supertypes. In the inferred view these are represented as attribute relationships.
 
-This appendix illustrates some of the features of concept definitions outlined in section [Concept Definitions](../../logical-model/2.3-concept-definitions/).
+This appendix illustrates some of the features of concept definitions outlined in section [Concept Definitions](<../../2 snomed-ct-logical-model/2.3 concept-definitions/>).
 
 ***
 

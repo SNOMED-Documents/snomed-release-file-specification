@@ -6,4 +6,4 @@ Note: Field name in SNOMED CT Release Format 2.
 
 ## Related Links
 
-* [Association Reference Set](../../../reference-set-release-file-specification/5.2-reference-set-types/5.2.1-content-reference-sets/5.2.1.4-association-reference-set/)
+* [Association Reference Set](../../../5-reference-set-release-files-specification/5.2-reference-set-types/5.2.1-content-reference-sets/5.2.1.4-association-reference-set/)
