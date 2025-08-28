@@ -21,20 +21,12 @@ The intended audiences for this guide are those involved in the creating or cons
 
 Notes
 
-{% hint style="warning" %}
+{% hint style="danger" %}
 Licensing Note
 
 This guide refers to files that are included in the International Release of SNOMED CT provided to licensees by SNOMED International. It also refers to additional files that are included in SNOMED CT extensions provided by Members and Affiliates..
 
 Details of the licensing conditions for SNOMED CT are available from the SNOMED International web site (www.snomed.org)
-{% endhint %}
-
-{% hint style="warning" %}
-Update Note
-
-Starting on 31 July 2018, two new reference sets are being introduced to provide a more expressive representation of concept definitions. Initially these files will only contain supplementary information that cannot be represented in the current  stated relationship file. From 2019 onward, these new references sets will include the full representation of the  stated view of all concept definitions and on completion of the transitional process the stated relationship file will be deprecated.
-
-Further details of this change are provided in the relevant sections of this specification. As this version to the guide is being published at the start of the transitional period, it includes specifications of current files and newly introduced files.
 {% endhint %}
 
 {% hint style="info" %}
