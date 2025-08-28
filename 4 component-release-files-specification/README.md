@@ -8,10 +8,10 @@ The component release files are defined in the following sections:
 * [File Format Specifications](<4.2 file-format-specifications/>)
 * [Metadata Hierarchy](4.3-metadata-hierarchy.md)
 
-{% hint style="info" %}
-This specification was developed by harmonizing proposals reviewed by IHTSDO Enhanced Release Format Project Group, including:
+{% hint style="success" %}
+<sub>This specification was developed by harmonizing proposals reviewed by IHTSDO Enhanced Release Format Project Group, including:</sub>
 
-* Enhanced Release Format Specification (SNOMED International Proposed Specification , 21 June 2007);
-* Reference Set Specification (SNOMED International Proposed Specification , 31 July 2007);
-* Alternate Release Format (proposed by NEHTA and their Australian Affiliates).
+* <sub>Enhanced Release Format Specification (SNOMED International Proposed Specification , 21 June 2007);</sub>
+* <sub>Reference Set Specification (SNOMED International Proposed Specification , 31 July 2007);</sub>
+* <sub>Alternate Release Format (proposed by NEHTA and their Australian Affiliates).</sub>
 {% endhint %}

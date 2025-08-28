@@ -10,6 +10,6 @@ The following subsections provide details of the format of the SNOMED CT compone
 * [Concrete Value File Specification](4.2.6-concrete-value-file-specification.md)
 
 {% hint style="info" %}
-An SQL schema, which represents the content of each of the files specified in the section as a relational table, is provided in the [SNOMED CT - SQL Practical Guide](https://app.gitbook.com/o/h8Z6qGxuQrzM9vbx5bPT/s/LnTo62BQeQSW6tBNKv0T/)
+A SQL schema, which represents the content of each of the files specified in the section as a relational table, is provided in the [SNOMED CT - SQL Practical Guide](https://app.gitbook.com/o/h8Z6qGxuQrzM9vbx5bPT/s/LnTo62BQeQSW6tBNKv0T/)
 {% endhint %}
 
