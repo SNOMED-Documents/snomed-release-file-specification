@@ -18,8 +18,6 @@ A concept definition is a set of one or more axioms that partially or sufficient
 This section outlines some of the features of concept definitions and the impact of different ways of representing concept definitions on the precision and completeness of those definitions. This section has been kept as brief as possible and is only intended to raise awareness of the changes. For those interested in understanding more about each of the topics mentioned, a more detailed appendix is provided which illustrates each of the points made in this section.
 
 {% hint style="info" %}
-Note:
-
 Prior to the 31 July 2018 release, documentation about concept definitions focused on the central role of defining relationships. Updates to enable the use of more advanced description logic features mean that some aspects of concept definitions cannot be fully represented by defining relationships. Therefore, this section introduces and adopts a new focus on concept definitions and the assertions (or axioms) that form the building blocks of these definitions.
 
 * The change led to the stated relationship file being deprecated. From the 31 July 2018 release onwards, the OWL axiom reference set file is the standard distribution file for the stated view of concept definitions.
