@@ -21,7 +21,7 @@ The intended audiences for this guide are those involved in the creating or cons
 
 Notes
 
-{% hint style="danger" %}
+{% hint style="warning" %}
 Licensing Note
 
 This guide refers to files that are included in the International Release of SNOMED CT provided to licensees by SNOMED International. It also refers to additional files that are included in SNOMED CT extensions provided by Members and Affiliates..
