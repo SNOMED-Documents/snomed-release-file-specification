@@ -1,6 +1,6 @@
 # SNOMED CT Release File Specification
 
-The SNOMED CT Release File Specification formally defines the format in which SNOMED CT is provided to licensees (Affiliates). For information about SNOMED CT licensing and availability of release files please refer to the Member Licensing and Distribution Service (MLDS) -  [http://snomed.org/licensing](http://snomed.org/licensing).
+<img src=".gitbook/assets/SNOMED International Logo (1).png" alt="" data-size="line">  The SNOMED CT Release File Specification formally defines the format in which SNOMED CT is provided to licensees (Affiliates). For information about SNOMED CT licensing and availability of release files please refer to the Member Licensing and Distribution Service (MLDS) -  [http://snomed.org/licensing](http://snomed.org/licensing). &#x20;
 
 ***
 
