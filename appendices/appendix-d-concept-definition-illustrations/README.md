@@ -2,7 +2,7 @@
 
 A concept definition is a set of one or more axioms that partially or sufficiently specify the meaning of a SNOMED CT concept.
 
-### Notes
+#### Notes
 
 * _Concept definitions_ are represented in two ways in SNOMED CT release files:\
   \* As a stated view represented by axioms that conform to the OWL Functional Syntax distributed in the [OWL Expression Reference Set file](../appendix-b.-specification-reference-information/o/owl-expression-reference-set-file.md).\
@@ -19,3 +19,7 @@ This appendix illustrates some of the features of concept definitions outlined i
 * [D.2 Necessary and Sufficient - Examples](d2-necessary-and-sufficient-examples.md)
 
 ***
+
+{% hint style="danger" %}
+The information in this section is particularly relevant to those wishing to understand the changes made to enhance the representation of stated concept definitions between July 2018 and 2019.  The stated relationships file is no longer maintained and distributed. From July 2019 it was replaced by the [OWL Expression Reference Set file](https://snomed-international.gitbook.io/uat-snomed-international-docs/kdfQQ4zexrP8YsnhBh12/specifications/snomed-ct-release-file-specification/appendices/appendix-b.-specification-reference-information/o/owl-expression-reference-set-file).
+{% endhint %}

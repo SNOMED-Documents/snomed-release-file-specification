@@ -13,7 +13,7 @@ The SNOMED International recognizes that, while implementers will which to benef
 
 The "RF2 to RF1 Conversion Tool" and the "RF1 Compatibility Package" are available for Members and Affiliates to download in the same way as the SNOMED CT International Release.
 
-{% hint style="warning" %}
+{% hint style="danger" %}
 **Caution!**
 
 These resources and tools are intended for use during a transitional period and should not be considered as a long term alternative to migration to support direct use of RF2 data within applications. As SNOMED CT continues to evolve more of the specific feature of RF2 will be used to add value to the terminology. Some of the added value delivered by RF2 is soon likely to be regarded as essential for effective solutions to user requirements.
