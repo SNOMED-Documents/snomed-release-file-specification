@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Check-digit
 
 The final digit of the [SCTID](../../appendices/appendix-b.-specification-reference-information/s/sctid-data-type.md) is a check-digit.
