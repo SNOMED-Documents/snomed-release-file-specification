@@ -2,6 +2,8 @@
 
 This concept enumeration represents a value that can be applied to the _description_.typeId field. This is used to indicate whether the description represents a fully specified name, a synonym a definition or some other symbolic or textual representation of the associated concept. Table E.3-1 shows the current set of values for this concept enumeration.
 
-Table E.3-1: Description type (core metadata concept) (900000000000446008)
+**Table E.3-1: Description type (core metadata concept) (900000000000446008)**
 
 <table data-header-hidden data-full-width="true"><thead><tr><th width="377.0096435546875"></th><th></th></tr></thead><tbody><tr><td><strong>Concept</strong></td><td><strong>Comment</strong></td></tr><tr><td><a href="http://snomed.info/id/900000000000003001">900000000000003001 | Fully specified name|</a></td><td>The <em>description</em>.term represents the <em>fully specified name</em> of the associated <em>concept</em> in the language indicated by the <em>description</em>.languageCode.</td></tr><tr><td><a href="http://snomed.info/id/900000000000013009">900000000000013009 | Synonym|</a></td><td><p>The <em>description</em>.term represents a term that is used to represent the associated <em>concept</em> in the language indicated by the <em>description</em>.languageCode.</p><p>Note: The <em>preferred term</em> used in a given language or dialect is a <em>synonym</em>. Preference and acceptability of a particular synonyms is indicated by a <a href="../../reference-set-release-file-specification/5.2-reference-set-types/5.2.2.1-language-reference-set.md">language reference set</a>.</p></td></tr><tr><td><a href="http://snomed.info/id/900000000000550004">900000000000550004 | Definition|</a></td><td>The <em>description</em>.term represents a textual definition of the associated <em>concept</em> in the language indicated by <em>description</em>.languageCode.</td></tr></tbody></table>
+
+***
