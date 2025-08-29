@@ -37,6 +37,8 @@ For each concept an author must decide if there are one or more sets of assertio
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | <p><a href="http://snomed.info/id/18526009">18526009 |disorder of appendix|</a>  +<br>            <a href="http://snomed.info/id/302168000">302168000 |inflammation of large intestine|</a> :<br>            <a href="http://snomed.info/id/116676008">116676008 |associated morphology|</a>  =  <a href="http://snomed.info/id/23583003">23583003 |inflammation|</a> ,<br>            <a href="http://snomed.info/id/363698007">363698007 |finding site|</a>  =  <a href="http://snomed.info/id/66754008">66754008 |appendix structure|</a>  </p> |
 
+***
+
 * Both the following sets of assertions are sufficient definitions for the concept [8801005 |Secondary diabetes mellitus (disorder)|](http://snomed.info/id/8801005) :
 
 [73211009 |Diabetes mellitus|](http://snomed.info/id/73211009) : [246075003 |Causative agent|](http://snomed.info/id/246075003) = [105590001 |Substance|](http://snomed.info/id/105590001)
@@ -90,11 +92,15 @@ The definition shown in Table D.2-1 provides an example of a simple case.
   * This means that each of the assertions in the definition is **necessarily** true for all instance of the concept [710785000 |Laparoscopic repair of hernia|](http://snomed.info/id/710785000) .
   * It also means that this definition is **sufficient** , because if all the assertions are true, this implies this is either the concept or a subtype of the concept.
 
-Table D.2-1: Stated view of the definition of <mark style="color:blue;">|</mark>Laparoscopic repair of hernia<mark style="color:blue;">|</mark>
+**Table D.2-1: Stated view of the definition of&#x20;**<mark style="color:blue;">**|**</mark>**Laparoscopic repair of hernia**<mark style="color:blue;">**|**</mark>
 
 <table data-header-hidden data-full-width="true"><thead><tr><th width="345.3038330078125"></th><th width="792.8768310546875"></th></tr></thead><tbody><tr><td><strong>Concept</strong></td><td><strong>Stated View of Concept Definition</strong></td></tr><tr><td><a href="http://snomed.info/id/710785000">710785000 | Laparoscopic repair of hernia|</a></td><td>===  <a href="http://snomed.info/id/71388002">71388002 |Procedure|</a>  :<br>            {  <a href="http://snomed.info/id/363700003">363700003 |Direct morphology|</a>  =  <a href="http://snomed.info/id/414402003">414402003 |Hernial opening (morphologic abnormality)|</a> , <br>               <a href="http://snomed.info/id/425391005">425391005 |Using access device|</a>  =  <a href="http://snomed.info/id/86174004">86174004 |Laparoscope, device|</a> , <br>               <a href="http://snomed.info/id/260686004">260686004 |Method|</a>  =  <a href="http://snomed.info/id/257903006">257903006 |Repair - action|</a>  }</td></tr></tbody></table>
 
+***
+
 <figure><img src="../../images/71172660.png" alt=""><figcaption></figcaption></figure>
+
+***
 
 ## A Definition that is Necessary but Not Sufficient
 
@@ -104,13 +110,17 @@ The definition shown in Table D.2-2 provides an example of another simple case.
   * This means that each of the assertions in the definition is **necessarily** true for all instance of the concept [173574009 |Acute benign pericarditis (disorder)|](http://snomed.info/id/173574009) .
   * However, this definition is **not sufficient** , because it is represent a more general meaning. Put another way, it does not capture one or more distinguishing features or the [173574009 |Acute benign pericarditis (disorder)|](http://snomed.info/id/173574009) . This means that even if all the assertions are true, it may or may not be this concept or one of its subtypes.
 
-Table D.2-2: Stated view of the definition of <mark style="color:blue;">|</mark>Acute benign pericarditis<mark style="color:blue;">|</mark>
+**Table D.2-2: Stated view of the definition of&#x20;**<mark style="color:blue;">**|**</mark>**Acute benign pericarditis**<mark style="color:blue;">**|**</mark>
 
 
 
 <table data-header-hidden data-full-width="true"><thead><tr><th width="385.859375"></th><th width="700.3724365234375"></th></tr></thead><tbody><tr><td><strong>Concept</strong></td><td><strong>Stated View of Concept Definition</strong></td></tr><tr><td><a href="http://snomed.info/id/173574009">173574009 | Acute benign pericarditis (disorder)|</a></td><td>&#x3C;&#x3C;&#x3C;  <a href="http://snomed.info/id/64572001">64572001 |Disease|</a>  :<br>         <a href="http://snomed.info/id/263502005">263502005 |Clinical course|</a>  =  <a href="http://snomed.info/id/424124008">424124008 |Sudden onset AND/OR short duration|</a><br>            {  <a href="http://snomed.info/id/116676008">116676008 |Associated morphology|</a>  =  <a href="http://snomed.info/id/4532008">4532008 |Acute inflammation|</a>  , <br>               <a href="http://snomed.info/id/363698007">363698007 |Finding site|</a>  =  <a href="http://snomed.info/id/24949005">24949005 |Pericardial sac structure|</a>  }</td></tr></tbody></table>
 
+***
+
 <figure><img src="../../images/71172661.png" alt=""><figcaption></figcaption></figure>
+
+***
 
 ## A Definition that is Sufficient with Assertions that are Not Necessarily True
 
@@ -124,11 +134,15 @@ The definition shown in Table D.2-3 provides an example of a more complex case.
   * This means that each instance of the definition is **sufficient to represent a** subtype of the concept [8801005 |Secondary diabetes mellitus (disorder)|](http://snomed.info/id/8801005) .
   * The definition does not represent a necessary condition, i.e. the definition is not necessarily true for all instances of the concept [8801005 |Secondary diabetes mellitus (disorder)|](http://snomed.info/id/8801005) . Or, said in other words, not all cases of [8801005 |Secondary diabetes mellitus (disorder)|](http://snomed.info/id/8801005) are caused by a medicinal product or a disease.
 
-Table D.2-3: Possible stated view of the definition of <mark style="color:blue;">|</mark>Secondary diabetes mellitus<mark style="color:blue;">|</mark>
+**Table D.2-3: Possible stated view of the definition of&#x20;**<mark style="color:blue;">**|**</mark>**Secondary diabetes mellitus**<mark style="color:blue;">**|**</mark>
 
 <table data-header-hidden data-full-width="true"><thead><tr><th width="402.97833251953125"></th><th width="535.0970458984375"></th></tr></thead><tbody><tr><td><strong>Concept</strong></td><td><strong>Stated View of Concept Definition</strong></td></tr><tr><td><a href="http://snomed.info/id/8801005">8801005 | Secondary diabetes mellitus (disorder)|</a></td><td>>>> <a href="http://snomed.info/id/73211009">73211009 |Diabetes mellitus|</a> :<br>         <a href="http://snomed.info/id/246075003">246075003 |Causative agent|</a>  =  <a href="http://snomed.info/id/763158003">763158003 |Medicinal product|</a><br>OR<br>>>> <a href="http://snomed.info/id/73211009">73211009 |Diabetes mellitus|</a> : <br>         <a href="http://snomed.info/id/42752001">42752001 |Due to|</a>  =  <a href="http://snomed.info/id/64572001">64572001 |Disease|</a></td></tr></tbody></table>
 
+***
+
 <figure><img src="../../images/71172659.png" alt=""><figcaption></figcaption></figure>
+
+***
 
 
 
