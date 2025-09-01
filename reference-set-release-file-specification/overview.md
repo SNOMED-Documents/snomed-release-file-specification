@@ -6,5 +6,5 @@ Reference set data structures provide a generic mechanism for configuration and 
 
 The reference set file formats are formally defined in following subsections.
 
-* [5.1 General Features of Reference Sets](<../5 reference-set-release-files-specification/5.1 essential-concept-identifiers/>)
-* [5.2 Reference Set Types](<../5 reference-set-release-files-specification/5.2 reference-set-types/>)
+* [General Features of Reference Sets](<../5 reference-set-release-files-specification/5.1 essential-concept-identifiers/>)
+* [Reference Set Types](<../5 reference-set-release-files-specification/5.2 reference-set-types/>)
