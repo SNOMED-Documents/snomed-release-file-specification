@@ -2,7 +2,7 @@
 
 The release file naming convention specified in this section applies to all SNOMED International release files starting with the January 2010 International release. The release package naming convention specified was added subsequently to provide additional clarity through a structured name applied to the folder (and zip archive name) containing a set of release files. This package naming convention first applied to releases by SNOMED International during 2017.
 
-These naming specifications provides the following benefits:
+These naming specifications provide the following benefits:
 
 * A consistent naming convention across the International edition and each National edition.
 * Predictable file naming, providing a stable structure for naming over time between releases.

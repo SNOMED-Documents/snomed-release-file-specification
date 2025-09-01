@@ -13,7 +13,7 @@ The following two sections provide detailed specifications of the release files.
   * Concepts
   * Descriptions
   * Relationships
-* Section [Reference Set Release Files Specification](broken-reference) contains details of release files that customize and enhance SNOMED CT by representing:
+* Section [Reference Set Release Files Specification](../reference-set-release-file-specification/overview.md) contains details of release files that customize and enhance SNOMED CT by representing:
   * Subsets of concepts and descriptions
   * Maps to other code systems
   * Language and dialect preferences for different terms
@@ -24,5 +24,5 @@ The following two sections provide detailed specifications of the release files.
 {% hint style="info" %}
 **Historical Note on Current and Previous Release File Formats**
 
-The standard format in which  SNOMED CT has been distributed since 2012 is known as Release Format 2(RF2). It was developed in response to extensive feedback on the original release file format, now known as Release Format 1 (RF1), in which SNOMED CT was distributed between its first release in 2002 and 2012. The RF1 format is now deprecated and no longer supported.
+The standard format in which  SNOMED CT has been distributed since 2012 is known as Release Format 2 (RF2). It was developed in response to extensive feedback on the original release file format, now known as Release Format 1 (RF1), in which SNOMED CT was distributed between its first release in 2002 and 2012. The RF1 format is now deprecated and no longer supported.
 {% endhint %}
