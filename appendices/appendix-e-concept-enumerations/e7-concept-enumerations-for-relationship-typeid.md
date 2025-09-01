@@ -1,6 +1,6 @@
 # E.7 Concept Enumerations for Relationship typeId
 
-This concept enumeration represents a value that can be applied to the _relationship_.typeId field. This is used to identify the concept model attribute that determines the type of relationship between two concepts.  Exhibit E.7-1 shows the full range of values of values that can be applied to the  _relationship_.[typeId](https://confluence.ihtsdotools.org/display/DOCRELFMT/typeId+\(field\)) field.
+This concept enumeration represents a value that can be applied to the _relationship_.typeId field. This is used to identify the concept model attribute that determines the type of relationship between two concepts.  Exhibit E.7-1 shows the full range of values of values that can be applied to the  _relationship_._typeId_ field.
 
 {% hint style="danger" %}
 The concept model attribute values that can be applied depend on the concept model domain of the concept in the _relationship_.sourceId of the defining relationship. For further details related to the concept model see the [Machine Readable Concept Model ](https://app.gitbook.com/o/h8Z6qGxuQrzM9vbx5bPT/s/wLJPOzgAQsSAYr6nhvCl/)specification and guide.
