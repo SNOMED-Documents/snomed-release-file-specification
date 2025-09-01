@@ -12,4 +12,4 @@ The stated relationship file is now obsolete as it has been completely replaced 
 
 During the transitional period the stated relationship file continued to be distributed, but the OWL axiom reference set introduced advanced aspects to concept definitions which could not be represented in the stated relationship file.
 
-<figure><img src="../../../images/104498357.png" alt=""><figcaption><p>Figure 1: Associations between SNOMED CT Release Files Prior to July 2019 (now obsolete)</p></figcaption></figure>
+<figure><img src="../../../images/104498357.png" alt=""><figcaption><p>Associations between SNOMED CT Release Files Prior to July 2019 (now obsolete)</p></figcaption></figure>

@@ -1,6 +1,6 @@
 # RF1 Compatibility and Conversion Tools
 
-In January 2012 the SNOMED International switched from the original Release Format(used for SNOMED CT distribution since 2002), to the more flexible and consistent Release Format 2 (RF2). This means that from that date onward the primary source data for the SNOMED CT International Release is maintained and distributed in the RF2 format.
+In January 2012 the SNOMED International switched from the original Release Format (used for SNOMED CT distribution since 2002), to the more flexible and consistent Release Format 2 (RF2). This means that from that date onward the primary source data for the SNOMED CT International Release is maintained and distributed in the RF2 format.
 
 The SNOMED International recognizes that, while implementers will which to benefit from the features of the new format, there is inevitably a transitional period during which both format are in use. Therefore, the SNOMED International provides the following resources to support users whose system do not yet support SNOMED CT Release Format 2:
 

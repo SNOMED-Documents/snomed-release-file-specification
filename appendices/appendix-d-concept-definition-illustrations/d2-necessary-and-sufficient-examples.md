@@ -104,13 +104,13 @@ The definition shown in Table D.2-1 provides an example of a simple case.
 
 ## A Definition that is Necessary but Not Sufficient
 
-The definition shown in Table D.2-2 provides an example of another simple case.
+The definition shown in the Table below provides an example of another simple case.
 
 * The <<< symbol indicates that the concept is a subtype of the concept definition.
   * This means that each of the assertions in the definition is **necessarily** true for all instance of the concept [173574009 |Acute benign pericarditis (disorder)|](http://snomed.info/id/173574009) .
   * However, this definition is **not sufficient** , because it is represent a more general meaning. Put another way, it does not capture one or more distinguishing features or the [173574009 |Acute benign pericarditis (disorder)|](http://snomed.info/id/173574009) . This means that even if all the assertions are true, it may or may not be this concept or one of its subtypes.
 
-**Table D.2-2: Stated view of the definition of&#x20;**<mark style="color:blue;">**|**</mark>**Acute benign pericarditis**<mark style="color:blue;">**|**</mark>
+**Stated view of the definition of&#x20;**<mark style="color:blue;">**|**</mark>**Acute benign pericarditis**<mark style="color:blue;">**|**</mark>
 
 
 
@@ -128,13 +128,13 @@ The definition shown in Table D.2-2 provides an example of another simple case.
 This example illustrates a type of definition that was not supported prior to the enhancement to SNOMED CT support for advanced description logic. Therefore, the definition shown is for illustration only and will not be found in current releases of SNOMED.
 {% endhint %}
 
-The definition shown in Table D.2-3 provides an example of a more complex case.
+The definition shown in the Table below provides an example of a more complex case.
 
 * The >>> symbol indicates that the concept definition represents a subtype of the concept.
   * This means that each instance of the definition is **sufficient to represent a** subtype of the concept [8801005 |Secondary diabetes mellitus (disorder)|](http://snomed.info/id/8801005) .
   * The definition does not represent a necessary condition, i.e. the definition is not necessarily true for all instances of the concept [8801005 |Secondary diabetes mellitus (disorder)|](http://snomed.info/id/8801005) . Or, said in other words, not all cases of [8801005 |Secondary diabetes mellitus (disorder)|](http://snomed.info/id/8801005) are caused by a medicinal product or a disease.
 
-**Table D.2-3: Possible stated view of the definition of&#x20;**<mark style="color:blue;">**|**</mark>**Secondary diabetes mellitus**<mark style="color:blue;">**|**</mark>
+**Possible stated view of the definition of&#x20;**<mark style="color:blue;">**|**</mark>**Secondary diabetes mellitus**<mark style="color:blue;">**|**</mark>
 
 <table data-header-hidden data-full-width="true"><thead><tr><th width="402.97833251953125"></th><th width="535.0970458984375"></th></tr></thead><tbody><tr><td><strong>Concept</strong></td><td><strong>Stated View of Concept Definition</strong></td></tr><tr><td><a href="http://snomed.info/id/8801005">8801005 | Secondary diabetes mellitus (disorder)|</a></td><td>>>> <a href="http://snomed.info/id/73211009">73211009 |Diabetes mellitus|</a> :<br>         <a href="http://snomed.info/id/246075003">246075003 |Causative agent|</a>  =  <a href="http://snomed.info/id/763158003">763158003 |Medicinal product|</a><br>OR<br>>>> <a href="http://snomed.info/id/73211009">73211009 |Diabetes mellitus|</a> : <br>         <a href="http://snomed.info/id/42752001">42752001 |Due to|</a>  =  <a href="http://snomed.info/id/64572001">64572001 |Disease|</a></td></tr></tbody></table>
 
