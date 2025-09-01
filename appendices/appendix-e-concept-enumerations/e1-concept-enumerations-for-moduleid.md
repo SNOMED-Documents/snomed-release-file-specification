@@ -1,6 +1,6 @@
 # E.1 Concept Enumerations for moduleId
 
-This concept enumeration applies to the [moduleId](../appendix-b.-specification-reference-information/m/moduleid-field.md) field which is present in all released SNOMED CT components ( RF2). The value applied to a particular component indicates the development module within which that component was created and is being maintained.
+This concept enumeration applies to the [moduleId](../appendix-b.-specification-reference-information/m/moduleid-field.md) field which is present in all released SNOMED CT components (RF2). The value applied to a particular component indicates the development module within which that component was created and is being maintained.
 
 Each of the values in Exhibit E.1-1 represents a SNOMED CT module. The range of permitted values is extensible by addition of branches to the hierarchy shown in modules managed by other organizations (i.e. in an extensions namespace) and to add specific module identifiers within each branch.
 
