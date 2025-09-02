@@ -47,11 +47,10 @@
 ## REFERENCE SET RELEASE FILE SPECIFICATION
 
 * [Overview](reference-set-release-file-specification/overview.md)
-* [General Features of Reference Sets](<5 reference-set-release-files-specification/5.1 essential-concept-identifiers/README.md>)
-  * [Basic Reference Set Member File Format](<5 reference-set-release-files-specification/5.1 essential-concept-identifiers/5.1.1-basic-reference-set-member-file-format.md>)
-  * [Extending the Basic Reference Set Member File Format](<5 reference-set-release-files-specification/5.1 essential-concept-identifiers/5.1.2-extending-the-basic-reference-set-member-file-format.md>)
-  * [Naming Conventions for Reference Sets](<5 reference-set-release-files-specification/5.1 essential-concept-identifiers/5.1.3-naming-conventions-for-reference-sets.md>)
-  * [Metadata Supporting Reference Sets](<5 reference-set-release-files-specification/5.1 essential-concept-identifiers/5.1.4-metadata-supporting-reference-sets.md>)
+* [Basic Reference Set Member File Format](reference-set-release-file-specification/5.1.1-basic-reference-set-member-file-format.md)
+* [Extending the Basic Reference Set Member File Format](reference-set-release-file-specification/5.1.2-extending-the-basic-reference-set-member-file-format.md)
+* [Naming Conventions for Reference Sets](reference-set-release-file-specification/5.1.3-naming-conventions-for-reference-sets.md)
+* [Metadata Supporting Reference Sets](reference-set-release-file-specification/5.1.4-metadata-supporting-reference-sets.md)
 * [Reference Set Types](<5 reference-set-release-files-specification/5.2 reference-set-types/README.md>)
   * [Content Reference Sets](<5 reference-set-release-files-specification/5.2 reference-set-types/5.2.1 content-reference-sets/README.md>)
     * [Simple Reference Set](<5 reference-set-release-files-specification/5.2 reference-set-types/5.2.1 content-reference-sets/5.2.1.1-simple-reference-set.md>)
@@ -104,11 +103,7 @@
 
 ## APPENDICES
 
-* [Appendix A: Notes on Release File Changes](appendices/appendix-a-notes-on-release-file-changes/README.md)
-  * [Representation of the Logical Model - Before July 2018](appendices/appendix-a-notes-on-release-file-changes/representation-of-the-logical-model-before-july-2018/README.md)
-    * [Associations Between Release Files Prior to July 2018](appendices/appendix-a-notes-on-release-file-changes/representation-of-the-logical-model-before-july-2018/associations-between-release-files-prior-to-july-2018.md)
-  * [Notes on modifierId](appendices/appendix-a-notes-on-release-file-changes/notes-on-modifierid.md)
-  * [RF1 Compatibility and Conversion Tools](appendices/appendix-a-notes-on-release-file-changes/rf1-compatibility-and-conversion-tools.md)
+* [Appendix A: Notes on Release File Changes](appendices/appendix-a-notes-on-release-file-changes.md)
 * [Appendix B. Specification Reference Information](appendices/appendix-b.-specification-reference-information/README.md)
   * [A](appendices/appendix-b.-specification-reference-information/appendix-b-specification-reference-information/README.md)
     * [acceptabilityId (field)](appendices/appendix-b.-specification-reference-information/appendix-b-specification-reference-information/acceptabilityid-field.md)
@@ -198,11 +193,8 @@
     * [WordType (field)](appendices/appendix-b.-specification-reference-information/w/wordtype-field.md)
     * [WordKey table](appendices/appendix-b.-specification-reference-information/w/wordkey-table.md)
     * [Word equivalents table](appendices/appendix-b.-specification-reference-information/w/word-equivalents-table.md)
-* [Appendix C. Unicode UTF-8 encoding](appendices/appendix-c-unicode-utf-8-encoding/README.md)
-  * [Summary of Unicode Encoding Rules](appendices/appendix-c-unicode-utf-8-encoding/summary-of-unicode-encoding-rules.md)
-* [Appendix D: Concept Definition Illustrations](appendices/appendix-d-concept-definition-illustrations/README.md)
-  * [D.1 Stated and Inferred Definitions - Examples](appendices/appendix-d-concept-definition-illustrations/d1-stated-and-inferred-definitions-examples.md)
-  * [D.2 Necessary and Sufficient - Examples](appendices/appendix-d-concept-definition-illustrations/d2-necessary-and-sufficient-examples.md)
+* [Appendix C. Unicode UTF-8 encoding](appendices/appendix-c-unicode-utf-8-encoding.md)
+* [Appendix D: Concept Definition Illustrations](appendices/appendix-d-concept-definition-illustrations.md)
 * [Appendix E: Concept Enumerations](appendices/appendix-e-concept-enumerations/README.md)
   * [E.1 Concept Enumerations for moduleId](appendices/appendix-e-concept-enumerations/e1-concept-enumerations-for-moduleid.md)
   * [E.2 Concept Enumerations for definintionStatusId](appendices/appendix-e-concept-enumerations/e2-concept-enumerations-for-definintionstatusid.md)

@@ -7,5 +7,5 @@ Note: In SNOMED CT release file specifications strings are represented using _Un
 ## Related Links
 
 * [Release File Data Types](../../../3-release-types-packages-and-files/3.1-common-features-of-all-release-files/3.1.2-release-file-data-types.md)
-* [Unicode UTF-8 encoding](../../appendix-c-unicode-utf-8-encoding/)
+* [Unicode UTF-8 encoding](../../appendix-c-unicode-utf-8-encoding.md)
 

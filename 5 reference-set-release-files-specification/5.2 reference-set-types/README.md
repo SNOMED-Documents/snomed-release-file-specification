@@ -49,7 +49,7 @@ In each subsection, a reference set type is described under the following subhea
 
 Related Links
 
-* [Unicode UTF-8 encoding](../../appendices/appendix-c-unicode-utf-8-encoding/)
+* [Unicode UTF-8 encoding](../../appendices/appendix-c-unicode-utf-8-encoding.md)
 
 
 
