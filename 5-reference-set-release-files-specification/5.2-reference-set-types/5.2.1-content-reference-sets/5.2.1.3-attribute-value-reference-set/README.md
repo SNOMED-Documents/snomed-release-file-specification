@@ -14,6 +14,10 @@ An Attribute value reference set is a component reference set used to apply a ta
 
 ***
 
+{% hint style="info" %}
+PK\* indicates if the attribute is part of the primary key for that file/table.
+{% endhint %}
+
 ## Metadata
 
 The metadata concepts shown below are examples of concepts that identify attribute value reference sets.

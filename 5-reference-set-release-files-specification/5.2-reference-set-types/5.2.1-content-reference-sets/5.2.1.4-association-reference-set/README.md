@@ -14,6 +14,10 @@ An Association reference set is a reference set used to represent associations b
 
 ***
 
+{% hint style="info" %}
+PK\* indicates if the attribute is part of the primary key for that file/table.
+{% endhint %}
+
 ## Metadata
 
 The following metadata supports this reference set:
