@@ -13,3 +13,10 @@ The range of permitted values for each of the _concept_ enumerations is the set 
 {% hint style="info" %}
 Note: Many of the concept enumerations include values that significantly impact the meaning or use of a _component_. Therefore, implementers may find it necessary to partially hard-code the way their systems process particular values. In these cases, the _concept_ referenced by the value is only of value when there is a requirement to display a human readable rending of the value. The main exceptions to this are [900000000000443000 |Module (core metadata concept)|](http://snomed.info/id/900000000000443000) and [900000000000453004 |Identifier scheme (core metadata concept)|](http://snomed.info/id/900000000000453004) both of which represent extensible sets of values as new modules or alternative _identifier_ schemes may be added in local Extensions .
 {% endhint %}
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=Release+File+Specification&entry.670899847=Appendix%20E%3A%20Concept%20Enumerations" class="button primary">Provide Feedback</a>

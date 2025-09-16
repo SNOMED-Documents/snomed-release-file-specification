@@ -8,3 +8,10 @@ The transitive closure file is not currently distributed but can be generated fr
 
 * [Transitive Closure Files](<../../../4 component-release-files-specification/4.2 file-format-specifications/4.2.5-transitive-closure-files.md>) for further details.
 
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=Release+File+Specification&entry.670899847=Transitive%20closure%20file" class="button primary">Provide Feedback</a>

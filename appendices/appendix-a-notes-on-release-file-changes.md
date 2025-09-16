@@ -52,3 +52,10 @@ The "RF2 to RF1 Conversion Tool" and the "RF1 Compatibility Package" are availab
 
 These resources and tools are intended for use during a transitional period and should not be considered as a long term alternative to migration to support direct use of RF2 data within applications. As SNOMED CT continues to evolve more of the specific feature of RF2 will be used to add value to the terminology. Some of the added value delivered by RF2 is soon likely to be regarded as essential for effective solutions to user requirements.
 {% endhint %}
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=Release+File+Specification&entry.670899847=Appendix%20A%3A%20Notes%20on%20Release%20File%20Changes" class="button primary">Provide Feedback</a>

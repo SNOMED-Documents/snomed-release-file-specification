@@ -26,3 +26,10 @@ The following two sections provide detailed specifications of the release files.
 
 The standard format in which  SNOMED CT has been distributed since 2012 is known as Release Format 2 (RF2). It was developed in response to extensive feedback on the original release file format, now known as Release Format 1 (RF1), in which SNOMED CT was distributed between its first release in 2002 and 2012. The RF1 format is now deprecated and no longer supported.
 {% endhint %}
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=Release+File+Specification&entry.670899847=Overview" class="button primary">Provide Feedback</a>

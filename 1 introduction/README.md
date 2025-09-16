@@ -34,3 +34,10 @@ Historical Note
 
 This document specifies release file structures known as Release Format 2 (RF2). These file structures were introduced in January 2012 to support built-in version tracking and more flexible extensibility mechanisms, including reference sets and packaging of release files into separately identifiable modules. Between its initial release in January 2002 and January 2012, SNOMED CT release files were structured in accordance with an earlier file structure specifications that are now referred to a Release Format 1 (RF1). That release format is deprecated not longer used or supported by SNOMED International.
 {% endhint %}
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=Release+File+Specification&entry.670899847=Introduction" class="button primary">Provide Feedback</a>

@@ -307,3 +307,10 @@ When multiple sufficient sets are supported, satisfying a single sufficient set 
   * Since a gastric ulcer _necessarily_ involves the [78653002 | gastric mucosa|](http://snomed.info/id/78653002) it should be possible to deduce that a person with an "ulcer" with finding site [69695003 |stomach|](http://snomed.info/id/69695003) has a disorder of with a site [78653002 |gastric mucosa|](http://snomed.info/id/78653002)
 
 However, as the current profile does not enable recognition of multiple sufficient sets, the general rule is to represent the most general sufficient set as this gives the greatest coverage for subsumption testing. This approach is taken because including more defining relationships, without distinguishing them from the sufficient set means some logically equivalent expressions will not compute as equivalent to or subsumed by the defined concept. This occurs in any cases where the expression does not include one of the attributes in the definition - even if it was not part of the logically sufficient set.
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=Release+File+Specification&entry.670899847=Appendix%20D%3A%20Concept%20Definition%20Illustrations" class="button primary">Provide Feedback</a>

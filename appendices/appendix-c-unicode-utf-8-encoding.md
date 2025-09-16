@@ -56,3 +56,10 @@ The first bits of each byte indicate the role of the byte. A zero bit terminates
 **UTF-8 Encoding Example**
 
 <div align="left"><figure><img src="../.gitbook/assets/Image 12-08-2025 at 10.47.jpeg" alt=""><figcaption></figcaption></figure></div>
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=Release+File+Specification&entry.670899847=Appendix%20C.%20Unicode%20UTF-8%20encoding" class="button primary">Provide Feedback</a>

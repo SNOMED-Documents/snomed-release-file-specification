@@ -8,3 +8,10 @@ This subsection explains features that apply to all SNOMED CT release files.
 * [Meaning of the Active Field](3.1.4-meaning-of-the-active-field.md)
 * [History Mechanism](3.1.5-history-mechanism.md)
 * [Module Identification](3.1.6-module-identification.md)
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=Release+File+Specification&entry.670899847=Common%20Features%20of%20All%20Release%20Files" class="button primary">Provide Feedback</a>

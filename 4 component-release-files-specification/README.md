@@ -15,3 +15,10 @@ The component release files are defined in the following sections:
 * <sub>Reference Set Specification (SNOMED International Proposed Specification , 31 July 2007);</sub>
 * <sub>Alternate Release Format (proposed by NEHTA and their Australian Affiliates).</sub>
 {% endhint %}
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=Release+File+Specification&entry.670899847=Overview" class="button primary">Provide Feedback</a>

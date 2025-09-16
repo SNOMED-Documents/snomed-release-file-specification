@@ -23,3 +23,10 @@ Prior to the 31 July 2018 release, documentation about concept definitions focus
 * The change led to the stated relationship file being deprecated. From the 31 July 2018 release onwards, the OWL axiom reference set file is the standard distribution file for the stated view of concept definitions.
 * The relationship file continues to be used to distribute the inferred view of concept definitions.
 {% endhint %}
+
+
+
+
+
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=Release+File+Specification&entry.670899847=Concept%20Definitions" class="button primary">Provide Feedback</a>
