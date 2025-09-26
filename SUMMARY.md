@@ -3,7 +3,7 @@
 * [SNOMED CT Release File Specification](README.md)
 * [Introduction](<1 introduction/README.md>)
 
-## LOGICAL MODEL
+## Logical Model
 
 * [High Level Logical Model of SNOMED CT](<2 snomed-ct-logical-model/2.1-high-level-logical-model-of-snomed-ct.md>)
 * [Representation of the Logical Model](<2 snomed-ct-logical-model/2.2-representation-of-the-logical-model.md>)
@@ -15,7 +15,7 @@
     * [Concept Definitions Represented as Relationships](<2 snomed-ct-logical-model/2.3 concept-definitions/2.3.4 representing-concept-definitions/2.3.4.1-concept-definitions-represented-as-relationships.md>)
     * [Concept Definitions Represented in OWL](<2 snomed-ct-logical-model/2.3 concept-definitions/2.3.4 representing-concept-definitions/2.3.4.2-concept-definitions-represented-in-owl.md>)
 
-## RELEASE TYPES, PACKAGES and FILES
+## Release Types, Packages and Files
 
 * [Overview](3-release-types-packages-and-files/README.md)
 * [Common Features of All Release Files](3-release-types-packages-and-files/3.1-common-features-of-all-release-files/README.md)
@@ -31,7 +31,7 @@
   * [Release File Naming Convention](3-release-types-packages-and-files/3.3-naming-conventions-for-release-packages-and-files/3.3.2-release-file-naming-convention.md)
 * [Release Package Contents](3-release-types-packages-and-files/3.4-release-package-contents.md)
 
-## COMPONENT RELEASE FILE SPECIFICATION
+## Component Release File Specification
 
 * [Overview](<4 component-release-files-specification/README.md>)
 * [Associations Between Release Files](<4 component-release-files-specification/4.1-associations-between-release-files.md>)
@@ -44,7 +44,7 @@
   * [Concrete Value File Specification](<4 component-release-files-specification/4.2 file-format-specifications/4.2.6-concrete-value-file-specification.md>)
 * [Metadata Hierarchy](<4 component-release-files-specification/4.3-metadata-hierarchy.md>)
 
-## REFERENCE SET RELEASE FILE SPECIFICATION
+## Reference Set Release File Specification
 
 * [Overview](reference-set-release-file-specification/overview.md)
 * [Basic Reference Set Member File Format](reference-set-release-file-specification/5.1.1-basic-reference-set-member-file-format.md)
@@ -58,7 +58,7 @@
       * [Component Inactivation Reference Sets](5-reference-set-release-files-specification/5.2-reference-set-types/5.2.1-content-reference-sets/5.2.1.3-attribute-value-reference-set/5.2.1.3-attribute-value-reference-set.md)
     * [Association Reference Set](5-reference-set-release-files-specification/5.2-reference-set-types/5.2.1-content-reference-sets/5.2.1.4-association-reference-set/README.md)
       * [Historical Association Reference Sets](5-reference-set-release-files-specification/5.2-reference-set-types/5.2.1-content-reference-sets/5.2.1.4-association-reference-set/5.2.5.1-historical-association-reference-sets.md)
-    * [DEPRECATED:  Annotation Reference Set](<5 reference-set-release-files-specification/5.2 reference-set-types/5.2.1 content-reference-sets/5.2.1.6-deprecated-annotation-reference-set.md>)
+    * [DEPRECATED: Annotation Reference Set](<5 reference-set-release-files-specification/5.2 reference-set-types/5.2.1 content-reference-sets/5.2.1.6-deprecated-annotation-reference-set.md>)
     * [Query Specification Reference Set](<5 reference-set-release-files-specification/5.2 reference-set-types/5.2.1 content-reference-sets/5.2.1.7-query-specification-reference-set.md>)
     * [DEPRECATED: Ordered Reference Set](5-reference-set-release-files-specification/5.2-reference-set-types/5.2.1-content-reference-sets/5.2.1.8-ordered-reference-set/README.md)
       * [Ordered Association Reference Set](5-reference-set-release-files-specification/5.2-reference-set-types/5.2.1-content-reference-sets/5.2.1.8-ordered-reference-set/5.2.1.5-ordered-association-reference-set.md)
@@ -86,7 +86,7 @@
     * [Component Annotation String Value Reference Set](<5 reference-set-release-files-specification/5.2 reference-set-types/5.2.4 metadata-reference-sets/5.2.4.8-component-annotation-string-value-reference-set.md>)
     * [Member Annotation String Value Reference Set](<5 reference-set-release-files-specification/5.2 reference-set-types/5.2.4 metadata-reference-sets/5.2.4.9-member-annotation-string-value-reference-set.md>)
 
-## SNOMED CT IDENTIFIERS
+## SNOMED CT Identifiers
 
 * [Overview](<6 snomed-ct-identifiers/README.md>)
 * [SCTID Data Type](<6 snomed-ct-identifiers/6.1-sctid-data-type.md>)
@@ -101,7 +101,7 @@
 * [Example SNOMED CT identifiers](<6 snomed-ct-identifiers/6.8-example-snomed-ct-identifiers.md>)
 * [The Namespace Hierarchy](<6 snomed-ct-identifiers/6.9-the-namespace-hierarchy.md>)
 
-## APPENDICES
+## Appendices
 
 * [Appendix A: Notes on Release File Changes](appendices/appendix-a-notes-on-release-file-changes.md)
 * [Appendix B. Specification Reference Information](appendices/appendix-b.-specification-reference-information/README.md)
