@@ -1,7 +1,3 @@
----
-hidden: true
----
-
 # Check-digit
 
 The final digit of the [SCTID](../../appendices/appendix-b.-specification-reference-information/s/sctid-data-type.md) is a check-digit.
@@ -15,10 +11,4 @@ An SCTID is checked by using the [Verhoeff check](http://www.augustana.ab.ca/~mo
 * See [Check-Digit Computation ](6.4.2-check-digit-computation.md)for detailed information about the Verhoeff check-digit algorithm and links to sample program code.
 * See [http://snomed.org/verhoeff](http://snomed.org/verhoeff) for a sample web form that can be used to compute a check-digit or check the validity of an SCTID.
 
-
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=Release+File+Specification&entry.670899847=Check-digit" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=Release+File+Specification&#x26;entry.670899847=Check-digit" class="button primary">Provide Feedback</a>
