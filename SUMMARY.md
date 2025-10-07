@@ -42,6 +42,7 @@
   * [Identifier File Specification](<4 component-release-files-specification/4.2 file-format-specifications/4.2.4-identifier-file-specification.md>)
   * [Transitive Closure Files](<4 component-release-files-specification/4.2 file-format-specifications/4.2.5-transitive-closure-files.md>)
   * [Concrete Value File Specification](<4 component-release-files-specification/4.2 file-format-specifications/4.2.6-concrete-value-file-specification.md>)
+  * [Metadata Files](component-release-file-specification/4.2-file-format-specifications/metadata-files.md)
 * [Metadata Hierarchy](<4 component-release-files-specification/4.3-metadata-hierarchy.md>)
 
 ## Reference Set Release File Specification
