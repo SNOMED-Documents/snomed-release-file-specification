@@ -11,7 +11,7 @@ A concept definition is a set of one or more axioms that partially or sufficient
   * Axioms that assert that a concept is a subtype of one or more other concepts. In the inferred view these are represented as subtype relationships.
   * Axioms that assert characteristics of a concept that distinguish it from its supertypes. In the inferred view these are represented as attribute relationships.
 
-This appendix illustrates some of the features of concept definitions outlined in section [Concept Definitions](<../2 snomed-ct-logical-model/2.3 concept-definitions/>).
+This appendix illustrates some of the features of concept definitions outlined in section [Concept Definitions](../2%20snomed-ct-logical-model/2.3%20concept-definitions).
 
 ***
 
@@ -49,23 +49,23 @@ Table D.1-1 shows the stated view of the definitions of [710785000 |Laparoscopic
 
 The classifier has compared the definition of [710785000 |Laparoscopic repair of hernia|](http://snomed.info/id/710785000) with the concept definitions shown in Tale D.1-3 and determined that [710785000 | Laparoscopic repair of hernia|](http://snomed.info/id/710785000) is a subtype of all these concepts.
 
-In fact, the classifier will also have found several other supertypes but the inferred view distributed in the relationship file only includes proximal supertypes (parents). Other supertype ancestors are excluded from the file because they are redundant.<sup>1</sup>&#x20;
+In fact, the classifier will also have found several other supertypes but the inferred view distributed in the relationship file only includes proximal supertypes (parents). Other supertype ancestors are excluded from the file because they are redundant.<sup>1</sup>
 
 **Stated view of the definition of&#x20;**<mark style="color:blue;">**|**</mark>**Laparoscopic repair of hernia**<mark style="color:blue;">**|**</mark>
 
-<table data-full-width="true"><thead><tr><th width="230.28204345703125">Concept</th><th width="800">Stated View of Concept Definition</th></tr></thead><tbody><tr><td><a href="http://snomed.info/id/710785000">710785000 |Laparoscopic repair of hernia|</a></td><td>===  <a href="http://snomed.info/id/71388002">71388002 |Procedure|</a>  :<br>         {  <a href="http://snomed.info/id/363700003">363700003 |Direct morphology|</a>  =  <a href="http://snomed.info/id/414402003">414402003 |Hernial opening (morphologic abnormality)|</a> , <br>               <a href="http://snomed.info/id/425391005">425391005 |Using access device|</a>  =  <a href="http://snomed.info/id/86174004">86174004 |Laparoscope, device|</a> , <br>               <a href="http://snomed.info/id/260686004">260686004 |Method|</a>  =  <a href="http://snomed.info/id/257903006">257903006 |Repair - action|</a>  }</td></tr></tbody></table>
+<table data-full-width="true"><thead><tr><th width="230.28204345703125">Concept</th><th width="800">Stated View of Concept Definition</th></tr></thead><tbody><tr><td><a href="http://snomed.info/id/710785000">710785000 |Laparoscopic repair of hernia|</a></td><td>=== <a href="http://snomed.info/id/71388002">71388002 |Procedure|</a> :<br>{ <a href="http://snomed.info/id/363700003">363700003 |Direct morphology|</a> = <a href="http://snomed.info/id/414402003">414402003 |Hernial opening (morphologic abnormality)|</a> ,<br><a href="http://snomed.info/id/425391005">425391005 |Using access device|</a> = <a href="http://snomed.info/id/86174004">86174004 |Laparoscope, device|</a> ,<br><a href="http://snomed.info/id/260686004">260686004 |Method|</a> = <a href="http://snomed.info/id/257903006">257903006 |Repair - action|</a> }</td></tr></tbody></table>
 
 ***
 
 **Inferred view of the definition of the concept&#x20;**<mark style="color:blue;">**|**</mark>**Laparoscopic repair of hernia**<mark style="color:blue;">**|**</mark>
 
-<table data-full-width="true"><thead><tr><th width="236.19354248046875">Concept</th><th width="788.795166015625">Inferred View of Concept Definition</th></tr></thead><tbody><tr><td><a href="http://snomed.info/id/710785000">710785000 | Laparoscopic repair of hernia|</a></td><td>===  <a href="http://snomed.info/id/363321000">363321000 |Surgical repair procedure by device|</a>  + <br>     <a href="http://snomed.info/id/50465008">50465008 |Hernia repair|</a>  + <br>     <a href="http://snomed.info/id/51316009">51316009 |Laparoscopic procedure|</a>  + <br>     <a href="http://snomed.info/id/264274002">264274002 |Endoscopic operation|</a>  :<br>            {  <a href="http://snomed.info/id/363700003">363700003 |Direct morphology|</a>  =  <a href="http://snomed.info/id/414402003">414402003 |Hernial opening (morphologic abnormality)|</a> , <br>               <a href="http://snomed.info/id/425391005">425391005 |Using access device|</a>  =  <a href="http://snomed.info/id/86174004">86174004 |Laparoscope, device|</a> , <br>               <a href="http://snomed.info/id/260686004">260686004 |Method|</a>  =  <a href="http://snomed.info/id/257903006">257903006 |Repair - action|</a>  }</td></tr></tbody></table>
+<table data-full-width="true"><thead><tr><th width="236.19354248046875">Concept</th><th width="788.795166015625">Inferred View of Concept Definition</th></tr></thead><tbody><tr><td><a href="http://snomed.info/id/710785000">710785000 | Laparoscopic repair of hernia|</a></td><td>=== <a href="http://snomed.info/id/363321000">363321000 |Surgical repair procedure by device|</a> +<br><a href="http://snomed.info/id/50465008">50465008 |Hernia repair|</a> +<br><a href="http://snomed.info/id/51316009">51316009 |Laparoscopic procedure|</a> +<br><a href="http://snomed.info/id/264274002">264274002 |Endoscopic operation|</a> :<br>{ <a href="http://snomed.info/id/363700003">363700003 |Direct morphology|</a> = <a href="http://snomed.info/id/414402003">414402003 |Hernial opening (morphologic abnormality)|</a> ,<br><a href="http://snomed.info/id/425391005">425391005 |Using access device|</a> = <a href="http://snomed.info/id/86174004">86174004 |Laparoscope, device|</a> ,<br><a href="http://snomed.info/id/260686004">260686004 |Method|</a> = <a href="http://snomed.info/id/257903006">257903006 |Repair - action|</a> }</td></tr></tbody></table>
 
 ***
 
 **Stated views of the four supertype concepts in the inferred&#x20;**<mark style="color:blue;">**|**</mark>**Laparoscopic repair of hernia**<mark style="color:blue;">**|**</mark>
 
-<table data-full-width="true"><thead><tr><th width="265.00958251953125">Concept</th><th width="800">Stated View of Concept Definition</th></tr></thead><tbody><tr><td><a href="http://snomed.info/id/363321000">363321000 | Surgical repair procedure by device|</a></td><td>===  <a href="http://snomed.info/id/4365001">4365001 |Surgical repair|</a>  :<br>            {  <a href="http://snomed.info/id/405815000">405815000 |Procedure device|</a>  =  <a href="http://snomed.info/id/49062001">49062001 |Device|</a> , <br>               <a href="http://snomed.info/id/260686004">260686004 |Method|</a>  =  <a href="http://snomed.info/id/257903006">257903006 |Repair - action|</a>  }</td></tr><tr><td><a href="http://snomed.info/id/50465008">50465008 | Hernia repair|</a></td><td>===  <a href="http://snomed.info/id/4365001">4365001 |Surgical repair|</a>  :<br>            {  <a href="http://snomed.info/id/363700003">363700003 |Direct morphology|</a>  =  <a href="http://snomed.info/id/414402003">414402003 |Hernial opening (morphologic abnormality)|</a> , <br>               <a href="http://snomed.info/id/260686004">260686004 |Method|</a>  =  <a href="http://snomed.info/id/257903006">257903006 |Repair - action|</a>  }</td></tr><tr><td><p><a href="http://snomed.info/id/4365001">4365001 | Surgical repair|</a></p><p>A supertype in the two definitions above<br></p></td><td>===  <a href="http://snomed.info/id/128927009">128927009 |Procedure by method|</a>  :<br>         <a href="http://snomed.info/id/260686004">260686004 |Method|</a>  =  <a href="http://snomed.info/id/257903006">257903006 |Repair - action|</a></td></tr><tr><td><a href="http://snomed.info/id/51316009">51316009 | Laparoscopic procedure|</a></td><td>===  <a href="http://snomed.info/id/363687006">363687006 |Endoscopic procedure|</a>  :<br>         <a href="http://snomed.info/id/425391005">425391005 |Using access device|</a>  =  <a href="http://snomed.info/id/86174004">86174004 |Laparoscope, device|</a></td></tr><tr><td><p><br><a href="http://snomed.info/id/363687006">363687006 | Endoscopic procedure|</a></p><p>A supertype in the definition above</p></td><td>===  <a href="http://snomed.info/id/71388002">71388002 |Procedure|</a>  :<br>            {  <a href="http://snomed.info/id/425391005">425391005 |Using access device|</a>  =  <a href="http://snomed.info/id/37270008">37270008 |Endoscope, device|</a> , <br>               <a href="http://snomed.info/id/260686004">260686004 |Method|</a>  =  <a href="http://snomed.info/id/129284003">129284003 |Surgical action|</a>  }</td></tr><tr><td><a href="http://snomed.info/id/264274002">264274002 | Endoscopic operation|</a></td><td>===  <a href="http://snomed.info/id/71388002">71388002 |Procedure|</a>  :<br>            {  <a href="http://snomed.info/id/425391005">425391005 |Using access device|</a>  =  <a href="http://snomed.info/id/37270008">37270008 |Endoscope, device|</a> , <br>               <a href="http://snomed.info/id/260686004">260686004 |Method|</a>  =  <a href="http://snomed.info/id/129284003">129284003 |Surgical action|</a>  }</td></tr></tbody></table>
+<table data-full-width="true"><thead><tr><th width="265.00958251953125">Concept</th><th width="800">Stated View of Concept Definition</th></tr></thead><tbody><tr><td><a href="http://snomed.info/id/363321000">363321000 | Surgical repair procedure by device|</a></td><td>=== <a href="http://snomed.info/id/4365001">4365001 |Surgical repair|</a> :<br>{ <a href="http://snomed.info/id/405815000">405815000 |Procedure device|</a> = <a href="http://snomed.info/id/49062001">49062001 |Device|</a> ,<br><a href="http://snomed.info/id/260686004">260686004 |Method|</a> = <a href="http://snomed.info/id/257903006">257903006 |Repair - action|</a> }</td></tr><tr><td><a href="http://snomed.info/id/50465008">50465008 | Hernia repair|</a></td><td>=== <a href="http://snomed.info/id/4365001">4365001 |Surgical repair|</a> :<br>{ <a href="http://snomed.info/id/363700003">363700003 |Direct morphology|</a> = <a href="http://snomed.info/id/414402003">414402003 |Hernial opening (morphologic abnormality)|</a> ,<br><a href="http://snomed.info/id/260686004">260686004 |Method|</a> = <a href="http://snomed.info/id/257903006">257903006 |Repair - action|</a> }</td></tr><tr><td><p><a href="http://snomed.info/id/4365001">4365001 | Surgical repair|</a></p><p>A supertype in the two definitions above<br></p></td><td>=== <a href="http://snomed.info/id/128927009">128927009 |Procedure by method|</a> :<br><a href="http://snomed.info/id/260686004">260686004 |Method|</a> = <a href="http://snomed.info/id/257903006">257903006 |Repair - action|</a></td></tr><tr><td><a href="http://snomed.info/id/51316009">51316009 | Laparoscopic procedure|</a></td><td>=== <a href="http://snomed.info/id/363687006">363687006 |Endoscopic procedure|</a> :<br><a href="http://snomed.info/id/425391005">425391005 |Using access device|</a> = <a href="http://snomed.info/id/86174004">86174004 |Laparoscope, device|</a></td></tr><tr><td><p><br><a href="http://snomed.info/id/363687006">363687006 | Endoscopic procedure|</a></p><p>A supertype in the definition above</p></td><td>=== <a href="http://snomed.info/id/71388002">71388002 |Procedure|</a> :<br>{ <a href="http://snomed.info/id/425391005">425391005 |Using access device|</a> = <a href="http://snomed.info/id/37270008">37270008 |Endoscope, device|</a> ,<br><a href="http://snomed.info/id/260686004">260686004 |Method|</a> = <a href="http://snomed.info/id/129284003">129284003 |Surgical action|</a> }</td></tr><tr><td><a href="http://snomed.info/id/264274002">264274002 | Endoscopic operation|</a></td><td>=== <a href="http://snomed.info/id/71388002">71388002 |Procedure|</a> :<br>{ <a href="http://snomed.info/id/425391005">425391005 |Using access device|</a> = <a href="http://snomed.info/id/37270008">37270008 |Endoscope, device|</a> ,<br><a href="http://snomed.info/id/260686004">260686004 |Method|</a> = <a href="http://snomed.info/id/129284003">129284003 |Surgical action|</a> }</td></tr></tbody></table>
 
 ***
 
@@ -76,7 +76,7 @@ In fact, the classifier will also have found several other supertypes but the in
 ***
 
 {% hint style="danger" %}
-The information in this section is particularly relevant to those wishing to understand the changes made to enhance the representation of stated concept definitions between July 2018 and 2019.  The stated relationships file is no longer maintained and distributed. From July 2019 it was replaced by the [OWL Expression Reference Set file](https://snomed-international.gitbook.io/uat-snomed-international-docs/kdfQQ4zexrP8YsnhBh12/specifications/snomed-ct-release-file-specification/appendices/appendix-b.-specification-reference-information/o/owl-expression-reference-set-file).
+The information in this section is particularly relevant to those wishing to understand the changes made to enhance the representation of stated concept definitions between July 2018 and 2019. The stated relationships file is no longer maintained and distributed. From July 2019 it was replaced by the [OWL Expression Reference Set file](https://snomed-international.gitbook.io/uat-snomed-international-docs/kdfQQ4zexrP8YsnhBh12/specifications/snomed-ct-release-file-specification/appendices/appendix-b.-specification-reference-information/o/owl-expression-reference-set-file).
 {% endhint %}
 
 ## Necessary and Sufficient - Examples
@@ -114,8 +114,10 @@ For each concept an author must decide if there are one or more sets of assertio
 
 * The following set of assertions is a sufficient definition for [74400008 |appendicitis (disorder)|](http://snomed.info/id/74400008) because any concept for which this set of assertions is true must either be the disorder _appendicitis_ or a subtype of _appendicitis_.
 
-| <p><a href="http://snomed.info/id/18526009">18526009 |disorder of appendix|</a>  +<br>            <a href="http://snomed.info/id/302168000">302168000 |inflammation of large intestine|</a> :<br>            <a href="http://snomed.info/id/116676008">116676008 |associated morphology|</a>  =  <a href="http://snomed.info/id/23583003">23583003 |inflammation|</a> ,<br>            <a href="http://snomed.info/id/363698007">363698007 |finding site|</a>  =  <a href="http://snomed.info/id/66754008">66754008 |appendix structure|</a>  </p> |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+[18526009 |disorder of appendix|](http://snomed.info/id/18526009) +\
+[302168000 |inflammation of large intestine|](http://snomed.info/id/302168000) :\
+[116676008 |associated morphology|](http://snomed.info/id/116676008) = [23583003 |inflammation|](http://snomed.info/id/23583003) ,\
+[363698007 |finding site|](http://snomed.info/id/363698007) = [66754008 |appendix structure|](http://snomed.info/id/66754008)
 
 ***
 
@@ -174,7 +176,7 @@ The definition shown in Table D.2-1 provides an example of a simple case.
 
 **Table D.2-1: Stated view of the definition of&#x20;**<mark style="color:blue;">**|**</mark>**Laparoscopic repair of hernia**<mark style="color:blue;">**|**</mark>
 
-<table data-full-width="true"><thead><tr><th width="345.3038330078125">Concept</th><th width="792.8768310546875">Stated View of Concept Definition</th></tr></thead><tbody><tr><td><a href="http://snomed.info/id/710785000">710785000 | Laparoscopic repair of hernia|</a></td><td>===  <a href="http://snomed.info/id/71388002">71388002 |Procedure|</a>  :<br>            {  <a href="http://snomed.info/id/363700003">363700003 |Direct morphology|</a>  =  <a href="http://snomed.info/id/414402003">414402003 |Hernial opening (morphologic abnormality)|</a> , <br>               <a href="http://snomed.info/id/425391005">425391005 |Using access device|</a>  =  <a href="http://snomed.info/id/86174004">86174004 |Laparoscope, device|</a> , <br>               <a href="http://snomed.info/id/260686004">260686004 |Method|</a>  =  <a href="http://snomed.info/id/257903006">257903006 |Repair - action|</a>  }</td></tr></tbody></table>
+<table data-full-width="true"><thead><tr><th width="345.3038330078125">Concept</th><th width="792.8768310546875">Stated View of Concept Definition</th></tr></thead><tbody><tr><td><a href="http://snomed.info/id/710785000">710785000 | Laparoscopic repair of hernia|</a></td><td>=== <a href="http://snomed.info/id/71388002">71388002 |Procedure|</a> :<br>{ <a href="http://snomed.info/id/363700003">363700003 |Direct morphology|</a> = <a href="http://snomed.info/id/414402003">414402003 |Hernial opening (morphologic abnormality)|</a> ,<br><a href="http://snomed.info/id/425391005">425391005 |Using access device|</a> = <a href="http://snomed.info/id/86174004">86174004 |Laparoscope, device|</a> ,<br><a href="http://snomed.info/id/260686004">260686004 |Method|</a> = <a href="http://snomed.info/id/257903006">257903006 |Repair - action|</a> }</td></tr></tbody></table>
 
 ***
 
@@ -192,7 +194,7 @@ The definition shown in the Table below provides an example of another simple ca
 
 **Stated view of the definition of&#x20;**<mark style="color:blue;">**|**</mark>**Acute benign pericarditis**<mark style="color:blue;">**|**</mark>
 
-<table data-full-width="true"><thead><tr><th width="385.859375">Concept</th><th width="700.3724365234375">Stated View of Concept Definition</th></tr></thead><tbody><tr><td><a href="http://snomed.info/id/173574009">173574009 | Acute benign pericarditis (disorder)|</a></td><td>&#x3C;&#x3C;&#x3C;  <a href="http://snomed.info/id/64572001">64572001 |Disease|</a>  :<br>         <a href="http://snomed.info/id/263502005">263502005 |Clinical course|</a>  =  <a href="http://snomed.info/id/424124008">424124008 |Sudden onset AND/OR short duration|</a><br>            {  <a href="http://snomed.info/id/116676008">116676008 |Associated morphology|</a>  =  <a href="http://snomed.info/id/4532008">4532008 |Acute inflammation|</a>  , <br>               <a href="http://snomed.info/id/363698007">363698007 |Finding site|</a>  =  <a href="http://snomed.info/id/24949005">24949005 |Pericardial sac structure|</a>  }</td></tr></tbody></table>
+<table data-full-width="true"><thead><tr><th width="385.859375">Concept</th><th width="700.3724365234375">Stated View of Concept Definition</th></tr></thead><tbody><tr><td><a href="http://snomed.info/id/173574009">173574009 | Acute benign pericarditis (disorder)|</a></td><td>&#x3C;&#x3C;&#x3C; <a href="http://snomed.info/id/64572001">64572001 |Disease|</a> :<br><a href="http://snomed.info/id/263502005">263502005 |Clinical course|</a> = <a href="http://snomed.info/id/424124008">424124008 |Sudden onset AND/OR short duration|</a><br>{ <a href="http://snomed.info/id/116676008">116676008 |Associated morphology|</a> = <a href="http://snomed.info/id/4532008">4532008 |Acute inflammation|</a> ,<br><a href="http://snomed.info/id/363698007">363698007 |Finding site|</a> = <a href="http://snomed.info/id/24949005">24949005 |Pericardial sac structure|</a> }</td></tr></tbody></table>
 
 ***
 
@@ -214,7 +216,7 @@ The definition shown in the Table below provides an example of a more complex ca
 
 **Possible stated view of the definition of&#x20;**<mark style="color:blue;">**|**</mark>**Secondary diabetes mellitus**<mark style="color:blue;">**|**</mark>
 
-<table data-full-width="true"><thead><tr><th width="402.97833251953125">Concept</th><th width="535.0970458984375">Stated View of Concept Definition</th></tr></thead><tbody><tr><td><a href="http://snomed.info/id/8801005">8801005 | Secondary diabetes mellitus (disorder)|</a></td><td>>>> <a href="http://snomed.info/id/73211009">73211009 |Diabetes mellitus|</a> :<br>         <a href="http://snomed.info/id/246075003">246075003 |Causative agent|</a>  =  <a href="http://snomed.info/id/763158003">763158003 |Medicinal product|</a><br>OR<br>>>> <a href="http://snomed.info/id/73211009">73211009 |Diabetes mellitus|</a> : <br>         <a href="http://snomed.info/id/42752001">42752001 |Due to|</a>  =  <a href="http://snomed.info/id/64572001">64572001 |Disease|</a></td></tr></tbody></table>
+<table data-full-width="true"><thead><tr><th width="402.97833251953125">Concept</th><th width="535.0970458984375">Stated View of Concept Definition</th></tr></thead><tbody><tr><td><a href="http://snomed.info/id/8801005">8801005 | Secondary diabetes mellitus (disorder)|</a></td><td>>>> <a href="http://snomed.info/id/73211009">73211009 |Diabetes mellitus|</a> :<br><a href="http://snomed.info/id/246075003">246075003 |Causative agent|</a> = <a href="http://snomed.info/id/763158003">763158003 |Medicinal product|</a><br>OR<br>>>> <a href="http://snomed.info/id/73211009">73211009 |Diabetes mellitus|</a> :<br><a href="http://snomed.info/id/42752001">42752001 |Due to|</a> = <a href="http://snomed.info/id/64572001">64572001 |Disease|</a></td></tr></tbody></table>
 
 ***
 
@@ -222,9 +224,7 @@ The definition shown in the Table below provides an example of a more complex ca
 
 ***
 
-
-
-### Sufficiently Defined 
+### Sufficiently Defined
 
 A sufficiently defined concept is a concept with one or more sufficient definitions.
 
@@ -235,15 +235,14 @@ A sufficiently defined concept is a concept with one or more sufficient definiti
 
 **Examples**
 
-The  concept [74400008 |appendicitis (disorder)|](http://snomed.info/id/74400008)  is _sufficiently defined_ by the following definition because any concept for which these defining relationships are true, is either the disorder _appendicitis_ or a subtype of _appendicitis_.
+The concept [74400008 |appendicitis (disorder)|](http://snomed.info/id/74400008) is _sufficiently defined_ by the following definition because any concept for which these defining relationships are true, is either the disorder _appendicitis_ or a subtype of _appendicitis_.
 
 [74400008 |appendicitis (disorder)|](http://snomed.info/id/74400008)\
 \=== [18526009 |disorder of appendix|](http://snomed.info/id/18526009) :\
 [116676008 |associated morphology|](http://snomed.info/id/116676008) = [23583003 |inflammation|](http://snomed.info/id/23583003) ,\
 [363698007 |finding site|](http://snomed.info/id/363698007) = [66754008 |appendix structure|](http://snomed.info/id/66754008)
 
-* &#x20;If a concept has a _sufficient_ definition, it is possible to infer whether another concept or a  postcoordinated expression is a  subtype of, or equivalent to, that concept.\
-
+* If a concept has a _sufficient_ definition, it is possible to infer whether another concept or a postcoordinated expression is a subtype of, or equivalent to, that concept.\\
 
 ### Primitive
 
@@ -256,7 +255,7 @@ A primitive concept is a concept without a sufficient definition in the necessar
 
 #### Example
 
-* The concept  [5596004 |atypical appendicitis (disorder)|](http://snomed.info/id/5596004) is _primitive_ because the following definition is not sufficient to distinguish _atypical appendicitis_ from any other type of _appendicitis:_
+* The concept [5596004 |atypical appendicitis (disorder)|](http://snomed.info/id/5596004) is _primitive_ because the following definition is not sufficient to distinguish _atypical appendicitis_ from any other type of _appendicitis:_
 
 [5596004 |atypical appendicitis (disorder)|](http://snomed.info/id/5596004)\
 <<< [116680003 |is a|](http://snomed.info/id/116680003) = [74400008 |appendicitis|](http://snomed.info/id/74400008)\
@@ -308,9 +307,4 @@ When multiple sufficient sets are supported, satisfying a single sufficient set 
 
 However, as the current profile does not enable recognition of multiple sufficient sets, the general rule is to represent the most general sufficient set as this gives the greatest coverage for subsumption testing. This approach is taken because including more defining relationships, without distinguishing them from the sufficient set means some logically equivalent expressions will not compute as equivalent to or subsumed by the defined concept. This occurs in any cases where the expression does not include one of the attributes in the definition - even if it was not part of the logically sufficient set.
 
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=Release+File+Specification&entry.670899847=Appendix%20D%3A%20Concept%20Definition%20Illustrations" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=Release+File+Specification&#x26;entry.670899847=Appendix%20D%3A%20Concept%20Definition%20Illustrations" class="button primary">Provide Feedback</a>
