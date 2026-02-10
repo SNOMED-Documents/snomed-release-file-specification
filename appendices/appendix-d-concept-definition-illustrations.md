@@ -180,7 +180,7 @@ The definition shown in Table D.2-1 provides an example of a simple case.
 
 ***
 
-<figure><img src="../images/71172660.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/71172660.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -198,7 +198,7 @@ The definition shown in the Table below provides an example of another simple ca
 
 ***
 
-<figure><img src="../images/71172661.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/71172661.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -220,7 +220,7 @@ The definition shown in the Table below provides an example of a more complex ca
 
 ***
 
-<figure><img src="../images/71172659.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/71172659.png" alt=""><figcaption></figcaption></figure>
 
 ***
 

@@ -10,7 +10,7 @@ An Attribute value reference set is a component reference set used to apply a ta
 
 **Attribute Value Reference Set - Data Structure**
 
-<table data-full-width="true"><thead><tr><th width="208.56640625">Field</th><th width="99.15234375">Data type</th><th width="608.6609497070312">Purpose</th><th width="89.484375">Mutable</th><th>PK*</th></tr></thead><tbody><tr><td>id</td><td>UUID</td><td>A 128 bit unsigned Integer, uniquely identifying this reference set member.Different versions of a <em>reference set member</em> share the same id but have different effectiveTime. This allows a <em>reference set member</em> to be modified or made inactive (i.e. removed from the active set) at a specified time.</td><td><mark style="color:$danger;"><strong>NO</strong></mark></td><td><mark style="color:$success;"><strong>YES</strong></mark><br>(Full/Snapshot)</td></tr><tr><td>effectiveTime</td><td>Time</td><td><p>The inclusive date or time at which this version of the identified reference set member became the current version.</p><p><strong>Note</strong> : In distribution files the effectiveTime should follow the short ISO date format (<em>YYYYMM DD</em>) and should not include the hours, minutes, seconds or timezone indicator.The current version of this reference set member at time <em>T</em> is the version with the most recent effectiveTime prior to or equal to time <em>T</em>.</p></td><td><mark style="color:$success;"><strong>YES</strong></mark></td><td><mark style="color:$success;"><strong>YES</strong></mark> <br>(Full)<br><mark style="color:$success;">Optional</mark> (Snapshot)</td></tr><tr><td>active</td><td>Boolean</td><td>The state of the identified reference set member as at the specified effectiveTime. If active = 1 (true) the reference set member is part of the current version of the set, if active = 0 (false) the reference set member is not part of the current version of the set.</td><td><mark style="color:$success;"><strong>YES</strong></mark></td><td><mark style="color:$danger;"><strong>NO</strong></mark></td></tr><tr><td>moduleId</td><td>SCTID</td><td><p>Identifies the SNOMED CT module that contains this reference set member as at the specified effectiveTime .</p><p>The value must be a subtype of <a href="http://snomed.info/id/900000000000443000">900000000000443000 |Module (core metadata concept)|</a> within the metadata hierarchy.</p></td><td><mark style="color:$success;"><strong>YES</strong></mark></td><td><mark style="color:$danger;"><strong>NO</strong></mark></td></tr><tr><td>refsetId</td><td>SCTID</td><td><p>Identifies the reference set to which this reference set member belongs.</p><p>In this case, a subtype descendant of: <a href="http://snomed.info/id/900000000000480006">900000000000480006 |Attribute value type reference set|</a></p></td><td><mark style="color:$danger;"><strong>NO</strong></mark></td><td><mark style="color:$danger;"><strong>NO</strong></mark></td></tr><tr><td>referencedComponentId</td><td>SCTID</td><td>A reference to the SNOMED CT component to be included in the reference set.</td><td><mark style="color:$danger;"><strong>NO</strong></mark></td><td><mark style="color:$danger;"><strong>NO</strong></mark></td></tr><tr><td>valueId</td><td>SCTID</td><td>The tagged value applied to the referencedComponentId. A subtype of <a href="http://snomed.info/id/900000000000491004">900000000000491004 | Attribute value|</a> .</td><td><mark style="color:$success;"><strong>YES</strong></mark></td><td><mark style="color:$danger;"><strong>NO</strong></mark></td></tr></tbody></table>
+<table data-full-width="true"><thead><tr><th width="208.56640625">Field</th><th width="99.15234375">Data type</th><th width="608.6609497070312">Purpose</th><th width="89.484375">Mutable</th><th>PK*</th></tr></thead><tbody><tr><td>id</td><td>UUID</td><td>A 128 bit unsigned Integer, uniquely identifying this reference set member.Different versions of a <em>reference set member</em> share the same id but have different effectiveTime. This allows a <em>reference set member</em> to be modified or made inactive (i.e. removed from the active set) at a specified time.</td><td><strong>NO</strong></td><td><strong>YES</strong><br>(Full/Snapshot)</td></tr><tr><td>effectiveTime</td><td>Time</td><td><p>The inclusive date or time at which this version of the identified reference set member became the current version.</p><p><strong>Note</strong> : In distribution files the effectiveTime should follow the short ISO date format (<em>YYYYMM DD</em>) and should not include the hours, minutes, seconds or timezone indicator.The current version of this reference set member at time <em>T</em> is the version with the most recent effectiveTime prior to or equal to time <em>T</em>.</p></td><td><strong>YES</strong></td><td><strong>YES</strong><br>(Full)<br>Optional (Snapshot)</td></tr><tr><td>active</td><td>Boolean</td><td>The state of the identified reference set member as at the specified effectiveTime. If active = 1 (true) the reference set member is part of the current version of the set, if active = 0 (false) the reference set member is not part of the current version of the set.</td><td><strong>YES</strong></td><td><strong>NO</strong></td></tr><tr><td>moduleId</td><td>SCTID</td><td><p>Identifies the SNOMED CT module that contains this reference set member as at the specified effectiveTime .</p><p>The value must be a subtype of <a href="http://snomed.info/id/900000000000443000">900000000000443000 |Module (core metadata concept)|</a> within the metadata hierarchy.</p></td><td><strong>YES</strong></td><td><strong>NO</strong></td></tr><tr><td>refsetId</td><td>SCTID</td><td><p>Identifies the reference set to which this reference set member belongs.</p><p>In this case, a subtype descendant of: <a href="http://snomed.info/id/900000000000480006">900000000000480006 |Attribute value type reference set|</a></p></td><td><strong>NO</strong></td><td><strong>NO</strong></td></tr><tr><td>referencedComponentId</td><td>SCTID</td><td>A reference to the SNOMED CT component to be included in the reference set.</td><td><strong>NO</strong></td><td><strong>NO</strong></td></tr><tr><td>valueId</td><td>SCTID</td><td>The tagged value applied to the referencedComponentId. A subtype of <a href="http://snomed.info/id/900000000000491004">900000000000491004 | Attribute value|</a> .</td><td><strong>YES</strong></td><td><strong>NO</strong></td></tr></tbody></table>
 
 ***
 
@@ -24,12 +24,12 @@ The metadata concepts shown below are examples of concepts that identify attribu
 
 **Attribute Value Reference Sets in the Metadata Hierarchy**
 
-> &#x20;[900000000000454005 |Foundation metadata concept|](http://snomed.info/id/900000000000454005)\
-> &#x20;     [900000000000455006 |Reference set|](http://snomed.info/id/900000000000455006)\
-> &#x20;            [900000000000480006 |Attribute value type|](http://snomed.info/id/900000000000480006)\
-> &#x20;                 [900000000000489007 |Concept inactivation indicator reference set|](http://snomed.info/id/900000000000489007)\
-> &#x20;                 [900000000000490003 |Description inactivation indicator reference set|](http://snomed.info/id/900000000000490003)\
-> &#x20;                 [900000000000547002 |Relationship inactivation indicator reference set|](http://snomed.info/id/900000000000547002)  <sup><sub><mark style="color:$success;">< Not currently used<mark style="color:$success;"><sub></sup>&#x20;
+> [900000000000454005 |Foundation metadata concept|](http://snomed.info/id/900000000000454005)\
+> [900000000000455006 |Reference set|](http://snomed.info/id/900000000000455006)\
+> [900000000000480006 |Attribute value type|](http://snomed.info/id/900000000000480006)\
+> [900000000000489007 |Concept inactivation indicator reference set|](http://snomed.info/id/900000000000489007)\
+> [900000000000490003 |Description inactivation indicator reference set|](http://snomed.info/id/900000000000490003)\
+> [900000000000547002 |Relationship inactivation indicator reference set|](http://snomed.info/id/900000000000547002) <sup><sub>< Not currently used<sub></sup>
 
 {% hint style="info" %}
 Note. Other attribute value reference sets exist but are not used to track component inactivation
@@ -39,31 +39,31 @@ Note. Other attribute value reference sets exist but are not used to track compo
 
 **Concept Inactivation Values (with usage notes referring to the International Release)**
 
-> &#x20;[900000000001043018 |Concept inactivation value|](http://snomed.info/id/900000000001043018)      \
-> &#x20;        [723277005 |Nonconformance to editorial policy component|](http://snomed.info/id/723277005)   <sup><sub><mark style="color:$success;">< New introduced 2017-07-31<mark style="color:$success;"><sub></sup> \
-> &#x20;        [900000000000482003 |Duplicate|](http://snomed.info/id/900000000000482003)\
-> &#x20;        [900000000000483008 |Outdated|](http://snomed.info/id/900000000000483008)\
-> &#x20;        [900000000000484002 |Ambiguous|](http://snomed.info/id/900000000000484002)\
-> &#x20;        [900000000000485001 |Erroneous|](http://snomed.info/id/900000000000485001)\
-> &#x20;        [900000000000486000 |Limited|](http://snomed.info/id/900000000000486000)\
-> &#x20;        [900000000000487009 |Moved elsewhere|](http://snomed.info/id/900000000000487009)\
-> &#x20;        [900000000000492006 |Pending move|](http://snomed.info/id/900000000000492006)   <sup><sub><mark style="color:$success;">< NEVER used for descriptions in the International Release - may have been used in extensions<mark style="color:$success;"><sub></sup>&#x20;
+> [900000000001043018 |Concept inactivation value|](http://snomed.info/id/900000000001043018)\
+> [723277005 |Nonconformance to editorial policy component|](http://snomed.info/id/723277005) <sup><sub>< New introduced 2017-07-31<sub></sup>\
+> [900000000000482003 |Duplicate|](http://snomed.info/id/900000000000482003)\
+> [900000000000483008 |Outdated|](http://snomed.info/id/900000000000483008)\
+> [900000000000484002 |Ambiguous|](http://snomed.info/id/900000000000484002)\
+> [900000000000485001 |Erroneous|](http://snomed.info/id/900000000000485001)\
+> [900000000000486000 |Limited|](http://snomed.info/id/900000000000486000)\
+> [900000000000487009 |Moved elsewhere|](http://snomed.info/id/900000000000487009)\
+> [900000000000492006 |Pending move|](http://snomed.info/id/900000000000492006) <sup><sub>< NEVER used for descriptions in the International Release - may have been used in extensions<sub></sup>
 
 ***
 
 **Description Inactivation Values (with usage notes referring to the International Release)**
 
 > [900000000001077011 |Description inactivation value|](http://snomed.info/id/900000000001077011)\
-> &#x20;        [723277005 |Nonconformance to editorial policy component|](http://snomed.info/id/723277005)   <sup><sub><mark style="color:$success;">< New introduced 2017-07-31<mark style="color:$success;"><sub></sup> \
-> &#x20;        [723278000 |Not semantically equivalent component|](http://snomed.info/id/723278000)    <sup><sub><mark style="color:$success;">< New introduced 2017-07-31<mark style="color:$success;"><sub></sup> \
-> &#x20;        [900000000000483008 |Outdated|](http://snomed.info/id/900000000000483008)\
-> &#x20;        [900000000000485001 |Erroneous|](http://snomed.info/id/900000000000485001)\
-> &#x20;        [900000000000495008 |Concept non-current|](http://snomed.info/id/900000000000495008)\
-> &#x20;        [900000000000486000 |Limited|](http://snomed.info/id/900000000000486000)    <sup><sub><mark style="color:$success;">< NOT used for description inactivations after 2010-07-31<mark style="color:$success;"><sub></sup>\
-> &#x20;        [900000000000487009 |Moved elsewhere|](http://snomed.info/id/900000000000487009)    <sup><sub><mark style="color:$success;"><<mark style="color:$success;"><sub></sup> <sup><sub><mark style="color:$success;">NOT used for description inactivations before 2016-07-31 or after 2017-07-31<mark style="color:$success;"><sub></sup>\
-> &#x20;        [900000000000482003 |Duplicate|](http://snomed.info/id/900000000000482003)        <sup><sub><mark style="color:$success;"><<mark style="color:$success;"><sub></sup> <sup><sub><mark style="color:$success;">NOT used for description inactivations before 2016-07-31 or after 2017-07-31<mark style="color:$success;"><sub></sup>\
-> &#x20;        [900000000000494007 |Inappropriate|](http://snomed.info/id/900000000000494007)   <sup><sub><mark style="color:$success;">< NOT used for description inactivations before 2008-07-31 or after 2017-07-31<mark style="color:$success;"><sub></sup> \
-> &#x20;        [900000000000492006 |Pending move|](http://snomed.info/id/900000000000492006)   <sup><sub><mark style="color:$success;">< NEVER used for descriptions in the International Release - may have been used in extensions<mark style="color:$success;"><sub></sup>&#x20;
+> [723277005 |Nonconformance to editorial policy component|](http://snomed.info/id/723277005) <sup><sub>< New introduced 2017-07-31<sub></sup>\
+> [723278000 |Not semantically equivalent component|](http://snomed.info/id/723278000) <sup><sub>< New introduced 2017-07-31<sub></sup>\
+> [900000000000483008 |Outdated|](http://snomed.info/id/900000000000483008)\
+> [900000000000485001 |Erroneous|](http://snomed.info/id/900000000000485001)\
+> [900000000000495008 |Concept non-current|](http://snomed.info/id/900000000000495008)\
+> [900000000000486000 |Limited|](http://snomed.info/id/900000000000486000) <sup><sub>< NOT used for description inactivations after 2010-07-31<sub></sup>\
+> [900000000000487009 |Moved elsewhere|](http://snomed.info/id/900000000000487009) <sup><sub><<sub></sup> <sup><sub>NOT used for description inactivations before 2016-07-31 or after 2017-07-31<sub></sup>\
+> [900000000000482003 |Duplicate|](http://snomed.info/id/900000000000482003) <sup><sub><<sub></sup> <sup><sub>NOT used for description inactivations before 2016-07-31 or after 2017-07-31<sub></sup>\
+> [900000000000494007 |Inappropriate|](http://snomed.info/id/900000000000494007) <sup><sub>< NOT used for description inactivations before 2008-07-31 or after 2017-07-31<sub></sup>\
+> [900000000000492006 |Pending move|](http://snomed.info/id/900000000000492006) <sup><sub>< NEVER used for descriptions in the International Release - may have been used in extensions<sub></sup>
 
 ***
 
@@ -84,13 +84,13 @@ The tables below show the descriptors that define examples of reference sets tha
 
 **Refset Descriptor Rows for the Concept Inactivation Indicator Reference Set**
 
-<table data-full-width="true"><thead><tr><th width="227.73748779296875">refsetId</th><th width="295.4312744140625">referencedComponentId  (Referenced component)</th><th width="244.87188720703125">attributeDescription  (Attribute description)</th><th width="220.231201171875">attributeType (Attribute type)</th><th>attributeOrder (Attribute order)</th></tr></thead><tbody><tr><td><a href="http://snomed.info/id/900000000000456007">900000000000456007 |Reference set descriptor|</a></td><td><a href="http://snomed.info/id/900000000000489007">900000000000489007 |Concept inactivation indicator reference set|</a></td><td><a href="http://snomed.info/id/449608002">449608002 |Referenced component|</a></td><td><a href="http://snomed.info/id/900000000000461009">900000000000461009 |Concept type component|</a></td><td>0</td></tr><tr><td><a href="http://snomed.info/id/900000000000456007">900000000000456007 |Reference set descriptor|</a></td><td><a href="http://snomed.info/id/900000000000489007">900000000000489007 |Concept inactivation indicator reference set|</a></td><td><a href="http://snomed.info/id/900000000000481005">900000000000481005 |Concept inactivation value|</a></td><td><a href="http://snomed.info/id/900000000000461009">900000000000461009 |Concept type component|</a></td><td>1</td></tr></tbody></table>
+<table data-full-width="true"><thead><tr><th width="227.73748779296875">refsetId</th><th width="295.4312744140625">referencedComponentId (Referenced component)</th><th width="244.87188720703125">attributeDescription (Attribute description)</th><th width="220.231201171875">attributeType (Attribute type)</th><th>attributeOrder (Attribute order)</th></tr></thead><tbody><tr><td><a href="http://snomed.info/id/900000000000456007">900000000000456007 |Reference set descriptor|</a></td><td><a href="http://snomed.info/id/900000000000489007">900000000000489007 |Concept inactivation indicator reference set|</a></td><td><a href="http://snomed.info/id/449608002">449608002 |Referenced component|</a></td><td><a href="http://snomed.info/id/900000000000461009">900000000000461009 |Concept type component|</a></td><td>0</td></tr><tr><td><a href="http://snomed.info/id/900000000000456007">900000000000456007 |Reference set descriptor|</a></td><td><a href="http://snomed.info/id/900000000000489007">900000000000489007 |Concept inactivation indicator reference set|</a></td><td><a href="http://snomed.info/id/900000000000481005">900000000000481005 |Concept inactivation value|</a></td><td><a href="http://snomed.info/id/900000000000461009">900000000000461009 |Concept type component|</a></td><td>1</td></tr></tbody></table>
 
 ***
 
 **Refset Descriptor Rows for the Description Inactivation Indicator Reference Set**
 
-<table data-full-width="true"><thead><tr><th width="224.24456787109375">refsetId</th><th width="320.79144287109375">referencedComponentId (Referenced component)</th><th width="253.3765869140625">attributeDescription (Attribute description)</th><th width="247.4561767578125">attributeType (Attribute type)</th><th>attributeOrder (Attribute order)</th></tr></thead><tbody><tr><td><a href="http://snomed.info/id/900000000000456007">900000000000456007 |Reference set descriptor|</a></td><td><p></p><p><a href="http://snomed.info/id/900000000000490003">900000000000490003 |Description inactivation indicator reference set|</a><br><br></p></td><td><a href="http://snomed.info/id/449608002">449608002 |Referenced component|</a></td><td><a href="http://snomed.info/id/900000000000462002">900000000000462002 |Description type component|</a></td><td>0</td></tr><tr><td><a href="http://snomed.info/id/900000000000456007">900000000000456007 |Reference set descriptor|</a></td><td><p></p><p><a href="http://snomed.info/id/900000000000490003">900000000000490003 |Description inactivation indicator reference set|</a></p></td><td><a href="http://snomed.info/id/900000000000493001">900000000000493001 |Description inactivation value|</a></td><td><a href="http://snomed.info/id/900000000000461009">900000000000461009 |Concept type component|</a></td><td>1</td></tr></tbody></table>
+<table data-full-width="true"><thead><tr><th width="224.24456787109375">refsetId</th><th width="320.79144287109375">referencedComponentId (Referenced component)</th><th width="253.3765869140625">attributeDescription (Attribute description)</th><th width="247.4561767578125">attributeType (Attribute type)</th><th>attributeOrder (Attribute order)</th></tr></thead><tbody><tr><td><a href="http://snomed.info/id/900000000000456007">900000000000456007 |Reference set descriptor|</a></td><td><a href="http://snomed.info/id/900000000000490003">900000000000490003 |Description inactivation indicator reference set|</a><br><br></td><td><a href="http://snomed.info/id/449608002">449608002 |Referenced component|</a></td><td><a href="http://snomed.info/id/900000000000462002">900000000000462002 |Description type component|</a></td><td>0</td></tr><tr><td><a href="http://snomed.info/id/900000000000456007">900000000000456007 |Reference set descriptor|</a></td><td><a href="http://snomed.info/id/900000000000490003">900000000000490003 |Description inactivation indicator reference set|</a></td><td><a href="http://snomed.info/id/900000000000493001">900000000000493001 |Description inactivation value|</a></td><td><a href="http://snomed.info/id/900000000000461009">900000000000461009 |Concept type component|</a></td><td>1</td></tr></tbody></table>
 
 ***
 
@@ -100,9 +100,4 @@ The tables below show the descriptors that define examples of reference sets tha
 
 ***
 
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=Release+File+Specification&entry.670899847=Attribute%20Value%20Reference%20Set" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=Release+File+Specification&#x26;entry.670899847=Attribute%20Value%20Reference%20Set" class="button primary">Provide Feedback</a>
