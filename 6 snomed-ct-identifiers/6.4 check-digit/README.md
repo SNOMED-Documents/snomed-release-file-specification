@@ -9,6 +9,7 @@ An SCTID is checked by using the Verhoeff check, which is a Dihedral D 5 Check. 
 ## Related Links
 
 * See [Check-Digit Computation ](6.4.2-check-digit-computation.md)for detailed information about the Verhoeff check-digit algorithm and links to sample program code.
+* A live site to check a SNOMED CT Identifier can be found here - [https://cis.ihtsdotools.org/info](https://cis.ihtsdotools.org/info)
 
 
 
