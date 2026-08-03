@@ -5,7 +5,7 @@ This section describes SNOMED CT Release Format 2 (RF2), to be used for official
 The component release files are defined in the following sections:
 
 * [Associations Between Release Files](4.1-associations-between-release-files.md)
-* [File Format Specifications](<4.2 file-format-specifications/>)
+* [File Format Specifications](https://github.com/SNOMED-Documents/snomed-release-file-specification/blob/main/4%20component-release-files-specification/4.2%20file-format-specifications)
 * [Metadata Hierarchy](4.3-metadata-hierarchy.md)
 
 {% hint style="success" %}
@@ -16,9 +16,4 @@ The component release files are defined in the following sections:
 * <sub>Alternate Release Format (proposed by NEHTA and their Australian Affiliates).</sub>
 {% endhint %}
 
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=Release+File+Specification&entry.670899847=Overview" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=Release+File+Specification&#x26;entry.670899847=Overview" class="button primary">Provide Feedback</a>

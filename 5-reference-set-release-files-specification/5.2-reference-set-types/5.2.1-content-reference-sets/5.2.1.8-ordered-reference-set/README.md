@@ -12,7 +12,7 @@ The recommended Reference sets to address the purposes identified below are now:
   * It omits the **linkedToId** field in the pattern shown below as this is not required to address this use case.
 * [Ordered Association Reference Set](5.2.1.5-ordered-association-reference-set.md)
   * This enables representation of alternative navigation hierarchies (in which child concepts are ordered) and also also supports representation of groups of ordered components.
-  * The **linkedToId** field in the pattern shown below is replaced by the targetComponentId (this name is used to align with the [Association Reference Set ](../5.2.1.4-association-reference-set)(used from unordered associations).
+  * The **linkedToId** field in the pattern shown below is replaced by the targetComponentId (this name is used to align with the [Association Reference Set ](https://github.com/SNOMED-Documents/snomed-release-file-specification/blob/main/5-reference-set-release-files-specification/5.2-reference-set-types/5.2.1-content-reference-sets/5.2.1.4-association-reference-set)(used from unordered associations).
 
 **Deprecation does not prevent continued use of an existing reference set pattern**. However it does indicate that a different solution is now specified and recommended to meet the requirements for this pattern
 {% endhint %}

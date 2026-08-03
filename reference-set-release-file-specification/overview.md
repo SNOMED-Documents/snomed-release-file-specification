@@ -6,8 +6,8 @@ The files specified by this section form part of SNOMED CT Release Format 2 (RF2
 
 Reference set data structures provide a generic mechanism for configuration and extensibility of SNOMED CT to a wide range of different requirements. Reference sets act as building blocks that provide a common foundation that enables those developing SNOMED CT extensions to customize the way their users interact with SNOMED CT. The flexibility offered by reference sets also enables adaptation of existing system to support changing requirements.
 
-* [General Features of Reference Sets](broken-reference/)
-* [Reference Set Types](../5%20reference-set-release-files-specification/5.2%20reference-set-types)
+* [General Features of Reference Sets](https://github.com/SNOMED-Documents/snomed-release-file-specification/blob/main/reference-set-release-file-specification/broken-reference/README.md)
+* [Reference Set Types](https://github.com/SNOMED-Documents/snomed-release-file-specification/blob/main/5%20reference-set-release-files-specification/5.2%20reference-set-types)
 
 Please note thar for more detail of the purposes for which reference sets can be used and the ways in which the design of different reference set types meet practical requirements, please refer to the [Reference Set Practical Guide](https://app.gitbook.com/s/qOI2v58ZsXOoklmwBOk4/1-introduction).
 

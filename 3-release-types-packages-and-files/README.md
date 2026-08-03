@@ -2,9 +2,9 @@
 
 This section covers several general topics related to SNOMED CT release packages and release files including:
 
-* [Common Features of All Release Files](3.1-common-features-of-all-release-files/)
+* [Common Features of All Release Files](https://github.com/SNOMED-Documents/snomed-release-file-specification/blob/main/3-release-types-packages-and-files/3.1-common-features-of-all-release-files)
 * [Release Types](3.2-release-types.md)
-* [Naming Conventions for Release Packages and Files](3.3-naming-conventions-for-release-packages-and-files/)
+* [Naming Conventions for Release Packages and Files](https://github.com/SNOMED-Documents/snomed-release-file-specification/blob/main/3-release-types-packages-and-files/3.3-naming-conventions-for-release-packages-and-files)
 * [Release Package Contents](3.4-release-package-contents.md)
 
 The following two sections provide detailed specifications of the release files.
@@ -24,12 +24,7 @@ The following two sections provide detailed specifications of the release files.
 {% hint style="info" %}
 **Historical Note on Current and Previous Release File Formats**
 
-The standard format in which  SNOMED CT has been distributed since 2012 is known as Release Format 2 (RF2). It was developed in response to extensive feedback on the original release file format, now known as Release Format 1 (RF1), in which SNOMED CT was distributed between its first release in 2002 and 2012. The RF1 format is now deprecated and no longer supported.
+The standard format in which SNOMED CT has been distributed since 2012 is known as Release Format 2 (RF2). It was developed in response to extensive feedback on the original release file format, now known as Release Format 1 (RF1), in which SNOMED CT was distributed between its first release in 2002 and 2012. The RF1 format is now deprecated and no longer supported.
 {% endhint %}
 
-
-
-
-
-
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&entry.1767247133=Release+File+Specification&entry.670899847=Overview" class="button primary">Provide Feedback</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScTmbZIf0UEQwYDkY27EEWBkaiYkHSbR0_9DmFrMLXoQLyL7Q/viewform?usp=pp_url&#x26;entry.1767247133=Release+File+Specification&#x26;entry.670899847=Overview" class="button primary">Provide Feedback</a>

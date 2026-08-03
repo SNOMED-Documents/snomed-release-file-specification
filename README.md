@@ -1,6 +1,12 @@
 ---
+cover: .gitbook/assets/GitBook Banner.png
+coverY: 0
 layout:
   width: default
+  cover:
+    visible: true
+    size: full
+    mask: none
   title:
     visible: true
   description:
@@ -13,15 +19,19 @@ layout:
     visible: true
   metadata:
     visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
 ---
 
 # SNOMED CT Release File Specification
 
-<img src=".gitbook/assets/SNOMED International Logo (1).png" alt="" data-size="line"> The SNOMED CT Release File Specification formally defines the format in which SNOMED CT is provided to licensees (Affiliates). For information about SNOMED CT licensing and availability of release files please refer to the Member Licensing and Distribution Service (MLDS) - [http://snomed.org/licensing](http://snomed.org/licensing).
+The SNOMED CT Release File Specification formally defines the format in which SNOMED CT is provided to licensees (Affiliates). For information about SNOMED CT licensing and availability of release files please refer to the Member Licensing and Distribution Service (MLDS) - [http://snomed.org/licensing](http://snomed.org/licensing).
 
 ***
 
-<table data-view="cards"><thead><tr><th data-type="content-ref"></th></tr></thead><tbody><tr><td><a href="1 introduction/">1 introduction</a></td></tr><tr><td><a href="/broken/pages/imRmfQRzZBy5Do6tWdnZ">Broken link</a></td></tr><tr><td><a href="/broken/pages/8LWFuj3TNrY44soojo7Y">Broken link</a></td></tr><tr><td><a href="/broken/pages/2FuSQJd64Fk18cxHaM4D">Broken link</a></td></tr><tr><td><a href="/broken/pages/1FXSbPvwQHYMp1tw36CF">Broken link</a></td></tr><tr><td><a href="/broken/pages/hRVtCASLuZ83IRrWkHLU">Broken link</a></td></tr><tr><td><a href="/broken/pages/lUQA7u7O7JBjO9yKOOKL">Broken link</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th data-type="content-ref"></th></tr></thead><tbody><tr><td><a href="1 introduction/">1 introduction</a></td></tr><tr><td><a href="https://app.gitbook.com/s/irKbJsZG57nSWZA4GT0M/logical-model">Logical Model</a></td></tr><tr><td><a href="https://app.gitbook.com/s/irKbJsZG57nSWZA4GT0M/release-types-packages-and-files">Release Types, Packages and Files</a></td></tr><tr><td><a href="https://app.gitbook.com/s/irKbJsZG57nSWZA4GT0M/component-release-file-specification">Component Release File Specification</a></td></tr><tr><td><a href="https://app.gitbook.com/s/irKbJsZG57nSWZA4GT0M/reference-set-release-file-specification">Reference Set Release File Specification</a></td></tr><tr><td><a href="https://app.gitbook.com/s/irKbJsZG57nSWZA4GT0M/snomed-ct-identifiers">SNOMED CT Identifiers</a></td></tr><tr><td><a href="https://app.gitbook.com/s/irKbJsZG57nSWZA4GT0M/appendices">Appendices</a></td></tr></tbody></table>
 
 ***
 
